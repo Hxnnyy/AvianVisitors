@@ -81,6 +81,7 @@ def main():
     parser.add_argument('--receipt', type=Path, required=True)
     parser.add_argument('--apply', action='store_true')
     parser.add_argument('--verify-only', action='store_true')
+    parser.add_argument('--resume-verified', action='store_true', help='Reuse prior exact anonymous-download receipts for this frozen plan')
     args = parser.parse_args()
     raw = args.plan.read_bytes()
     plan = json.loads(raw)
@@ -101,6 +102,15 @@ def main():
     print(json.dumps({'plan_sha256': hashlib.sha256(raw).hexdigest(), 'files': len(plan), 'bytes': sum(i['bytes'] for i in plan)}), flush=True)
     if not args.apply and not args.verify_only:
         return
+    verified_before = set()
+    if args.resume_verified and args.receipt.exists() and not args.verify_only:
+        expected = {(i['kind'], i['sha256']): i['bytes'] for i in plan}
+        for line in args.receipt.read_text().splitlines():
+            row = json.loads(line)
+            key = (row['kind'], row['sha256'])
+            if key in expected and row['bytes'] == expected[key] and isinstance(row.get('verified_at'), int):
+                verified_before.add(key)
+        print(f'Resuming {len(verified_before)} previously checksum-verified public files', flush=True)
 
     def transfer(item):
         exists = public_check(item)
@@ -132,7 +142,7 @@ def main():
         # Publish manifests last, after all referenced artwork has passed its
         # independent anonymous download. Catalog discovery is a separate step.
         for kind in ('objects', 'manifests'):
-            items = [i for i in plan if i['kind'] == kind]
+            items = [i for i in plan if i['kind'] == kind and (kind, i['sha256']) not in verified_before]
             executor = concurrent.futures.ThreadPoolExecutor(max_workers=4)
             futures = [executor.submit(transfer, item) for item in items]
             try:
