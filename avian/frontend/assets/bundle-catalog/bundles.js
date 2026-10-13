@@ -42,7 +42,19 @@
   const STYLE_EDITORIAL = {
     "birds-of-america": {
       style: "Audubon’s finely engraved birds retain their original flowers, branches and landscapes. Individual poses and complete compositions bring the natural-history plates into the collage.",
-      method: "Artwork by John James Audubon; engravers include Robert Havell and William Home Lizars. Source: Darlington Collection, University of Pittsburgh Library System. Source pixels, carefully reviewed transparency and optimized PNG copies; no generated anatomy.",
+      method: [
+        "Artwork by ",
+        ["John James Audubon", "https://avianvisitors.com/bundles/birds-of-america#artwork"],
+        "; engravings by ",
+        ["Robert Havell", "https://avianvisitors.com/bundles/birds-of-america#artwork"],
+        " and ",
+        ["William Home Lizars", "https://avianvisitors.com/bundles/birds-of-america#artwork"],
+        ". Scans from the ",
+        ["Darlington Collection, University of Pittsburgh Library System", "https://digital.library.pitt.edu/collection/audubons-birds-america"],
+        ". ",
+        ["Reviewed cutouts and optimized PNG copies", "https://avianvisitors.com/bundles/birds-of-america#processing"],
+        ".",
+      ],
     },
     "japanese-woodblock": {
       style: "Sparse kach\u014d-e-inspired birds use flat color, confident ink contours, restrained earth tones, and generous negative space. Diagnostic plumage stays legible without becoming field-guide realism.",
@@ -172,7 +184,7 @@
     official: true, localStyle: "", availability: "installable", installable: true,
     previewUrl: "/assets/bundle-catalog/bundle-previews/birds-of-america-cover.png", previews: [],
     version: "1.0.0", license: "LicenseRef-NoC-US", archiveBytes: 820343429,
-    note: "439 species and 819 source-faithful illustrations, with original flowers and branches. Requires the Birds of America station update.",
+    note: "439 species and 819 illustrations, with original flowers and branches. Requires Avian Visitors v1.3.1 or later.",
   });
 
   const catalog = document.querySelector("#bundle-catalog");
@@ -1203,7 +1215,7 @@
     const version = commonValue(installablePacks, (pack) => pack.version);
     const license = commonValue(installablePacks, (pack) => pack.license);
     const size = commonValue(installablePacks, (pack) => pack.archiveBytes ? formatBytes(pack.archiveBytes) : "");
-    [["Style", group.name], ["Version", version], [license === "LicenseRef-NoC-US" ? "Rights" : "License", license === "LicenseRef-NoC-US" ? "No Copyright — United States" : license], ["Size", size]]
+    [["Style", group.name], ["Version", version], [license === "LicenseRef-NoC-US" ? "Rights" : "License", license === "LicenseRef-NoC-US" ? "No Copyright (United States)" : license], ["Size", size]]
       .filter((entry) => entry[1])
       .forEach((entry) => facts.append(fact(entry[0], entry[1])));
     info.append(facts);
@@ -1211,20 +1223,21 @@
     if (editorial?.method) {
       const method = document.createElement("p");
       method.className = "style-method";
-      method.textContent = editorial.method;
+      if (Array.isArray(editorial.method)) {
+        editorial.method.forEach((part) => {
+          const node = document.createElement(Array.isArray(part) ? "a" : "span");
+          node.textContent = Array.isArray(part) ? part[0] : part;
+          if (Array.isArray(part)) {
+            node.href = part[1];
+            node.target = "_blank";
+            node.rel = "noopener";
+          }
+          method.append(node);
+        });
+      } else {
+        method.textContent = editorial.method;
+      }
       info.append(method);
-    }
-
-    if (group.id === "birds-of-america") {
-      const credit = document.createElement("p");
-      credit.className = "style-method";
-      const link = document.createElement("a");
-      link.href = "https://avianvisitors.com/bundles/birds-of-america";
-      link.target = "_blank";
-      link.rel = "noopener";
-      link.textContent = "Sources, attribution and rights ↗";
-      credit.append(link);
-      info.append(credit);
     }
     info.append(regions);
 

@@ -69,7 +69,7 @@ function frameCss(value) {
 }
 
 function frameBundles(value) {
-  let next = rebasePreviewPaths(value.replace('link.href = \"/bundles/birds-of-america\";', 'link.href = \"https://avianvisitors.com/bundles/birds-of-america\";'))
+  let next = rebasePreviewPaths(value)
     .replace(
       '/^\\/bundle-previews\\/[a-z0-9._-]+\\.png$/',
       '/^\\/assets\\/bundle-catalog\\/bundle-previews\\/[a-z0-9._-]+\\.png$/'

@@ -196,7 +196,7 @@
         ]
       },
       "creator": "John James Audubon; Robert Havell; William Home Lizars",
-      "description": "439 species and 819 source-faithful illustrations, with original flowers and branches. Requires the Birds of America station update.",
+      "description": "439 species and 819 illustrations, with original flowers and branches. Requires Avian Visitors v1.3.1 or later.",
       "id": "official-birds-of-america",
       "license": "LicenseRef-NoC-US",
       "manifest": {
