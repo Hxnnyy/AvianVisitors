@@ -43,7 +43,8 @@ def public_check_once(item):
     # into a digest rather than retaining another download on disk.
     with tempfile.TemporaryDirectory(prefix='avian-artwork-check-') as directory:
         headers = Path(directory) / 'headers'
-        process = subprocess.Popen(['curl', '--silent', '--show-error', '--max-time', '300',
+        process = subprocess.Popen(['curl', '--http1.1', '--silent', '--show-error', '--max-time', '300',
+                                    '--connect-timeout', '20', '--speed-limit', '1024', '--speed-time', '30',
                                     '--proto', '=https', '--dump-header', str(headers), url],
                                    stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         actual, size = hashlib.sha256(), 0
