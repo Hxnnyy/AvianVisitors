@@ -2,7 +2,7 @@
 
 Avian Visitors v1.3.1 adds Birds of America to the [bundle catalog](https://avianvisitors.com/bundles), with more illustration choices for the station and BirdFrame.
 
-![The Avian Visitors Collage using the Birds of America bird bundle](https://github.com/Twarner491/AvianVisitors/releases/download/v1.3.1/birds-of-america-station.png)
+![The Avian Visitors Collage using the Birds of America bird bundle](https://github.com/Twarner491/AvianVisitors/releases/download/v1.3.1/birds-of-america-station.jpg)
 
 *The Collage using Birds of America, an optional 439-species set for North America.*
 
