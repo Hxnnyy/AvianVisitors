@@ -40,6 +40,10 @@
     Other: "",
   };
   const STYLE_EDITORIAL = {
+    "birds-of-america": {
+      style: "Audubon’s finely engraved birds retain their original flowers, branches and landscapes. Individual poses and complete compositions bring the natural-history plates into the collage.",
+      method: "Artwork by John James Audubon; engravers include Robert Havell and William Home Lizars. Source: Darlington Collection, University of Pittsburgh Library System. Source pixels, carefully reviewed transparency and optimized PNG copies; no generated anatomy.",
+    },
     "japanese-woodblock": {
       style: "Sparse kach\u014d-e-inspired birds use flat color, confident ink contours, restrained earth tones, and generous negative space. Diagnostic plumage stays legible without becoming field-guide realism.",
       method: "Gemini 2.5 Flash Image worked from species photographed and selected print references. BiRefNet removed the cream ground, then species-specific corrections and human curation refined the set.",
@@ -158,6 +162,18 @@
       note: "333 species for Western North America.",
     },
   ];
+
+  official.push({
+    id: "official-birds-of-america", styleId: "birds-of-america", name: "Birds of America",
+    region: "North America", regionGroup: "North America", regionCodes: ["US", "CA", "MX"],
+    style: "Birds of America", styleCategory: "Traditional", styleTags: ["audubon", "historical", "flowers"],
+    searchTerms: ["audubon", "birds of america"], species: 439, contributor: "Avian Visitors",
+    contributorLogin: "Twarner491", sourceUrl: "https://avianvisitors.com/bundles/birds-of-america",
+    official: true, localStyle: "", availability: "installable", installable: true,
+    previewUrl: "/assets/bundle-catalog/bundle-previews/birds-of-america-cover.png", previews: [],
+    version: "1.0.0", license: "LicenseRef-NoC-US", archiveBytes: 820343429,
+    note: "439 species and 819 source-faithful illustrations, with original flowers and branches. Requires the Birds of America station update.",
+  });
 
   const catalog = document.querySelector("#bundle-catalog");
   const state = document.querySelector("#catalog-state");
@@ -1187,7 +1203,7 @@
     const version = commonValue(installablePacks, (pack) => pack.version);
     const license = commonValue(installablePacks, (pack) => pack.license);
     const size = commonValue(installablePacks, (pack) => pack.archiveBytes ? formatBytes(pack.archiveBytes) : "");
-    [["Style", group.name], ["Version", version], ["License", license], ["Size", size]]
+    [["Style", group.name], ["Version", version], [license === "LicenseRef-NoC-US" ? "Rights" : "License", license === "LicenseRef-NoC-US" ? "No Copyright — United States" : license], ["Size", size]]
       .filter((entry) => entry[1])
       .forEach((entry) => facts.append(fact(entry[0], entry[1])));
     info.append(facts);
@@ -1199,6 +1215,17 @@
       info.append(method);
     }
 
+    if (group.id === "birds-of-america") {
+      const credit = document.createElement("p");
+      credit.className = "style-method";
+      const link = document.createElement("a");
+      link.href = "https://avianvisitors.com/bundles/birds-of-america";
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.textContent = "Sources, attribution and rights ↗";
+      credit.append(link);
+      info.append(credit);
+    }
     info.append(regions);
 
     const action = document.createElement("div");
