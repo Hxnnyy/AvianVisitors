@@ -82,6 +82,7 @@ def main():
     parser.add_argument('--apply', action='store_true')
     parser.add_argument('--verify-only', action='store_true')
     parser.add_argument('--resume-verified', action='store_true', help='Reuse prior exact anonymous-download receipts for this frozen plan')
+    parser.add_argument('--workers', type=int, choices=range(1, 9), default=4)
     args = parser.parse_args()
     raw = args.plan.read_bytes()
     plan = json.loads(raw)
@@ -143,7 +144,7 @@ def main():
         # independent anonymous download. Catalog discovery is a separate step.
         for kind in ('objects', 'manifests'):
             items = [i for i in plan if i['kind'] == kind and (kind, i['sha256']) not in verified_before]
-            executor = concurrent.futures.ThreadPoolExecutor(max_workers=4)
+            executor = concurrent.futures.ThreadPoolExecutor(max_workers=args.workers)
             futures = [executor.submit(transfer, item) for item in items]
             try:
                 for number, future in enumerate(concurrent.futures.as_completed(futures), 1):
