@@ -12845,6 +12845,12 @@
     adminPollT = setInterval(loadArchiveStatus, 10000);
   }
 
+  function stationVersionRow(version) {
+    var label = version && version.ok && typeof version.release === 'string' ? version.release : 'unavailable';
+    return '<div class="menu-row"><span class="label">Avian Visitors version</span>'
+      + '<span class="hint">' + adminEsc(label) + '</span></div>';
+  }
+
   function renderAdminSettings() {
     if (settingsInfoCleanup) settingsInfoCleanup();
     if (settingsAccessCleanup) settingsAccessCleanup();
@@ -12880,6 +12886,10 @@
           if (adminAuthCancelled(error)) throw error;
           return { ok: false, error: 'archive controls unavailable', failure_kind: 'network' };
         }),
+      adminJson('./avian/api/birdnet-status.php?action=version').catch(function (error) {
+        if (adminAuthCancelled(error)) throw error;
+        return null;
+      }),
     ])
       .then(function (parts) {
         var cfg = parts[0];
@@ -12937,6 +12947,7 @@
           ])
           + '</section>'
           + cutoutsNote
+          + '<section>' + stationVersionRow(parts[4]) + '</section>'
           + '<div class="menu-save-row">'
           + '  <span class="save-state" id="saveState"></span>'
           + '</div>'

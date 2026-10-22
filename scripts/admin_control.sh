@@ -694,6 +694,20 @@ case "$action" in
     [ "$#" -eq 1 ] || fail "unexpected arguments"
     printf '{"ok":true,"version":%s}\n' "$CONTROL_VERSION"
     ;;
+  release)
+    [ "$#" -eq 1 ] || fail "release takes no arguments"
+    release=$(/usr/bin/timeout 5 /usr/sbin/runuser -u "$birdnet_user" -- \
+      env -i HOME="$birdnet_home" USER="$birdnet_user" PATH=/usr/bin:/bin \
+      GIT_ALLOW_PROTOCOL= GIT_TERMINAL_PROMPT=0 \
+      /bin/sh -c '
+        /usr/bin/git --no-optional-locks -C "$1" describe --tags --exact-match --match "v[0-9]*" 2>/dev/null ||
+        /usr/bin/git --no-optional-locks -C "$1" rev-parse --verify --short=12 HEAD
+      ' version "$repo_dir" 2>/dev/null) \
+      || fail "station version is unavailable"
+    [[ "$release" =~ ^[A-Za-z0-9][A-Za-z0-9.+_-]{0,127}$ ]] \
+      || fail "station version is unavailable"
+    printf '{"ok":true,"release":"%s"}\n' "$release"
+    ;;
   icecast-start-allowed)
     [ "$#" -eq 1 ] || fail "live audio start check takes no arguments"
     transition=$AUTH_DIR/icecast-start-blocked
