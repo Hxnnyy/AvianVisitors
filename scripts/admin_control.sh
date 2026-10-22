@@ -681,6 +681,15 @@ read_config_values() {
 
 action=${1:-version}
 case "$action" in
+  delete-recordings)
+    [ "$#" -eq 1 ] || fail "recording deletion takes no arguments"
+    [ -f "$repo_dir/scripts/delete_recordings.py" ] \
+      || fail "recording deletion is not installed"
+    exec /usr/sbin/runuser -u "$birdnet_user" -- \
+      env -i HOME="$birdnet_home" USER="$birdnet_user" PATH=/usr/bin:/bin \
+      /usr/bin/python3 -I "$repo_dir/scripts/delete_recordings.py" \
+      "$repo_dir/scripts/birds.db" "$birdnet_home/BirdSongs/Extracted/By_Date"
+    ;;
   version)
     [ "$#" -eq 1 ] || fail "unexpected arguments"
     printf '{"ok":true,"version":%s}\n' "$CONTROL_VERSION"
