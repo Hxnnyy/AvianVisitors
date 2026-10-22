@@ -21,8 +21,9 @@ Until those conditions are met, keep the legacy Markdown page as a read-only fai
 | Groningen, Netherlands (`NL-GR`) | [@peterdeboer-nl](https://github.com/peterdeboer-nl) | [PR #82](https://github.com/Twarner491/AvianVisitors/pull/82) | [Sent 2026-10-03](https://github.com/Twarner491/AvianVisitors/pull/82#issuecomment-5973795476) |
 | Victoria, Australia (`AU-VIC`) | [@TheWillni](https://github.com/TheWillni) | [PR #40](https://github.com/Twarner491/AvianVisitors/pull/40) | [Sent 2026-10-03](https://github.com/Twarner491/AvianVisitors/pull/40#issuecomment-5973795489) |
 | Canberra / ACT, Australia (`AU-ACT`) | [@opurtell](https://github.com/opurtell) | [PR #65](https://github.com/Twarner491/AvianVisitors/pull/65) | [Sent 2026-10-03](https://github.com/Twarner491/AvianVisitors/pull/65#issuecomment-5973795480) |
+| Río de la Plata (`AR-B`, `AR-C`), partial set | [@tadeongmi](https://github.com/tadeongmi) | [PR #89](https://github.com/Twarner491/AvianVisitors/pull/89) | [Sent 2026-10-22](https://github.com/Twarner491/AvianVisitors/pull/89#issuecomment-6347201383); artwork not yet validated |
 
-All nine invitations were verified by readback as @Twarner491 at 21:48:01 UTC on 2026-10-03. They invite submission, not publication approval. The GitHub release remains on hold.
+The original nine invitations were verified by readback as @Twarner491 at 21:48:01 UTC on 2026-10-03. They invite submission, not publication approval.
 
 The legacy species totals and coverage descriptions are contributor claims carried forward from the old index. Reconfirm them through the current validator rather than treating this table as verification.
 
@@ -36,7 +37,7 @@ The legacy species totals and coverage descriptions are contributor claims carri
 
 1. Contact each maintainer through the public GitHub thread or repository connected to their contribution. Do not use commit-email addresses for unsolicited outreach.
 2. Ask the maintainer to choose the public style, region, license, creator credit, source link, and cover bird. Do not infer a license from repository visibility.
-3. Invite the maintainer to sign in with GitHub and upload their existing PNGs or bundle ZIP through the hosted contribution flow. No regeneration is needed; the upcoming release adds **Tools > Your data > Export bundle** for creating a ZIP on a station.
+3. Invite the maintainer to sign in with GitHub and upload their existing PNGs or bundle ZIP through the hosted contribution flow. No regeneration is needed; **Tools > Your data > Export bundle** creates a ZIP on a station.
 4. Keep uploads private through deterministic validation, safety moderation, advisory bird/style review, and maintainer review.
 5. Publish only the exact approved manifest and canonical image objects. Record the resulting catalog URL in this ledger.
 6. Leave declined, abandoned, or unreachable sources in the legacy file until an archival decision is recorded here.
