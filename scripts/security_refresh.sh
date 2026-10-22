@@ -677,6 +677,7 @@ caddy ALL=(root) NOPASSWD: /usr/local/sbin/avian-admin-control *, \
     /usr/local/sbin/avian-archive-control enable, \
     /usr/local/sbin/avian-archive-control disable, \
     /usr/local/sbin/avian-archive-control run, \
+    /usr/local/sbin/avian-archive-control stop, \
     /usr/local/sbin/avian-archive-control purge-on, \
     /usr/local/sbin/avian-archive-control purge-off, \
     /usr/local/sbin/avian-maintenance-control status, \
