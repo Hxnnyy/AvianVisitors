@@ -1,0 +1,19 @@
+{
+  "imageId": "sha256:551a5bde0d5e8527b4407cff97def0a89650b4aff7332ea8dfac9446110cd0e0",
+  "imageBytes": 440170699,
+  "sourceSha256": "bc8e385a325fb2022b0e02515bb9ee9789e34152f24ba3c9f2caa1809a606aed",
+  "nanoCpus": 500000000,
+  "memoryLimitBytes": 4294967296,
+  "cpuMax": "50000 100000",
+  "cgroupPeakBytes": 1085095936,
+  "processPeakKiB": 1152292,
+  "oomKilled": false,
+  "allHttpRequestsCompleted": true,
+  "proofContainerRemoved": true,
+  "tests": {
+    "nativePassed": 13,
+    "linuxPassed": 13
+  },
+  "cloudMeasured": false,
+  "phoneAcceptancePending": true
+}

@@ -1,0 +1,107 @@
+{
+  "health": {
+    "authenticated": 200,
+    "unauthenticated": 401
+  },
+  "photo_cold": {
+    "seconds": 30.629011999990325,
+    "statusCode": 200,
+    "candidate": {
+      "scientificName": "Erithacus rubecula",
+      "commonName": "European robin",
+      "score": 0.8693592548370361,
+      "ranges": [],
+      "modelLabel": "European robin"
+    },
+    "media": {
+      "width": 748,
+      "height": 628,
+      "orientation": 1,
+      "originalExifOrientation": null,
+      "orientedWidth": 748,
+      "orientedHeight": 628
+    }
+  },
+  "photo_warm": {
+    "seconds": 0.21131129999412224,
+    "statusCode": 200,
+    "candidate": {
+      "scientificName": "Erithacus rubecula",
+      "commonName": "European robin",
+      "score": 0.8693592548370361,
+      "ranges": [],
+      "modelLabel": "European robin"
+    },
+    "media": {
+      "width": 748,
+      "height": 628,
+      "orientation": 1,
+      "originalExifOrientation": null,
+      "orientedWidth": 748,
+      "orientedHeight": 628
+    }
+  },
+  "audio": {
+    "seconds": 68.1815718000289,
+    "statusCode": 200,
+    "candidate": {
+      "scientificName": "Pica pica",
+      "commonName": "Eurasian Magpie",
+      "modelLabel": "Pica pica",
+      "score": 0.9316401481628418,
+      "ranges": [
+        {
+          "start": 3.0,
+          "end": 6.0
+        },
+        {
+          "start": 12.0,
+          "end": 15.0
+        },
+        {
+          "start": 21.0,
+          "end": 24.0
+        }
+      ]
+    },
+    "media": null
+  },
+  "48mp_jpeg": {
+    "seconds": 19.503256600000896,
+    "statusCode": 200,
+    "candidate": {
+      "scientificName": "Erithacus rubecula",
+      "commonName": "European robin",
+      "score": 0.8687540292739868,
+      "ranges": [],
+      "modelLabel": "European robin"
+    },
+    "media": {
+      "width": 8000,
+      "height": 6000,
+      "orientation": 1,
+      "originalExifOrientation": null,
+      "orientedWidth": 8000,
+      "orientedHeight": 6000
+    }
+  },
+  "48mp_heif": {
+    "seconds": 108.91443910001544,
+    "statusCode": 200,
+    "candidate": {
+      "scientificName": "Erithacus rubecula",
+      "commonName": "European robin",
+      "score": 0.869554877281189,
+      "ranges": [],
+      "modelLabel": "European robin"
+    },
+    "media": {
+      "width": 8000,
+      "height": 6000,
+      "orientation": 1,
+      "originalExifOrientation": null,
+      "orientedWidth": 8000,
+      "orientedHeight": 6000
+    }
+  }
+}
