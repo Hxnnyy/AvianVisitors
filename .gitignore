@@ -76,3 +76,21 @@ avian/assets/_legacy/
 # to whatever hardware happened to produce them.
 tflite_runtime-*.whl
 requirements_custom.txt
+
+# Birthday web app: local secrets and generated state
+/.wrangler/
+/.env*
+/.dev.vars*
+/services/inference/.env*
+/app/.dev.vars
+/app/.dev.vars.*
+/app/.env*
+/app/.wrangler/
+/app/node_modules/
+/app/dist/
+/app/audit.json
+/services/inference/.venv/
+/services/inference/models/
+/services/inference/.pytest_cache/
+/services/inference/**/__pycache__/
+/scripts/birthday/__pycache__/

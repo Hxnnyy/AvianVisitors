@@ -1,0 +1,11 @@
+[Unit]
+Description=Check Avian Visitors frame about every 30 seconds
+
+[Timer]
+OnBootSec=20
+OnUnitInactiveSec=30
+AccuracySec=1
+Unit=avian-frame.service
+
+[Install]
+WantedBy=timers.target

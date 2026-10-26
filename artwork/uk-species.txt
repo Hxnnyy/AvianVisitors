@@ -1,0 +1,176 @@
+# scientific name|UK display name|additional search aliases (semicolon separated)
+Erithacus rubecula|Robin|European Robin
+Cyanistes caeruleus|Blue Tit|Parus caeruleus
+Parus major|Great Tit|
+Periparus ater|Coal Tit|Parus ater
+Poecile palustris|Marsh Tit|Parus palustris
+Poecile montanus|Willow Tit|Parus montanus
+Aegithalos caudatus|Long-tailed Tit|
+Turdus merula|Blackbird|Common Blackbird
+Turdus philomelos|Song Thrush|
+Turdus viscivorus|Mistle Thrush|
+Turdus iliacus|Redwing|
+Turdus pilaris|Fieldfare|
+Troglodytes troglodytes|Wren|Eurasian Wren
+Prunella modularis|Dunnock|Hedge Sparrow
+Passer domesticus|House Sparrow|
+Passer montanus|Tree Sparrow|Eurasian Tree Sparrow
+Fringilla coelebs|Chaffinch|Common Chaffinch
+Fringilla montifringilla|Brambling|
+Chloris chloris|Greenfinch|Carduelis chloris;European Greenfinch
+Carduelis carduelis|Goldfinch|European Goldfinch
+Spinus spinus|Siskin|Carduelis spinus;Eurasian Siskin
+Linaria cannabina|Linnet|Carduelis cannabina;Common Linnet
+Pyrrhula pyrrhula|Bullfinch|Eurasian Bullfinch
+Coccothraustes coccothraustes|Hawfinch|
+Emberiza citrinella|Yellowhammer|
+Emberiza schoeniclus|Reed Bunting|Common Reed Bunting
+Sturnus vulgaris|Starling|Common Starling;European Starling
+Pica pica|Magpie|Eurasian Magpie
+Garrulus glandarius|Jay|Eurasian Jay
+Coloeus monedula|Jackdaw|Corvus monedula;Western Jackdaw
+Corvus frugilegus|Rook|
+Corvus corone|Carrion Crow|
+Corvus cornix|Hooded Crow|
+Corvus corax|Raven|Common Raven
+Columba palumbus|Woodpigeon|Common Wood Pigeon;Wood Pigeon
+Columba oenas|Stock Dove|
+Columba livia|Rock Dove|Feral Pigeon;Rock Pigeon
+Streptopelia decaocto|Collared Dove|Eurasian Collared Dove
+Streptopelia turtur|Turtle Dove|European Turtle Dove
+Picus viridis|Green Woodpecker|European Green Woodpecker
+Dendrocopos major|Great Spotted Woodpecker|
+Dryobates minor|Lesser Spotted Woodpecker|Dendrocopos minor
+Sitta europaea|Nuthatch|Eurasian Nuthatch
+Certhia familiaris|Treecreeper|Eurasian Treecreeper
+Regulus regulus|Goldcrest|
+Regulus ignicapilla|Firecrest|Common Firecrest
+Phylloscopus collybita|Chiffchaff|Common Chiffchaff
+Phylloscopus trochilus|Willow Warbler|
+Sylvia atricapilla|Blackcap|Eurasian Blackcap
+Sylvia borin|Garden Warbler|
+Curruca communis|Whitethroat|Sylvia communis;Common Whitethroat
+Curruca curruca|Lesser Whitethroat|Sylvia curruca
+Acrocephalus schoenobaenus|Sedge Warbler|
+Acrocephalus scirpaceus|Reed Warbler|Eurasian Reed Warbler;Common Reed Warbler
+Cettia cetti|Cetti's Warbler|Cettis Warbler
+Locustella naevia|Grasshopper Warbler|Common Grasshopper Warbler
+Ficedula hypoleuca|Pied Flycatcher|European Pied Flycatcher
+Muscicapa striata|Spotted Flycatcher|
+Phoenicurus phoenicurus|Redstart|Common Redstart
+Phoenicurus ochruros|Black Redstart|
+Saxicola rubetra|Whinchat|
+Saxicola rubicola|Stonechat|European Stonechat
+Oenanthe oenanthe|Wheatear|Northern Wheatear
+Cinclus cinclus|Dipper|White-throated Dipper
+Motacilla alba|Pied Wagtail|White Wagtail;Motacilla alba yarrellii
+Motacilla cinerea|Grey Wagtail|
+Motacilla flava|Yellow Wagtail|Western Yellow Wagtail
+Anthus pratensis|Meadow Pipit|
+Anthus petrosus|Rock Pipit|Eurasian Rock Pipit
+Anthus trivialis|Tree Pipit|
+Alauda arvensis|Skylark|Eurasian Skylark
+Hirundo rustica|Swallow|Barn Swallow
+Delichon urbicum|House Martin|Common House Martin
+Riparia riparia|Sand Martin|Bank Swallow
+Apus apus|Swift|Common Swift
+Cuculus canorus|Cuckoo|Common Cuckoo
+Alcedo atthis|Kingfisher|Common Kingfisher
+Buteo buteo|Buzzard|Common Buzzard
+Accipiter nisus|Sparrowhawk|Eurasian Sparrowhawk
+Milvus milvus|Red Kite|
+Falco tinnunculus|Kestrel|Common Kestrel
+Falco peregrinus|Peregrine|Peregrine Falcon
+Falco subbuteo|Hobby|Eurasian Hobby
+Falco columbarius|Merlin|
+Circus aeruginosus|Marsh Harrier|Western Marsh Harrier
+Circus cyaneus|Hen Harrier|
+Pandion haliaetus|Osprey|
+Tyto alba|Barn Owl|Western Barn Owl
+Strix aluco|Tawny Owl|
+Athene noctua|Little Owl|
+Asio otus|Long-eared Owl|
+Asio flammeus|Short-eared Owl|
+Ardea cinerea|Grey Heron|
+Ardea alba|Great White Egret|Great Egret
+Egretta garzetta|Little Egret|
+Platalea leucorodia|Spoonbill|Eurasian Spoonbill
+Botaurus stellaris|Bittern|Eurasian Bittern
+Phalacrocorax carbo|Cormorant|Great Cormorant
+Gulosus aristotelis|Shag|Phalacrocorax aristotelis;European Shag
+Morus bassanus|Gannet|Northern Gannet
+Cygnus olor|Mute Swan|
+Cygnus cygnus|Whooper Swan|
+Anser anser|Greylag Goose|Graylag Goose
+Anser brachyrhynchus|Pink-footed Goose|
+Anser albifrons|White-fronted Goose|Greater White-fronted Goose
+Branta canadensis|Canada Goose|
+Branta leucopsis|Barnacle Goose|
+Branta bernicla|Brent Goose|Brant
+Tadorna tadorna|Shelduck|Common Shelduck
+Anas platyrhynchos|Mallard|
+Anas crecca|Teal|Eurasian Teal
+Anas acuta|Pintail|Northern Pintail
+Mareca penelope|Wigeon|Anas penelope;Eurasian Wigeon
+Mareca strepera|Gadwall|Anas strepera
+Spatula clypeata|Shoveler|Anas clypeata;Northern Shoveler
+Aythya fuligula|Tufted Duck|
+Aythya ferina|Pochard|Common Pochard
+Aythya marila|Scaup|Greater Scaup
+Bucephala clangula|Goldeneye|Common Goldeneye
+Mergus merganser|Goosander|Common Merganser
+Mergus serrator|Red-breasted Merganser|
+Somateria mollissima|Eider|Common Eider
+Melanitta nigra|Common Scoter|
+Tachybaptus ruficollis|Little Grebe|
+Podiceps cristatus|Great Crested Grebe|
+Podiceps auritus|Slavonian Grebe|Horned Grebe
+Fulica atra|Coot|Eurasian Coot
+Gallinula chloropus|Moorhen|Common Moorhen
+Rallus aquaticus|Water Rail|
+Haematopus ostralegus|Oystercatcher|Eurasian Oystercatcher
+Recurvirostra avosetta|Avocet|Pied Avocet
+Vanellus vanellus|Lapwing|Northern Lapwing
+Pluvialis apricaria|Golden Plover|European Golden Plover
+Pluvialis squatarola|Grey Plover|Black-bellied Plover
+Charadrius hiaticula|Ringed Plover|Common Ringed Plover
+Charadrius dubius|Little Ringed Plover|
+Calidris alpina|Dunlin|
+Calidris alba|Sanderling|
+Calidris canutus|Knot|Red Knot
+Calidris maritima|Purple Sandpiper|
+Calidris pugnax|Ruff|Philomachus pugnax
+Arenaria interpres|Turnstone|Ruddy Turnstone
+Actitis hypoleucos|Common Sandpiper|
+Tringa totanus|Redshank|Common Redshank
+Tringa nebularia|Greenshank|Common Greenshank
+Tringa ochropus|Green Sandpiper|
+Numenius arquata|Curlew|Eurasian Curlew
+Numenius phaeopus|Whimbrel|Eurasian Whimbrel
+Limosa lapponica|Bar-tailed Godwit|
+Limosa limosa|Black-tailed Godwit|
+Gallinago gallinago|Snipe|Common Snipe
+Scolopax rusticola|Woodcock|Eurasian Woodcock
+Chroicocephalus ridibundus|Black-headed Gull|Larus ridibundus
+Chroicocephalus philadelphia|Bonaparte's Gull|Larus philadelphia;Bonapartes Gull
+Ichthyaetus melanocephalus|Mediterranean Gull|Larus melanocephalus
+Larus canus|Common Gull|
+Larus argentatus|Herring Gull|European Herring Gull
+Larus fuscus|Lesser Black-backed Gull|
+Larus marinus|Great Black-backed Gull|
+Rissa tridactyla|Kittiwake|Black-legged Kittiwake
+Sterna hirundo|Common Tern|
+Sterna paradisaea|Arctic Tern|
+Thalasseus sandvicensis|Sandwich Tern|Sterna sandvicensis
+Sternula albifrons|Little Tern|Sterna albifrons
+Fratercula arctica|Puffin|Atlantic Puffin
+Alca torda|Razorbill|
+Uria aalge|Guillemot|Common Murre
+Fulmarus glacialis|Fulmar|Northern Fulmar
+Puffinus puffinus|Manx Shearwater|
+Gavia stellata|Red-throated Diver|Red-throated Loon
+Gavia immer|Great Northern Diver|Common Loon
+Phasianus colchicus|Pheasant|Common Pheasant;Ring-necked Pheasant
+Alectoris rufa|Red-legged Partridge|
+Perdix perdix|Grey Partridge|Gray Partridge
+Lagopus lagopus|Willow Grouse / Red Grouse|Willow Ptarmigan;Red Grouse

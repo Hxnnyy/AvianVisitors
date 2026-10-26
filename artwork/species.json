@@ -1,0 +1,3124 @@
+[
+  {
+    "id": "erithacus-rubecula",
+    "scientificName": "Erithacus rubecula",
+    "commonName": "Robin",
+    "aliases": [
+      "Erithacus rubecula",
+      "Robin",
+      "European Robin"
+    ],
+    "birdnetLabels": [
+      "Erithacus rubecula"
+    ],
+    "photoLabels": [
+      "European robin"
+    ],
+    "artworkUrl": "/birds/erithacus-rubecula.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "cyanistes-caeruleus",
+    "scientificName": "Cyanistes caeruleus",
+    "commonName": "Blue Tit",
+    "aliases": [
+      "Cyanistes caeruleus",
+      "Blue Tit",
+      "Parus caeruleus",
+      "Eurasian Blue Tit"
+    ],
+    "birdnetLabels": [
+      "Cyanistes caeruleus"
+    ],
+    "photoLabels": [
+      "Eurasian blue tit"
+    ],
+    "artworkUrl": "/birds/cyanistes-caeruleus.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "parus-major",
+    "scientificName": "Parus major",
+    "commonName": "Great Tit",
+    "aliases": [
+      "Parus major",
+      "Great Tit"
+    ],
+    "birdnetLabels": [
+      "Parus major"
+    ],
+    "photoLabels": [
+      "Great tit"
+    ],
+    "artworkUrl": "/birds/parus-major.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "periparus-ater",
+    "scientificName": "Periparus ater",
+    "commonName": "Coal Tit",
+    "aliases": [
+      "Periparus ater",
+      "Coal Tit",
+      "Parus ater"
+    ],
+    "birdnetLabels": [
+      "Periparus ater"
+    ],
+    "photoLabels": [
+      "Coal tit"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "poecile-palustris",
+    "scientificName": "Poecile palustris",
+    "commonName": "Marsh Tit",
+    "aliases": [
+      "Poecile palustris",
+      "Marsh Tit",
+      "Parus palustris"
+    ],
+    "birdnetLabels": [
+      "Poecile palustris"
+    ],
+    "photoLabels": [
+      "Marsh tit"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "poecile-montanus",
+    "scientificName": "Poecile montanus",
+    "commonName": "Willow Tit",
+    "aliases": [
+      "Poecile montanus",
+      "Willow Tit",
+      "Parus montanus"
+    ],
+    "birdnetLabels": [
+      "Poecile montanus"
+    ],
+    "photoLabels": [
+      "Willow tit"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "aegithalos-caudatus",
+    "scientificName": "Aegithalos caudatus",
+    "commonName": "Long-tailed Tit",
+    "aliases": [
+      "Aegithalos caudatus",
+      "Long-tailed Tit"
+    ],
+    "birdnetLabels": [
+      "Aegithalos caudatus"
+    ],
+    "photoLabels": [
+      "Long-tailed tit"
+    ],
+    "artworkUrl": "/birds/aegithalos-caudatus.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "turdus-merula",
+    "scientificName": "Turdus merula",
+    "commonName": "Blackbird",
+    "aliases": [
+      "Turdus merula",
+      "Blackbird",
+      "Common Blackbird",
+      "Eurasian Blackbird"
+    ],
+    "birdnetLabels": [
+      "Turdus merula"
+    ],
+    "photoLabels": [
+      "Common blackbird"
+    ],
+    "artworkUrl": "/birds/turdus-merula.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "turdus-philomelos",
+    "scientificName": "Turdus philomelos",
+    "commonName": "Song Thrush",
+    "aliases": [
+      "Turdus philomelos",
+      "Song Thrush"
+    ],
+    "birdnetLabels": [
+      "Turdus philomelos"
+    ],
+    "photoLabels": [
+      "Song thrush"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "turdus-viscivorus",
+    "scientificName": "Turdus viscivorus",
+    "commonName": "Mistle Thrush",
+    "aliases": [
+      "Turdus viscivorus",
+      "Mistle Thrush"
+    ],
+    "birdnetLabels": [
+      "Turdus viscivorus"
+    ],
+    "photoLabels": [
+      "Mistle thrush"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "turdus-iliacus",
+    "scientificName": "Turdus iliacus",
+    "commonName": "Redwing",
+    "aliases": [
+      "Turdus iliacus",
+      "Redwing"
+    ],
+    "birdnetLabels": [
+      "Turdus iliacus"
+    ],
+    "photoLabels": [
+      "Redwing"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "turdus-pilaris",
+    "scientificName": "Turdus pilaris",
+    "commonName": "Fieldfare",
+    "aliases": [
+      "Turdus pilaris",
+      "Fieldfare"
+    ],
+    "birdnetLabels": [
+      "Turdus pilaris"
+    ],
+    "photoLabels": [
+      "Fieldfare"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "troglodytes-troglodytes",
+    "scientificName": "Troglodytes troglodytes",
+    "commonName": "Wren",
+    "aliases": [
+      "Troglodytes troglodytes",
+      "Wren",
+      "Eurasian Wren"
+    ],
+    "birdnetLabels": [
+      "Troglodytes troglodytes"
+    ],
+    "photoLabels": [
+      "Eurasian wren"
+    ],
+    "artworkUrl": "/birds/troglodytes-troglodytes.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "prunella-modularis",
+    "scientificName": "Prunella modularis",
+    "commonName": "Dunnock",
+    "aliases": [
+      "Prunella modularis",
+      "Dunnock",
+      "Hedge Sparrow"
+    ],
+    "birdnetLabels": [
+      "Prunella modularis"
+    ],
+    "photoLabels": [
+      "Dunnock"
+    ],
+    "artworkUrl": "/birds/prunella-modularis.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "passer-domesticus",
+    "scientificName": "Passer domesticus",
+    "commonName": "House Sparrow",
+    "aliases": [
+      "Passer domesticus",
+      "House Sparrow"
+    ],
+    "birdnetLabels": [
+      "Passer domesticus"
+    ],
+    "photoLabels": [
+      "House sparrow"
+    ],
+    "artworkUrl": "/birds/passer-domesticus.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "passer-montanus",
+    "scientificName": "Passer montanus",
+    "commonName": "Tree Sparrow",
+    "aliases": [
+      "Passer montanus",
+      "Tree Sparrow",
+      "Eurasian Tree Sparrow"
+    ],
+    "birdnetLabels": [
+      "Passer montanus"
+    ],
+    "photoLabels": [
+      "Eurasian tree sparrow"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "fringilla-coelebs",
+    "scientificName": "Fringilla coelebs",
+    "commonName": "Chaffinch",
+    "aliases": [
+      "Fringilla coelebs",
+      "Chaffinch",
+      "Common Chaffinch"
+    ],
+    "birdnetLabels": [
+      "Fringilla coelebs"
+    ],
+    "photoLabels": [
+      "Common chaffinch"
+    ],
+    "artworkUrl": "/birds/fringilla-coelebs.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "fringilla-montifringilla",
+    "scientificName": "Fringilla montifringilla",
+    "commonName": "Brambling",
+    "aliases": [
+      "Fringilla montifringilla",
+      "Brambling"
+    ],
+    "birdnetLabels": [
+      "Fringilla montifringilla"
+    ],
+    "photoLabels": [
+      "Brambling"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "chloris-chloris",
+    "scientificName": "Chloris chloris",
+    "commonName": "Greenfinch",
+    "aliases": [
+      "Chloris chloris",
+      "Greenfinch",
+      "Carduelis chloris",
+      "European Greenfinch"
+    ],
+    "birdnetLabels": [
+      "Chloris chloris"
+    ],
+    "photoLabels": [
+      "European greenfinch"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "carduelis-carduelis",
+    "scientificName": "Carduelis carduelis",
+    "commonName": "Goldfinch",
+    "aliases": [
+      "Carduelis carduelis",
+      "Goldfinch",
+      "European Goldfinch"
+    ],
+    "birdnetLabels": [
+      "Carduelis carduelis"
+    ],
+    "photoLabels": [
+      "European goldfinch"
+    ],
+    "artworkUrl": "/birds/carduelis-carduelis.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "spinus-spinus",
+    "scientificName": "Spinus spinus",
+    "commonName": "Siskin",
+    "aliases": [
+      "Spinus spinus",
+      "Siskin",
+      "Carduelis spinus",
+      "Eurasian Siskin"
+    ],
+    "birdnetLabels": [
+      "Spinus spinus"
+    ],
+    "photoLabels": [
+      "Eurasian siskin"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "linaria-cannabina",
+    "scientificName": "Linaria cannabina",
+    "commonName": "Linnet",
+    "aliases": [
+      "Linaria cannabina",
+      "Linnet",
+      "Carduelis cannabina",
+      "Common Linnet",
+      "Eurasian Linnet"
+    ],
+    "birdnetLabels": [
+      "Linaria cannabina"
+    ],
+    "photoLabels": [
+      "Common linnet"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "pyrrhula-pyrrhula",
+    "scientificName": "Pyrrhula pyrrhula",
+    "commonName": "Bullfinch",
+    "aliases": [
+      "Pyrrhula pyrrhula",
+      "Bullfinch",
+      "Eurasian Bullfinch"
+    ],
+    "birdnetLabels": [
+      "Pyrrhula pyrrhula"
+    ],
+    "photoLabels": [
+      "Eurasian bullfinch"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "coccothraustes-coccothraustes",
+    "scientificName": "Coccothraustes coccothraustes",
+    "commonName": "Hawfinch",
+    "aliases": [
+      "Coccothraustes coccothraustes",
+      "Hawfinch"
+    ],
+    "birdnetLabels": [
+      "Coccothraustes coccothraustes"
+    ],
+    "photoLabels": [
+      "Hawfinch"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "emberiza-citrinella",
+    "scientificName": "Emberiza citrinella",
+    "commonName": "Yellowhammer",
+    "aliases": [
+      "Emberiza citrinella",
+      "Yellowhammer"
+    ],
+    "birdnetLabels": [
+      "Emberiza citrinella"
+    ],
+    "photoLabels": [
+      "Yellowhammer"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "emberiza-schoeniclus",
+    "scientificName": "Emberiza schoeniclus",
+    "commonName": "Reed Bunting",
+    "aliases": [
+      "Emberiza schoeniclus",
+      "Reed Bunting",
+      "Common Reed Bunting"
+    ],
+    "birdnetLabels": [
+      "Emberiza schoeniclus"
+    ],
+    "photoLabels": [
+      "Common reed bunting"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "sturnus-vulgaris",
+    "scientificName": "Sturnus vulgaris",
+    "commonName": "Starling",
+    "aliases": [
+      "Sturnus vulgaris",
+      "Starling",
+      "Common Starling",
+      "European Starling"
+    ],
+    "birdnetLabels": [
+      "Sturnus vulgaris"
+    ],
+    "photoLabels": [
+      "Common starling"
+    ],
+    "artworkUrl": "/birds/sturnus-vulgaris.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "pica-pica",
+    "scientificName": "Pica pica",
+    "commonName": "Magpie",
+    "aliases": [
+      "Pica pica",
+      "Magpie",
+      "Eurasian Magpie"
+    ],
+    "birdnetLabels": [
+      "Pica pica"
+    ],
+    "photoLabels": [
+      "Eurasian magpie"
+    ],
+    "artworkUrl": "/birds/pica-pica.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "garrulus-glandarius",
+    "scientificName": "Garrulus glandarius",
+    "commonName": "Jay",
+    "aliases": [
+      "Garrulus glandarius",
+      "Jay",
+      "Eurasian Jay"
+    ],
+    "birdnetLabels": [
+      "Garrulus glandarius"
+    ],
+    "photoLabels": [
+      "Eurasian jay"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "coloeus-monedula",
+    "scientificName": "Coloeus monedula",
+    "commonName": "Jackdaw",
+    "aliases": [
+      "Coloeus monedula",
+      "Jackdaw",
+      "Corvus monedula",
+      "Western Jackdaw"
+    ],
+    "birdnetLabels": [
+      "Corvus monedula"
+    ],
+    "photoLabels": [
+      "Western jackdaw"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "corvus-frugilegus",
+    "scientificName": "Corvus frugilegus",
+    "commonName": "Rook",
+    "aliases": [
+      "Corvus frugilegus",
+      "Rook"
+    ],
+    "birdnetLabels": [
+      "Corvus frugilegus"
+    ],
+    "photoLabels": [
+      "Rook"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "corvus-corone",
+    "scientificName": "Corvus corone",
+    "commonName": "Carrion Crow",
+    "aliases": [
+      "Corvus corone",
+      "Carrion Crow"
+    ],
+    "birdnetLabels": [
+      "Corvus corone"
+    ],
+    "photoLabels": [
+      "Carrion crow"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "corvus-cornix",
+    "scientificName": "Corvus cornix",
+    "commonName": "Hooded Crow",
+    "aliases": [
+      "Corvus cornix",
+      "Hooded Crow"
+    ],
+    "birdnetLabels": [
+      "Corvus cornix"
+    ],
+    "photoLabels": [
+      "Hooded crow"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "corvus-corax",
+    "scientificName": "Corvus corax",
+    "commonName": "Raven",
+    "aliases": [
+      "Corvus corax",
+      "Raven",
+      "Common Raven"
+    ],
+    "birdnetLabels": [
+      "Corvus corax"
+    ],
+    "photoLabels": [
+      "Common raven"
+    ],
+    "artworkUrl": "/birds/corvus-corax.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "columba-palumbus",
+    "scientificName": "Columba palumbus",
+    "commonName": "Woodpigeon",
+    "aliases": [
+      "Columba palumbus",
+      "Woodpigeon",
+      "Common Wood Pigeon",
+      "Wood Pigeon",
+      "Common Wood-Pigeon"
+    ],
+    "birdnetLabels": [
+      "Columba palumbus"
+    ],
+    "photoLabels": [
+      "Common wood pigeon"
+    ],
+    "artworkUrl": "/birds/columba-palumbus.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "columba-oenas",
+    "scientificName": "Columba oenas",
+    "commonName": "Stock Dove",
+    "aliases": [
+      "Columba oenas",
+      "Stock Dove"
+    ],
+    "birdnetLabels": [
+      "Columba oenas"
+    ],
+    "photoLabels": [
+      "Stock dove"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "columba-livia",
+    "scientificName": "Columba livia",
+    "commonName": "Rock Dove",
+    "aliases": [
+      "Columba livia",
+      "Rock Dove",
+      "Feral Pigeon",
+      "Rock Pigeon"
+    ],
+    "birdnetLabels": [
+      "Columba livia"
+    ],
+    "photoLabels": [
+      "Feral pigeon",
+      "Rock pigeon"
+    ],
+    "artworkUrl": "/birds/columba-livia.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "streptopelia-decaocto",
+    "scientificName": "Streptopelia decaocto",
+    "commonName": "Collared Dove",
+    "aliases": [
+      "Streptopelia decaocto",
+      "Collared Dove",
+      "Eurasian Collared Dove",
+      "Eurasian Collared-Dove"
+    ],
+    "birdnetLabels": [
+      "Streptopelia decaocto"
+    ],
+    "photoLabels": [
+      "Eurasian collared dove"
+    ],
+    "artworkUrl": "/birds/streptopelia-decaocto.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "streptopelia-turtur",
+    "scientificName": "Streptopelia turtur",
+    "commonName": "Turtle Dove",
+    "aliases": [
+      "Streptopelia turtur",
+      "Turtle Dove",
+      "European Turtle Dove",
+      "European Turtle-Dove"
+    ],
+    "birdnetLabels": [
+      "Streptopelia turtur"
+    ],
+    "photoLabels": [
+      "European turtle dove"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "picus-viridis",
+    "scientificName": "Picus viridis",
+    "commonName": "Green Woodpecker",
+    "aliases": [
+      "Picus viridis",
+      "Green Woodpecker",
+      "European Green Woodpecker",
+      "Eurasian Green Woodpecker"
+    ],
+    "birdnetLabels": [
+      "Picus viridis"
+    ],
+    "photoLabels": [
+      "European green woodpecker"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "dendrocopos-major",
+    "scientificName": "Dendrocopos major",
+    "commonName": "Great Spotted Woodpecker",
+    "aliases": [
+      "Dendrocopos major",
+      "Great Spotted Woodpecker"
+    ],
+    "birdnetLabels": [
+      "Dendrocopos major"
+    ],
+    "photoLabels": [
+      "Great spotted woodpecker"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "dryobates-minor",
+    "scientificName": "Dryobates minor",
+    "commonName": "Lesser Spotted Woodpecker",
+    "aliases": [
+      "Dryobates minor",
+      "Lesser Spotted Woodpecker",
+      "Dendrocopos minor"
+    ],
+    "birdnetLabels": [
+      "Dryobates minor"
+    ],
+    "photoLabels": [
+      "Lesser spotted woodpecker"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "sitta-europaea",
+    "scientificName": "Sitta europaea",
+    "commonName": "Nuthatch",
+    "aliases": [
+      "Sitta europaea",
+      "Nuthatch",
+      "Eurasian Nuthatch"
+    ],
+    "birdnetLabels": [
+      "Sitta europaea"
+    ],
+    "photoLabels": [
+      "Eurasian nuthatch"
+    ],
+    "artworkUrl": "/birds/sitta-europaea.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "certhia-familiaris",
+    "scientificName": "Certhia familiaris",
+    "commonName": "Treecreeper",
+    "aliases": [
+      "Certhia familiaris",
+      "Treecreeper",
+      "Eurasian Treecreeper"
+    ],
+    "birdnetLabels": [
+      "Certhia familiaris"
+    ],
+    "photoLabels": [
+      "Eurasian treecreeper"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "regulus-regulus",
+    "scientificName": "Regulus regulus",
+    "commonName": "Goldcrest",
+    "aliases": [
+      "Regulus regulus",
+      "Goldcrest"
+    ],
+    "birdnetLabels": [
+      "Regulus regulus"
+    ],
+    "photoLabels": [
+      "Goldcrest"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "regulus-ignicapilla",
+    "scientificName": "Regulus ignicapilla",
+    "commonName": "Firecrest",
+    "aliases": [
+      "Regulus ignicapilla",
+      "Firecrest",
+      "Common Firecrest"
+    ],
+    "birdnetLabels": [
+      "Regulus ignicapilla"
+    ],
+    "photoLabels": [
+      "Common firecrest"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "phylloscopus-collybita",
+    "scientificName": "Phylloscopus collybita",
+    "commonName": "Chiffchaff",
+    "aliases": [
+      "Phylloscopus collybita",
+      "Chiffchaff",
+      "Common Chiffchaff"
+    ],
+    "birdnetLabels": [
+      "Phylloscopus collybita"
+    ],
+    "photoLabels": [
+      "Common chiffchaff"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "phylloscopus-trochilus",
+    "scientificName": "Phylloscopus trochilus",
+    "commonName": "Willow Warbler",
+    "aliases": [
+      "Phylloscopus trochilus",
+      "Willow Warbler"
+    ],
+    "birdnetLabels": [
+      "Phylloscopus trochilus"
+    ],
+    "photoLabels": [
+      "Willow warbler"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "sylvia-atricapilla",
+    "scientificName": "Sylvia atricapilla",
+    "commonName": "Blackcap",
+    "aliases": [
+      "Sylvia atricapilla",
+      "Blackcap",
+      "Eurasian Blackcap"
+    ],
+    "birdnetLabels": [
+      "Sylvia atricapilla"
+    ],
+    "photoLabels": [
+      "Eurasian blackcap"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "sylvia-borin",
+    "scientificName": "Sylvia borin",
+    "commonName": "Garden Warbler",
+    "aliases": [
+      "Sylvia borin",
+      "Garden Warbler"
+    ],
+    "birdnetLabels": [
+      "Sylvia borin"
+    ],
+    "photoLabels": [
+      "Garden warbler"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "curruca-communis",
+    "scientificName": "Curruca communis",
+    "commonName": "Whitethroat",
+    "aliases": [
+      "Curruca communis",
+      "Whitethroat",
+      "Sylvia communis",
+      "Common Whitethroat",
+      "Greater Whitethroat"
+    ],
+    "birdnetLabels": [
+      "Curruca communis",
+      "Sylvia communis"
+    ],
+    "photoLabels": [
+      "Common whitethroat"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "curruca-curruca",
+    "scientificName": "Curruca curruca",
+    "commonName": "Lesser Whitethroat",
+    "aliases": [
+      "Curruca curruca",
+      "Lesser Whitethroat",
+      "Sylvia curruca"
+    ],
+    "birdnetLabels": [
+      "Curruca curruca",
+      "Sylvia curruca"
+    ],
+    "photoLabels": [
+      "Lesser whitethroat"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "acrocephalus-schoenobaenus",
+    "scientificName": "Acrocephalus schoenobaenus",
+    "commonName": "Sedge Warbler",
+    "aliases": [
+      "Acrocephalus schoenobaenus",
+      "Sedge Warbler"
+    ],
+    "birdnetLabels": [
+      "Acrocephalus schoenobaenus"
+    ],
+    "photoLabels": [
+      "Sedge warbler"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "acrocephalus-scirpaceus",
+    "scientificName": "Acrocephalus scirpaceus",
+    "commonName": "Reed Warbler",
+    "aliases": [
+      "Acrocephalus scirpaceus",
+      "Reed Warbler",
+      "Eurasian Reed Warbler",
+      "Common Reed Warbler"
+    ],
+    "birdnetLabels": [
+      "Acrocephalus scirpaceus"
+    ],
+    "photoLabels": [
+      "Common reed warbler"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "cettia-cetti",
+    "scientificName": "Cettia cetti",
+    "commonName": "Cetti's Warbler",
+    "aliases": [
+      "Cettia cetti",
+      "Cetti's Warbler",
+      "Cettis Warbler"
+    ],
+    "birdnetLabels": [
+      "Cettia cetti"
+    ],
+    "photoLabels": [
+      "Cettis warbler"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "locustella-naevia",
+    "scientificName": "Locustella naevia",
+    "commonName": "Grasshopper Warbler",
+    "aliases": [
+      "Locustella naevia",
+      "Grasshopper Warbler",
+      "Common Grasshopper Warbler",
+      "Common Grasshopper-Warbler"
+    ],
+    "birdnetLabels": [
+      "Locustella naevia"
+    ],
+    "photoLabels": [
+      "Common grasshopper warbler"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "ficedula-hypoleuca",
+    "scientificName": "Ficedula hypoleuca",
+    "commonName": "Pied Flycatcher",
+    "aliases": [
+      "Ficedula hypoleuca",
+      "Pied Flycatcher",
+      "European Pied Flycatcher"
+    ],
+    "birdnetLabels": [
+      "Ficedula hypoleuca"
+    ],
+    "photoLabels": [
+      "European pied flycatcher"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "muscicapa-striata",
+    "scientificName": "Muscicapa striata",
+    "commonName": "Spotted Flycatcher",
+    "aliases": [
+      "Muscicapa striata",
+      "Spotted Flycatcher"
+    ],
+    "birdnetLabels": [
+      "Muscicapa striata"
+    ],
+    "photoLabels": [
+      "Spotted flycatcher"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "phoenicurus-phoenicurus",
+    "scientificName": "Phoenicurus phoenicurus",
+    "commonName": "Redstart",
+    "aliases": [
+      "Phoenicurus phoenicurus",
+      "Redstart",
+      "Common Redstart"
+    ],
+    "birdnetLabels": [
+      "Phoenicurus phoenicurus"
+    ],
+    "photoLabels": [
+      "Common redstart"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "phoenicurus-ochruros",
+    "scientificName": "Phoenicurus ochruros",
+    "commonName": "Black Redstart",
+    "aliases": [
+      "Phoenicurus ochruros",
+      "Black Redstart"
+    ],
+    "birdnetLabels": [
+      "Phoenicurus ochruros"
+    ],
+    "photoLabels": [
+      "Black redstart"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "saxicola-rubetra",
+    "scientificName": "Saxicola rubetra",
+    "commonName": "Whinchat",
+    "aliases": [
+      "Saxicola rubetra",
+      "Whinchat"
+    ],
+    "birdnetLabels": [
+      "Saxicola rubetra"
+    ],
+    "photoLabels": [
+      "Whinchat"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "saxicola-rubicola",
+    "scientificName": "Saxicola rubicola",
+    "commonName": "Stonechat",
+    "aliases": [
+      "Saxicola rubicola",
+      "Stonechat",
+      "European Stonechat"
+    ],
+    "birdnetLabels": [
+      "Saxicola rubicola"
+    ],
+    "photoLabels": [
+      "European stonechat"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "oenanthe-oenanthe",
+    "scientificName": "Oenanthe oenanthe",
+    "commonName": "Wheatear",
+    "aliases": [
+      "Oenanthe oenanthe",
+      "Wheatear",
+      "Northern Wheatear"
+    ],
+    "birdnetLabels": [
+      "Oenanthe oenanthe"
+    ],
+    "photoLabels": [
+      "Northern wheatear"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "cinclus-cinclus",
+    "scientificName": "Cinclus cinclus",
+    "commonName": "Dipper",
+    "aliases": [
+      "Cinclus cinclus",
+      "Dipper",
+      "White-throated Dipper"
+    ],
+    "birdnetLabels": [
+      "Cinclus cinclus"
+    ],
+    "photoLabels": [
+      "White-throated dipper"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "motacilla-alba",
+    "scientificName": "Motacilla alba",
+    "commonName": "Pied Wagtail",
+    "aliases": [
+      "Motacilla alba",
+      "Pied Wagtail",
+      "White Wagtail",
+      "Motacilla alba yarrellii"
+    ],
+    "birdnetLabels": [
+      "Motacilla alba"
+    ],
+    "photoLabels": [
+      "White wagtail"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "motacilla-cinerea",
+    "scientificName": "Motacilla cinerea",
+    "commonName": "Grey Wagtail",
+    "aliases": [
+      "Motacilla cinerea",
+      "Grey Wagtail",
+      "Gray Wagtail"
+    ],
+    "birdnetLabels": [
+      "Motacilla cinerea"
+    ],
+    "photoLabels": [
+      "Grey wagtail"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "motacilla-flava",
+    "scientificName": "Motacilla flava",
+    "commonName": "Yellow Wagtail",
+    "aliases": [
+      "Motacilla flava",
+      "Yellow Wagtail",
+      "Western Yellow Wagtail"
+    ],
+    "birdnetLabels": [
+      "Motacilla flava"
+    ],
+    "photoLabels": [
+      "Western yellow wagtail"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "anthus-pratensis",
+    "scientificName": "Anthus pratensis",
+    "commonName": "Meadow Pipit",
+    "aliases": [
+      "Anthus pratensis",
+      "Meadow Pipit"
+    ],
+    "birdnetLabels": [
+      "Anthus pratensis"
+    ],
+    "photoLabels": [
+      "Meadow pipit"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "anthus-petrosus",
+    "scientificName": "Anthus petrosus",
+    "commonName": "Rock Pipit",
+    "aliases": [
+      "Anthus petrosus",
+      "Rock Pipit",
+      "Eurasian Rock Pipit"
+    ],
+    "birdnetLabels": [
+      "Anthus petrosus"
+    ],
+    "photoLabels": [
+      "Rock pipit"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "anthus-trivialis",
+    "scientificName": "Anthus trivialis",
+    "commonName": "Tree Pipit",
+    "aliases": [
+      "Anthus trivialis",
+      "Tree Pipit"
+    ],
+    "birdnetLabels": [
+      "Anthus trivialis"
+    ],
+    "photoLabels": [
+      "Tree pipit"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "alauda-arvensis",
+    "scientificName": "Alauda arvensis",
+    "commonName": "Skylark",
+    "aliases": [
+      "Alauda arvensis",
+      "Skylark",
+      "Eurasian Skylark"
+    ],
+    "birdnetLabels": [
+      "Alauda arvensis"
+    ],
+    "photoLabels": [
+      "Eurasian skylark"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "hirundo-rustica",
+    "scientificName": "Hirundo rustica",
+    "commonName": "Swallow",
+    "aliases": [
+      "Hirundo rustica",
+      "Swallow",
+      "Barn Swallow"
+    ],
+    "birdnetLabels": [
+      "Hirundo rustica"
+    ],
+    "photoLabels": [
+      "Barn swallow"
+    ],
+    "artworkUrl": "/birds/hirundo-rustica.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "delichon-urbicum",
+    "scientificName": "Delichon urbicum",
+    "commonName": "House Martin",
+    "aliases": [
+      "Delichon urbicum",
+      "House Martin",
+      "Common House Martin",
+      "Common House-Martin"
+    ],
+    "birdnetLabels": [
+      "Delichon urbicum"
+    ],
+    "photoLabels": [
+      "Common house martin"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "riparia-riparia",
+    "scientificName": "Riparia riparia",
+    "commonName": "Sand Martin",
+    "aliases": [
+      "Riparia riparia",
+      "Sand Martin",
+      "Bank Swallow"
+    ],
+    "birdnetLabels": [
+      "Riparia riparia"
+    ],
+    "photoLabels": [
+      "Sand martin"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "apus-apus",
+    "scientificName": "Apus apus",
+    "commonName": "Swift",
+    "aliases": [
+      "Apus apus",
+      "Swift",
+      "Common Swift"
+    ],
+    "birdnetLabels": [
+      "Apus apus"
+    ],
+    "photoLabels": [
+      "Common swift"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "cuculus-canorus",
+    "scientificName": "Cuculus canorus",
+    "commonName": "Cuckoo",
+    "aliases": [
+      "Cuculus canorus",
+      "Cuckoo",
+      "Common Cuckoo"
+    ],
+    "birdnetLabels": [
+      "Cuculus canorus"
+    ],
+    "photoLabels": [
+      "Common cuckoo"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "alcedo-atthis",
+    "scientificName": "Alcedo atthis",
+    "commonName": "Kingfisher",
+    "aliases": [
+      "Alcedo atthis",
+      "Kingfisher",
+      "Common Kingfisher"
+    ],
+    "birdnetLabels": [
+      "Alcedo atthis"
+    ],
+    "photoLabels": [
+      "Common kingfisher"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "buteo-buteo",
+    "scientificName": "Buteo buteo",
+    "commonName": "Buzzard",
+    "aliases": [
+      "Buteo buteo",
+      "Buzzard",
+      "Common Buzzard"
+    ],
+    "birdnetLabels": [
+      "Buteo buteo"
+    ],
+    "photoLabels": [
+      "Common buzzard"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "accipiter-nisus",
+    "scientificName": "Accipiter nisus",
+    "commonName": "Sparrowhawk",
+    "aliases": [
+      "Accipiter nisus",
+      "Sparrowhawk",
+      "Eurasian Sparrowhawk"
+    ],
+    "birdnetLabels": [
+      "Accipiter nisus"
+    ],
+    "photoLabels": [
+      "Eurasian sparrowhawk"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "milvus-milvus",
+    "scientificName": "Milvus milvus",
+    "commonName": "Red Kite",
+    "aliases": [
+      "Milvus milvus",
+      "Red Kite"
+    ],
+    "birdnetLabels": [
+      "Milvus milvus"
+    ],
+    "photoLabels": [
+      "Red kite"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "falco-tinnunculus",
+    "scientificName": "Falco tinnunculus",
+    "commonName": "Kestrel",
+    "aliases": [
+      "Falco tinnunculus",
+      "Kestrel",
+      "Common Kestrel",
+      "Eurasian Kestrel"
+    ],
+    "birdnetLabels": [
+      "Falco tinnunculus"
+    ],
+    "photoLabels": [
+      "Common kestrel"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "falco-peregrinus",
+    "scientificName": "Falco peregrinus",
+    "commonName": "Peregrine",
+    "aliases": [
+      "Falco peregrinus",
+      "Peregrine",
+      "Peregrine Falcon"
+    ],
+    "birdnetLabels": [
+      "Falco peregrinus"
+    ],
+    "photoLabels": [
+      "Peregrine falcon"
+    ],
+    "artworkUrl": "/birds/falco-peregrinus.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "falco-subbuteo",
+    "scientificName": "Falco subbuteo",
+    "commonName": "Hobby",
+    "aliases": [
+      "Falco subbuteo",
+      "Hobby",
+      "Eurasian Hobby"
+    ],
+    "birdnetLabels": [
+      "Falco subbuteo"
+    ],
+    "photoLabels": [
+      "Eurasian hobby"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "falco-columbarius",
+    "scientificName": "Falco columbarius",
+    "commonName": "Merlin",
+    "aliases": [
+      "Falco columbarius",
+      "Merlin"
+    ],
+    "birdnetLabels": [
+      "Falco columbarius"
+    ],
+    "photoLabels": [
+      "Merlin"
+    ],
+    "artworkUrl": "/birds/falco-columbarius.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "circus-aeruginosus",
+    "scientificName": "Circus aeruginosus",
+    "commonName": "Marsh Harrier",
+    "aliases": [
+      "Circus aeruginosus",
+      "Marsh Harrier",
+      "Western Marsh Harrier",
+      "Eurasian Marsh-Harrier"
+    ],
+    "birdnetLabels": [
+      "Circus aeruginosus"
+    ],
+    "photoLabels": [
+      "Western marsh harrier"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "circus-cyaneus",
+    "scientificName": "Circus cyaneus",
+    "commonName": "Hen Harrier",
+    "aliases": [
+      "Circus cyaneus",
+      "Hen Harrier"
+    ],
+    "birdnetLabels": [
+      "Circus cyaneus"
+    ],
+    "photoLabels": [
+      "Hen harrier"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "pandion-haliaetus",
+    "scientificName": "Pandion haliaetus",
+    "commonName": "Osprey",
+    "aliases": [
+      "Pandion haliaetus",
+      "Osprey"
+    ],
+    "birdnetLabels": [
+      "Pandion haliaetus"
+    ],
+    "photoLabels": [
+      "Osprey"
+    ],
+    "artworkUrl": "/birds/pandion-haliaetus.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "tyto-alba",
+    "scientificName": "Tyto alba",
+    "commonName": "Barn Owl",
+    "aliases": [
+      "Tyto alba",
+      "Barn Owl",
+      "Western Barn Owl"
+    ],
+    "birdnetLabels": [
+      "Tyto alba"
+    ],
+    "photoLabels": [
+      "Barn owl"
+    ],
+    "artworkUrl": "/birds/tyto-alba.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "strix-aluco",
+    "scientificName": "Strix aluco",
+    "commonName": "Tawny Owl",
+    "aliases": [
+      "Strix aluco",
+      "Tawny Owl"
+    ],
+    "birdnetLabels": [
+      "Strix aluco"
+    ],
+    "photoLabels": [
+      "Tawny owl"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "athene-noctua",
+    "scientificName": "Athene noctua",
+    "commonName": "Little Owl",
+    "aliases": [
+      "Athene noctua",
+      "Little Owl"
+    ],
+    "birdnetLabels": [
+      "Athene noctua"
+    ],
+    "photoLabels": [
+      "Little owl"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "asio-otus",
+    "scientificName": "Asio otus",
+    "commonName": "Long-eared Owl",
+    "aliases": [
+      "Asio otus",
+      "Long-eared Owl"
+    ],
+    "birdnetLabels": [
+      "Asio otus"
+    ],
+    "photoLabels": [
+      "Long-eared owl"
+    ],
+    "artworkUrl": "/birds/asio-otus.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "asio-flammeus",
+    "scientificName": "Asio flammeus",
+    "commonName": "Short-eared Owl",
+    "aliases": [
+      "Asio flammeus",
+      "Short-eared Owl"
+    ],
+    "birdnetLabels": [
+      "Asio flammeus"
+    ],
+    "photoLabels": [
+      "Short-eared owl"
+    ],
+    "artworkUrl": "/birds/asio-flammeus.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "ardea-cinerea",
+    "scientificName": "Ardea cinerea",
+    "commonName": "Grey Heron",
+    "aliases": [
+      "Ardea cinerea",
+      "Grey Heron",
+      "Gray Heron"
+    ],
+    "birdnetLabels": [
+      "Ardea cinerea"
+    ],
+    "photoLabels": [
+      "Grey heron"
+    ],
+    "artworkUrl": "/birds/ardea-cinerea.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "ardea-alba",
+    "scientificName": "Ardea alba",
+    "commonName": "Great White Egret",
+    "aliases": [
+      "Ardea alba",
+      "Great White Egret",
+      "Great Egret"
+    ],
+    "birdnetLabels": [
+      "Ardea alba"
+    ],
+    "photoLabels": [
+      "Great egret"
+    ],
+    "artworkUrl": "/birds/ardea-alba.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "egretta-garzetta",
+    "scientificName": "Egretta garzetta",
+    "commonName": "Little Egret",
+    "aliases": [
+      "Egretta garzetta",
+      "Little Egret"
+    ],
+    "birdnetLabels": [
+      "Egretta garzetta"
+    ],
+    "photoLabels": [
+      "Little egret"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "platalea-leucorodia",
+    "scientificName": "Platalea leucorodia",
+    "commonName": "Spoonbill",
+    "aliases": [
+      "Platalea leucorodia",
+      "Spoonbill",
+      "Eurasian Spoonbill"
+    ],
+    "birdnetLabels": [
+      "Platalea leucorodia"
+    ],
+    "photoLabels": [
+      "Eurasian spoonbill"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "botaurus-stellaris",
+    "scientificName": "Botaurus stellaris",
+    "commonName": "Bittern",
+    "aliases": [
+      "Botaurus stellaris",
+      "Bittern",
+      "Eurasian Bittern",
+      "Great Bittern"
+    ],
+    "birdnetLabels": [
+      "Botaurus stellaris"
+    ],
+    "photoLabels": [
+      "Great bittern"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "phalacrocorax-carbo",
+    "scientificName": "Phalacrocorax carbo",
+    "commonName": "Cormorant",
+    "aliases": [
+      "Phalacrocorax carbo",
+      "Cormorant",
+      "Great Cormorant"
+    ],
+    "birdnetLabels": [
+      "Phalacrocorax carbo"
+    ],
+    "photoLabels": [
+      "Great cormorant"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "gulosus-aristotelis",
+    "scientificName": "Gulosus aristotelis",
+    "commonName": "Shag",
+    "aliases": [
+      "Gulosus aristotelis",
+      "Shag",
+      "Phalacrocorax aristotelis",
+      "European Shag"
+    ],
+    "birdnetLabels": [],
+    "photoLabels": [
+      "European shag"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "morus-bassanus",
+    "scientificName": "Morus bassanus",
+    "commonName": "Gannet",
+    "aliases": [
+      "Morus bassanus",
+      "Gannet",
+      "Northern Gannet"
+    ],
+    "birdnetLabels": [
+      "Morus bassanus"
+    ],
+    "photoLabels": [
+      "Northern gannet"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "cygnus-olor",
+    "scientificName": "Cygnus olor",
+    "commonName": "Mute Swan",
+    "aliases": [
+      "Cygnus olor",
+      "Mute Swan"
+    ],
+    "birdnetLabels": [
+      "Cygnus olor"
+    ],
+    "photoLabels": [
+      "Mute swan"
+    ],
+    "artworkUrl": "/birds/cygnus-olor.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "cygnus-cygnus",
+    "scientificName": "Cygnus cygnus",
+    "commonName": "Whooper Swan",
+    "aliases": [
+      "Cygnus cygnus",
+      "Whooper Swan"
+    ],
+    "birdnetLabels": [
+      "Cygnus cygnus"
+    ],
+    "photoLabels": [
+      "Whooper swan"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "anser-anser",
+    "scientificName": "Anser anser",
+    "commonName": "Greylag Goose",
+    "aliases": [
+      "Anser anser",
+      "Greylag Goose",
+      "Graylag Goose"
+    ],
+    "birdnetLabels": [
+      "Anser anser"
+    ],
+    "photoLabels": [
+      "Greylag goose"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "anser-brachyrhynchus",
+    "scientificName": "Anser brachyrhynchus",
+    "commonName": "Pink-footed Goose",
+    "aliases": [
+      "Anser brachyrhynchus",
+      "Pink-footed Goose"
+    ],
+    "birdnetLabels": [
+      "Anser brachyrhynchus"
+    ],
+    "photoLabels": [
+      "Pink-footed goose"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "anser-albifrons",
+    "scientificName": "Anser albifrons",
+    "commonName": "White-fronted Goose",
+    "aliases": [
+      "Anser albifrons",
+      "White-fronted Goose",
+      "Greater White-fronted Goose"
+    ],
+    "birdnetLabels": [
+      "Anser albifrons"
+    ],
+    "photoLabels": [
+      "Greater white-fronted goose"
+    ],
+    "artworkUrl": "/birds/anser-albifrons.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "branta-canadensis",
+    "scientificName": "Branta canadensis",
+    "commonName": "Canada Goose",
+    "aliases": [
+      "Branta canadensis",
+      "Canada Goose"
+    ],
+    "birdnetLabels": [
+      "Branta canadensis"
+    ],
+    "photoLabels": [
+      "Canada goose"
+    ],
+    "artworkUrl": "/birds/branta-canadensis.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "branta-leucopsis",
+    "scientificName": "Branta leucopsis",
+    "commonName": "Barnacle Goose",
+    "aliases": [
+      "Branta leucopsis",
+      "Barnacle Goose"
+    ],
+    "birdnetLabels": [
+      "Branta leucopsis"
+    ],
+    "photoLabels": [
+      "Barnacle goose"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "branta-bernicla",
+    "scientificName": "Branta bernicla",
+    "commonName": "Brent Goose",
+    "aliases": [
+      "Branta bernicla",
+      "Brent Goose",
+      "Brant"
+    ],
+    "birdnetLabels": [
+      "Branta bernicla"
+    ],
+    "photoLabels": [
+      "Brant"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "tadorna-tadorna",
+    "scientificName": "Tadorna tadorna",
+    "commonName": "Shelduck",
+    "aliases": [
+      "Tadorna tadorna",
+      "Shelduck",
+      "Common Shelduck"
+    ],
+    "birdnetLabels": [
+      "Tadorna tadorna"
+    ],
+    "photoLabels": [
+      "Common shelduck"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "anas-platyrhynchos",
+    "scientificName": "Anas platyrhynchos",
+    "commonName": "Mallard",
+    "aliases": [
+      "Anas platyrhynchos",
+      "Mallard"
+    ],
+    "birdnetLabels": [
+      "Anas platyrhynchos"
+    ],
+    "photoLabels": [
+      "Mallard"
+    ],
+    "artworkUrl": "/birds/anas-platyrhynchos.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "anas-crecca",
+    "scientificName": "Anas crecca",
+    "commonName": "Teal",
+    "aliases": [
+      "Anas crecca",
+      "Teal",
+      "Eurasian Teal",
+      "Green-winged Teal"
+    ],
+    "birdnetLabels": [
+      "Anas crecca"
+    ],
+    "photoLabels": [
+      "Eurasian teal"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "anas-acuta",
+    "scientificName": "Anas acuta",
+    "commonName": "Pintail",
+    "aliases": [
+      "Anas acuta",
+      "Pintail",
+      "Northern Pintail"
+    ],
+    "birdnetLabels": [
+      "Anas acuta"
+    ],
+    "photoLabels": [
+      "Northern pintail"
+    ],
+    "artworkUrl": "/birds/anas-acuta.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "mareca-penelope",
+    "scientificName": "Mareca penelope",
+    "commonName": "Wigeon",
+    "aliases": [
+      "Mareca penelope",
+      "Wigeon",
+      "Anas penelope",
+      "Eurasian Wigeon"
+    ],
+    "birdnetLabels": [
+      "Mareca penelope"
+    ],
+    "photoLabels": [
+      "Eurasian wigeon"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "mareca-strepera",
+    "scientificName": "Mareca strepera",
+    "commonName": "Gadwall",
+    "aliases": [
+      "Mareca strepera",
+      "Gadwall",
+      "Anas strepera"
+    ],
+    "birdnetLabels": [
+      "Mareca strepera"
+    ],
+    "photoLabels": [
+      "Gadwall"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "spatula-clypeata",
+    "scientificName": "Spatula clypeata",
+    "commonName": "Shoveler",
+    "aliases": [
+      "Spatula clypeata",
+      "Shoveler",
+      "Anas clypeata",
+      "Northern Shoveler"
+    ],
+    "birdnetLabels": [
+      "Spatula clypeata"
+    ],
+    "photoLabels": [
+      "Northern shoveler"
+    ],
+    "artworkUrl": "/birds/spatula-clypeata.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "aythya-fuligula",
+    "scientificName": "Aythya fuligula",
+    "commonName": "Tufted Duck",
+    "aliases": [
+      "Aythya fuligula",
+      "Tufted Duck"
+    ],
+    "birdnetLabels": [
+      "Aythya fuligula"
+    ],
+    "photoLabels": [
+      "Tufted duck"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "aythya-ferina",
+    "scientificName": "Aythya ferina",
+    "commonName": "Pochard",
+    "aliases": [
+      "Aythya ferina",
+      "Pochard",
+      "Common Pochard"
+    ],
+    "birdnetLabels": [
+      "Aythya ferina"
+    ],
+    "photoLabels": [
+      "Common pochard"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "aythya-marila",
+    "scientificName": "Aythya marila",
+    "commonName": "Scaup",
+    "aliases": [
+      "Aythya marila",
+      "Scaup",
+      "Greater Scaup"
+    ],
+    "birdnetLabels": [
+      "Aythya marila"
+    ],
+    "photoLabels": [
+      "Greater scaup"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "bucephala-clangula",
+    "scientificName": "Bucephala clangula",
+    "commonName": "Goldeneye",
+    "aliases": [
+      "Bucephala clangula",
+      "Goldeneye",
+      "Common Goldeneye"
+    ],
+    "birdnetLabels": [
+      "Bucephala clangula"
+    ],
+    "photoLabels": [
+      "Common goldeneye"
+    ],
+    "artworkUrl": "/birds/bucephala-clangula.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "mergus-merganser",
+    "scientificName": "Mergus merganser",
+    "commonName": "Goosander",
+    "aliases": [
+      "Mergus merganser",
+      "Goosander",
+      "Common Merganser"
+    ],
+    "birdnetLabels": [
+      "Mergus merganser"
+    ],
+    "photoLabels": [
+      "Common merganser"
+    ],
+    "artworkUrl": "/birds/mergus-merganser.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "mergus-serrator",
+    "scientificName": "Mergus serrator",
+    "commonName": "Red-breasted Merganser",
+    "aliases": [
+      "Mergus serrator",
+      "Red-breasted Merganser"
+    ],
+    "birdnetLabels": [
+      "Mergus serrator"
+    ],
+    "photoLabels": [
+      "Red-breasted merganser"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "somateria-mollissima",
+    "scientificName": "Somateria mollissima",
+    "commonName": "Eider",
+    "aliases": [
+      "Somateria mollissima",
+      "Eider",
+      "Common Eider"
+    ],
+    "birdnetLabels": [
+      "Somateria mollissima"
+    ],
+    "photoLabels": [
+      "Common eider"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "melanitta-nigra",
+    "scientificName": "Melanitta nigra",
+    "commonName": "Common Scoter",
+    "aliases": [
+      "Melanitta nigra",
+      "Common Scoter"
+    ],
+    "birdnetLabels": [
+      "Melanitta nigra"
+    ],
+    "photoLabels": [
+      "Common scoter"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "tachybaptus-ruficollis",
+    "scientificName": "Tachybaptus ruficollis",
+    "commonName": "Little Grebe",
+    "aliases": [
+      "Tachybaptus ruficollis",
+      "Little Grebe"
+    ],
+    "birdnetLabels": [
+      "Tachybaptus ruficollis"
+    ],
+    "photoLabels": [
+      "Little grebe"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "podiceps-cristatus",
+    "scientificName": "Podiceps cristatus",
+    "commonName": "Great Crested Grebe",
+    "aliases": [
+      "Podiceps cristatus",
+      "Great Crested Grebe"
+    ],
+    "birdnetLabels": [
+      "Podiceps cristatus"
+    ],
+    "photoLabels": [
+      "Great crested grebe"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "podiceps-auritus",
+    "scientificName": "Podiceps auritus",
+    "commonName": "Slavonian Grebe",
+    "aliases": [
+      "Podiceps auritus",
+      "Slavonian Grebe",
+      "Horned Grebe"
+    ],
+    "birdnetLabels": [
+      "Podiceps auritus"
+    ],
+    "photoLabels": [
+      "Horned grebe"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "fulica-atra",
+    "scientificName": "Fulica atra",
+    "commonName": "Coot",
+    "aliases": [
+      "Fulica atra",
+      "Coot",
+      "Eurasian Coot"
+    ],
+    "birdnetLabels": [
+      "Fulica atra"
+    ],
+    "photoLabels": [
+      "Eurasian coot"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "gallinula-chloropus",
+    "scientificName": "Gallinula chloropus",
+    "commonName": "Moorhen",
+    "aliases": [
+      "Gallinula chloropus",
+      "Moorhen",
+      "Common Moorhen",
+      "Eurasian Moorhen"
+    ],
+    "birdnetLabels": [
+      "Gallinula chloropus"
+    ],
+    "photoLabels": [
+      "Common moorhen"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "rallus-aquaticus",
+    "scientificName": "Rallus aquaticus",
+    "commonName": "Water Rail",
+    "aliases": [
+      "Rallus aquaticus",
+      "Water Rail"
+    ],
+    "birdnetLabels": [
+      "Rallus aquaticus"
+    ],
+    "photoLabels": [
+      "Water rail"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "haematopus-ostralegus",
+    "scientificName": "Haematopus ostralegus",
+    "commonName": "Oystercatcher",
+    "aliases": [
+      "Haematopus ostralegus",
+      "Oystercatcher",
+      "Eurasian Oystercatcher"
+    ],
+    "birdnetLabels": [
+      "Haematopus ostralegus"
+    ],
+    "photoLabels": [
+      "Eurasian oystercatcher"
+    ],
+    "artworkUrl": "/birds/haematopus-ostralegus.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "recurvirostra-avosetta",
+    "scientificName": "Recurvirostra avosetta",
+    "commonName": "Avocet",
+    "aliases": [
+      "Recurvirostra avosetta",
+      "Avocet",
+      "Pied Avocet"
+    ],
+    "birdnetLabels": [
+      "Recurvirostra avosetta"
+    ],
+    "photoLabels": [
+      "Pied avocet"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "vanellus-vanellus",
+    "scientificName": "Vanellus vanellus",
+    "commonName": "Lapwing",
+    "aliases": [
+      "Vanellus vanellus",
+      "Lapwing",
+      "Northern Lapwing"
+    ],
+    "birdnetLabels": [
+      "Vanellus vanellus"
+    ],
+    "photoLabels": [
+      "Northern lapwing"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "pluvialis-apricaria",
+    "scientificName": "Pluvialis apricaria",
+    "commonName": "Golden Plover",
+    "aliases": [
+      "Pluvialis apricaria",
+      "Golden Plover",
+      "European Golden Plover",
+      "European Golden-Plover"
+    ],
+    "birdnetLabels": [
+      "Pluvialis apricaria"
+    ],
+    "photoLabels": [
+      "European golden plover"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "pluvialis-squatarola",
+    "scientificName": "Pluvialis squatarola",
+    "commonName": "Grey Plover",
+    "aliases": [
+      "Pluvialis squatarola",
+      "Grey Plover",
+      "Black-bellied Plover"
+    ],
+    "birdnetLabels": [
+      "Pluvialis squatarola"
+    ],
+    "photoLabels": [
+      "Grey plover"
+    ],
+    "artworkUrl": "/birds/pluvialis-squatarola.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "charadrius-hiaticula",
+    "scientificName": "Charadrius hiaticula",
+    "commonName": "Ringed Plover",
+    "aliases": [
+      "Charadrius hiaticula",
+      "Ringed Plover",
+      "Common Ringed Plover"
+    ],
+    "birdnetLabels": [
+      "Charadrius hiaticula"
+    ],
+    "photoLabels": [
+      "Common ringed plover"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "charadrius-dubius",
+    "scientificName": "Charadrius dubius",
+    "commonName": "Little Ringed Plover",
+    "aliases": [
+      "Charadrius dubius",
+      "Little Ringed Plover"
+    ],
+    "birdnetLabels": [
+      "Charadrius dubius"
+    ],
+    "photoLabels": [
+      "Little ringed plover"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "calidris-alpina",
+    "scientificName": "Calidris alpina",
+    "commonName": "Dunlin",
+    "aliases": [
+      "Calidris alpina",
+      "Dunlin"
+    ],
+    "birdnetLabels": [
+      "Calidris alpina"
+    ],
+    "photoLabels": [
+      "Dunlin"
+    ],
+    "artworkUrl": "/birds/calidris-alpina.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "calidris-alba",
+    "scientificName": "Calidris alba",
+    "commonName": "Sanderling",
+    "aliases": [
+      "Calidris alba",
+      "Sanderling"
+    ],
+    "birdnetLabels": [
+      "Calidris alba"
+    ],
+    "photoLabels": [
+      "Sanderling"
+    ],
+    "artworkUrl": "/birds/calidris-alba.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "calidris-canutus",
+    "scientificName": "Calidris canutus",
+    "commonName": "Knot",
+    "aliases": [
+      "Calidris canutus",
+      "Knot",
+      "Red Knot"
+    ],
+    "birdnetLabels": [
+      "Calidris canutus"
+    ],
+    "photoLabels": [
+      "Red knot"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "calidris-maritima",
+    "scientificName": "Calidris maritima",
+    "commonName": "Purple Sandpiper",
+    "aliases": [
+      "Calidris maritima",
+      "Purple Sandpiper"
+    ],
+    "birdnetLabels": [
+      "Calidris maritima"
+    ],
+    "photoLabels": [
+      "Purple sandpiper"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "calidris-pugnax",
+    "scientificName": "Calidris pugnax",
+    "commonName": "Ruff",
+    "aliases": [
+      "Calidris pugnax",
+      "Ruff",
+      "Philomachus pugnax"
+    ],
+    "birdnetLabels": [
+      "Calidris pugnax"
+    ],
+    "photoLabels": [
+      "Ruff"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "arenaria-interpres",
+    "scientificName": "Arenaria interpres",
+    "commonName": "Turnstone",
+    "aliases": [
+      "Arenaria interpres",
+      "Turnstone",
+      "Ruddy Turnstone"
+    ],
+    "birdnetLabels": [
+      "Arenaria interpres"
+    ],
+    "photoLabels": [
+      "Ruddy turnstone"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "actitis-hypoleucos",
+    "scientificName": "Actitis hypoleucos",
+    "commonName": "Common Sandpiper",
+    "aliases": [
+      "Actitis hypoleucos",
+      "Common Sandpiper"
+    ],
+    "birdnetLabels": [
+      "Actitis hypoleucos"
+    ],
+    "photoLabels": [
+      "Common sandpiper"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "tringa-totanus",
+    "scientificName": "Tringa totanus",
+    "commonName": "Redshank",
+    "aliases": [
+      "Tringa totanus",
+      "Redshank",
+      "Common Redshank"
+    ],
+    "birdnetLabels": [
+      "Tringa totanus"
+    ],
+    "photoLabels": [
+      "Common redshank"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "tringa-nebularia",
+    "scientificName": "Tringa nebularia",
+    "commonName": "Greenshank",
+    "aliases": [
+      "Tringa nebularia",
+      "Greenshank",
+      "Common Greenshank"
+    ],
+    "birdnetLabels": [
+      "Tringa nebularia"
+    ],
+    "photoLabels": [
+      "Common greenshank"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "tringa-ochropus",
+    "scientificName": "Tringa ochropus",
+    "commonName": "Green Sandpiper",
+    "aliases": [
+      "Tringa ochropus",
+      "Green Sandpiper"
+    ],
+    "birdnetLabels": [
+      "Tringa ochropus"
+    ],
+    "photoLabels": [
+      "Green sandpiper"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "numenius-arquata",
+    "scientificName": "Numenius arquata",
+    "commonName": "Curlew",
+    "aliases": [
+      "Numenius arquata",
+      "Curlew",
+      "Eurasian Curlew"
+    ],
+    "birdnetLabels": [
+      "Numenius arquata"
+    ],
+    "photoLabels": [
+      "Eurasian curlew"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "numenius-phaeopus",
+    "scientificName": "Numenius phaeopus",
+    "commonName": "Whimbrel",
+    "aliases": [
+      "Numenius phaeopus",
+      "Whimbrel",
+      "Eurasian Whimbrel"
+    ],
+    "birdnetLabels": [
+      "Numenius phaeopus"
+    ],
+    "photoLabels": [
+      "Eurasian whimbrel"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "limosa-lapponica",
+    "scientificName": "Limosa lapponica",
+    "commonName": "Bar-tailed Godwit",
+    "aliases": [
+      "Limosa lapponica",
+      "Bar-tailed Godwit"
+    ],
+    "birdnetLabels": [
+      "Limosa lapponica"
+    ],
+    "photoLabels": [
+      "Bar-tailed godwit"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "limosa-limosa",
+    "scientificName": "Limosa limosa",
+    "commonName": "Black-tailed Godwit",
+    "aliases": [
+      "Limosa limosa",
+      "Black-tailed Godwit"
+    ],
+    "birdnetLabels": [
+      "Limosa limosa"
+    ],
+    "photoLabels": [
+      "Black-tailed godwit"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "gallinago-gallinago",
+    "scientificName": "Gallinago gallinago",
+    "commonName": "Snipe",
+    "aliases": [
+      "Gallinago gallinago",
+      "Snipe",
+      "Common Snipe"
+    ],
+    "birdnetLabels": [
+      "Gallinago gallinago"
+    ],
+    "photoLabels": [
+      "Common snipe"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "scolopax-rusticola",
+    "scientificName": "Scolopax rusticola",
+    "commonName": "Woodcock",
+    "aliases": [
+      "Scolopax rusticola",
+      "Woodcock",
+      "Eurasian Woodcock"
+    ],
+    "birdnetLabels": [
+      "Scolopax rusticola"
+    ],
+    "photoLabels": [
+      "Eurasian woodcock"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "chroicocephalus-ridibundus",
+    "scientificName": "Chroicocephalus ridibundus",
+    "commonName": "Black-headed Gull",
+    "aliases": [
+      "Chroicocephalus ridibundus",
+      "Black-headed Gull",
+      "Larus ridibundus"
+    ],
+    "birdnetLabels": [
+      "Chroicocephalus ridibundus"
+    ],
+    "photoLabels": [
+      "Black-headed gull"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "chroicocephalus-philadelphia",
+    "scientificName": "Chroicocephalus philadelphia",
+    "commonName": "Bonaparte's Gull",
+    "aliases": [
+      "Chroicocephalus philadelphia",
+      "Bonaparte's Gull",
+      "Larus philadelphia",
+      "Bonapartes Gull"
+    ],
+    "birdnetLabels": [
+      "Chroicocephalus philadelphia"
+    ],
+    "photoLabels": [
+      "Bonapartes gull"
+    ],
+    "artworkUrl": "/birds/chroicocephalus-philadelphia.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "ichthyaetus-melanocephalus",
+    "scientificName": "Ichthyaetus melanocephalus",
+    "commonName": "Mediterranean Gull",
+    "aliases": [
+      "Ichthyaetus melanocephalus",
+      "Mediterranean Gull",
+      "Larus melanocephalus"
+    ],
+    "birdnetLabels": [
+      "Ichthyaetus melanocephalus"
+    ],
+    "photoLabels": [
+      "Mediterranean gull"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "larus-canus",
+    "scientificName": "Larus canus",
+    "commonName": "Common Gull",
+    "aliases": [
+      "Larus canus",
+      "Common Gull"
+    ],
+    "birdnetLabels": [
+      "Larus canus"
+    ],
+    "photoLabels": [
+      "Common gull"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "larus-argentatus",
+    "scientificName": "Larus argentatus",
+    "commonName": "Herring Gull",
+    "aliases": [
+      "Larus argentatus",
+      "Herring Gull",
+      "European Herring Gull"
+    ],
+    "birdnetLabels": [
+      "Larus argentatus"
+    ],
+    "photoLabels": [
+      "European herring gull"
+    ],
+    "artworkUrl": "/birds/larus-argentatus.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "larus-fuscus",
+    "scientificName": "Larus fuscus",
+    "commonName": "Lesser Black-backed Gull",
+    "aliases": [
+      "Larus fuscus",
+      "Lesser Black-backed Gull"
+    ],
+    "birdnetLabels": [
+      "Larus fuscus"
+    ],
+    "photoLabels": [
+      "Lesser black-backed gull"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "larus-marinus",
+    "scientificName": "Larus marinus",
+    "commonName": "Great Black-backed Gull",
+    "aliases": [
+      "Larus marinus",
+      "Great Black-backed Gull"
+    ],
+    "birdnetLabels": [
+      "Larus marinus"
+    ],
+    "photoLabels": [
+      "Great black-backed gull"
+    ],
+    "artworkUrl": "/birds/larus-marinus.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "rissa-tridactyla",
+    "scientificName": "Rissa tridactyla",
+    "commonName": "Kittiwake",
+    "aliases": [
+      "Rissa tridactyla",
+      "Kittiwake",
+      "Black-legged Kittiwake"
+    ],
+    "birdnetLabels": [
+      "Rissa tridactyla"
+    ],
+    "photoLabels": [
+      "Black-legged kittiwake"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "sterna-hirundo",
+    "scientificName": "Sterna hirundo",
+    "commonName": "Common Tern",
+    "aliases": [
+      "Sterna hirundo",
+      "Common Tern"
+    ],
+    "birdnetLabels": [
+      "Sterna hirundo"
+    ],
+    "photoLabels": [
+      "Common tern"
+    ],
+    "artworkUrl": "/birds/sterna-hirundo.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "sterna-paradisaea",
+    "scientificName": "Sterna paradisaea",
+    "commonName": "Arctic Tern",
+    "aliases": [
+      "Sterna paradisaea",
+      "Arctic Tern"
+    ],
+    "birdnetLabels": [
+      "Sterna paradisaea"
+    ],
+    "photoLabels": [
+      "Arctic tern"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "thalasseus-sandvicensis",
+    "scientificName": "Thalasseus sandvicensis",
+    "commonName": "Sandwich Tern",
+    "aliases": [
+      "Thalasseus sandvicensis",
+      "Sandwich Tern",
+      "Sterna sandvicensis"
+    ],
+    "birdnetLabels": [
+      "Thalasseus sandvicensis"
+    ],
+    "photoLabels": [
+      "Sandwich tern"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "sternula-albifrons",
+    "scientificName": "Sternula albifrons",
+    "commonName": "Little Tern",
+    "aliases": [
+      "Sternula albifrons",
+      "Little Tern",
+      "Sterna albifrons"
+    ],
+    "birdnetLabels": [
+      "Sternula albifrons"
+    ],
+    "photoLabels": [
+      "Little tern"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "fratercula-arctica",
+    "scientificName": "Fratercula arctica",
+    "commonName": "Puffin",
+    "aliases": [
+      "Fratercula arctica",
+      "Puffin",
+      "Atlantic Puffin"
+    ],
+    "birdnetLabels": [
+      "Fratercula arctica"
+    ],
+    "photoLabels": [
+      "Atlantic puffin"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "alca-torda",
+    "scientificName": "Alca torda",
+    "commonName": "Razorbill",
+    "aliases": [
+      "Alca torda",
+      "Razorbill"
+    ],
+    "birdnetLabels": [
+      "Alca torda"
+    ],
+    "photoLabels": [
+      "Razorbill"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "uria-aalge",
+    "scientificName": "Uria aalge",
+    "commonName": "Guillemot",
+    "aliases": [
+      "Uria aalge",
+      "Guillemot",
+      "Common Murre"
+    ],
+    "birdnetLabels": [
+      "Uria aalge"
+    ],
+    "photoLabels": [
+      "Common murre"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "fulmarus-glacialis",
+    "scientificName": "Fulmarus glacialis",
+    "commonName": "Fulmar",
+    "aliases": [
+      "Fulmarus glacialis",
+      "Fulmar",
+      "Northern Fulmar"
+    ],
+    "birdnetLabels": [
+      "Fulmarus glacialis"
+    ],
+    "photoLabels": [
+      "Northern fulmar"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "puffinus-puffinus",
+    "scientificName": "Puffinus puffinus",
+    "commonName": "Manx Shearwater",
+    "aliases": [
+      "Puffinus puffinus",
+      "Manx Shearwater"
+    ],
+    "birdnetLabels": [
+      "Puffinus puffinus"
+    ],
+    "photoLabels": [
+      "Manx shearwater"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "gavia-stellata",
+    "scientificName": "Gavia stellata",
+    "commonName": "Red-throated Diver",
+    "aliases": [
+      "Gavia stellata",
+      "Red-throated Diver",
+      "Red-throated Loon"
+    ],
+    "birdnetLabels": [
+      "Gavia stellata"
+    ],
+    "photoLabels": [
+      "Red-throated loon"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "gavia-immer",
+    "scientificName": "Gavia immer",
+    "commonName": "Great Northern Diver",
+    "aliases": [
+      "Gavia immer",
+      "Great Northern Diver",
+      "Common Loon"
+    ],
+    "birdnetLabels": [
+      "Gavia immer"
+    ],
+    "photoLabels": [
+      "Common loon"
+    ],
+    "artworkUrl": "/birds/gavia-immer.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "phasianus-colchicus",
+    "scientificName": "Phasianus colchicus",
+    "commonName": "Pheasant",
+    "aliases": [
+      "Phasianus colchicus",
+      "Pheasant",
+      "Common Pheasant",
+      "Ring-necked Pheasant"
+    ],
+    "birdnetLabels": [
+      "Phasianus colchicus"
+    ],
+    "photoLabels": [
+      "Common pheasant"
+    ],
+    "artworkUrl": "/birds/phasianus-colchicus.png",
+    "artworkStatus": "reviewed"
+  },
+  {
+    "id": "alectoris-rufa",
+    "scientificName": "Alectoris rufa",
+    "commonName": "Red-legged Partridge",
+    "aliases": [
+      "Alectoris rufa",
+      "Red-legged Partridge"
+    ],
+    "birdnetLabels": [
+      "Alectoris rufa"
+    ],
+    "photoLabels": [
+      "Red-legged partridge"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "perdix-perdix",
+    "scientificName": "Perdix perdix",
+    "commonName": "Grey Partridge",
+    "aliases": [
+      "Perdix perdix",
+      "Grey Partridge",
+      "Gray Partridge"
+    ],
+    "birdnetLabels": [
+      "Perdix perdix"
+    ],
+    "photoLabels": [
+      "Grey partridge"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  },
+  {
+    "id": "lagopus-lagopus",
+    "scientificName": "Lagopus lagopus",
+    "commonName": "Willow Grouse / Red Grouse",
+    "aliases": [
+      "Lagopus lagopus",
+      "Willow Grouse / Red Grouse",
+      "Willow Ptarmigan",
+      "Red Grouse"
+    ],
+    "birdnetLabels": [
+      "Lagopus lagopus"
+    ],
+    "photoLabels": [
+      "Willow ptarmigan"
+    ],
+    "artworkUrl": null,
+    "artworkStatus": "missing"
+  }
+]

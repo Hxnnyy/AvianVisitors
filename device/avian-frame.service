@@ -1,0 +1,17 @@
+[Unit]
+Description=Avian Visitors display update
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=avian-frame
+Group=avian-frame
+SupplementaryGroups=spi gpio i2c
+ExecStart=/opt/avian-frame/.venv/bin/python /opt/avian-frame/client.py --config /etc/avian-frame/config.json
+StateDirectory=avian-frame
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+TimeoutStartSec=150

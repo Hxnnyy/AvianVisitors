@@ -1,0 +1,35 @@
+{
+  "name": "avian-visitors",
+  "main": "server/index.ts",
+  "compatibility_date": "2026-10-26",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/api/*",
+      "/device/*"
+    ]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "avian-visitors",
+      "database_id": "configure-before-deployment",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "MEDIA",
+      "bucket_name": "avian-visitors-private"
+    }
+  ],
+  "triggers": {
+    "crons": [
+      "*/1 * * * *"
+    ]
+  },
+  "vars": {
+    "ENVIRONMENT": "production"
+  }
+}
