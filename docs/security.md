@@ -1,0 +1,9 @@
+# Birthday app security boundaries
+
+The collection and original photos/recordings are private. The Worker verifies Cloudflare Access JWT signature, issuer, audience and exactly two allowed email addresses on every user API call. Configure Access to protect UI/user routes, while /device/* bypasses Access's interactive challenge and relies on its independent Worker bearer credential. The device credential cannot authorise /api/* or read originals.
+
+Local development permits a separate bearer only with ENVIRONMENT=local and a loopback request hostname. Vite's loopback proxy adds it server-side through DEV_API_TOKEN. Never deploy local credentials or ENVIRONMENT=local. .dev.vars, .env files, .wrangler state and model caches are excluded from version control and Docker build context. Production requires distinct device, inference and renderer secrets; no secrets belong in public Vite variables or static assets.
+
+Original media is in private R2, exposed only through authorised Worker endpoints. Inference and rendering receive only required bytes/settings, through internal Durable Object bindings with separate service tokens. Production does not accept arbitrary service URLs; local service URLs must use loopback. Containers have internet disabled and max_instances=1 per service. Model downloads happen at image build time. Upload limits, recording duration and bounded job retries reduce accidental resource consumption; they do not replace billing alerts or usage review.
+
+Deleting the final sighting removes its capture and original; shared audio survives while another sighting references it. Backups retain deleted media until their retention window expires and therefore need the same privacy protection as live storage. Keep encrypted copies separately, as described in RECOVERY.md. This project has not yet proved the hosted Access/Safari experience, cloud restoration or physical device setup; deployment gates are recorded in DEPLOYMENT.md.

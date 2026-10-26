@@ -1,3 +1,16 @@
+# Private birthday bird journal
+
+The birthday web app is in **app/**: a private two-user photo/birdsong journal with explicit identification review, original evidence, and an illustrated 480×800 portrait frame. The Raspberry Pi 3 A+ only fetches display images; the upstream microphone station below is a separate installation.
+
+Local quickstart (PowerShell 7, Node via fnm, Docker Desktop Linux, Python 3.11+):
+
+```powershell
+./scripts/birthday/start-local.ps1
+```
+
+Open http://127.0.0.1:5173. First start downloads/builds real CPU models and may take several minutes. Local credentials and data stay in ignored app/.dev.vars and app/.wrangler. This command does not deploy cloud resources. See [deployment](docs/DEPLOYMENT.md), [recovery](docs/RECOVERY.md), [architecture](docs/architecture.md), [security](docs/security.md), and [API contract](docs/API_CONTRACT.md). Hardware setup and actual phone/panel checks remain separate acceptance gates.
+
+---
 # AvianVisitors
 
 *A live bird collage from your window.*
@@ -195,3 +208,4 @@ CC-BY-NC-SA-4.0, inherited from [BirdNET-Pi](https://github.com/Nachtzuster/Bird
 - [Fork this repository](https://github.com/Twarner491/AvianVisitors/fork)
 - [Watch this repo](https://github.com/Twarner491/AvianVisitors/subscription)
 - [Create issue](https://github.com/Twarner491/AvianVisitors/issues/new)
+

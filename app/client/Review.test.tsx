@@ -45,5 +45,3 @@ it('requires an explicit timezone review and save before a photo can be confirme
   await waitFor(() => expect(screen.getByRole<HTMLButtonElement>('button', { name: 'Confirm' }).disabled).toBe(false));
   expect(fetcher.mock.calls.find(call => call[1]?.method === 'PATCH')?.[0]).toBe('/api/captures/ambiguous-photo');
 });
-
-

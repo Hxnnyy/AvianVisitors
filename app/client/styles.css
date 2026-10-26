@@ -7,3 +7,4 @@
 .review-places{margin:15px 0}.review-places span{display:block;margin-bottom:8px}.review-places button{font-size:13px;padding:8px 13px;margin-right:8px}
 [hidden]{display:none!important}
 .candidate-art{display:block;width:130px;height:110px;object-fit:contain;margin-bottom:14px}.candidate>div{min-width:0}.candidate i{overflow-wrap:anywhere}
+.candidate .score{font-size:13px;line-height:1.5;color:var(--ink-2)}

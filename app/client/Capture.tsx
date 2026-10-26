@@ -69,6 +69,3 @@ export function CaptureForm({ location, onUploaded }: { location: Location | nul
     {error && <p role="alert" className="error">{error}</p>}
   </section>;
 }
-
-
-

@@ -33,4 +33,3 @@ export function App() {
     </main><nav className="bottom-nav" aria-label="Main navigation">{(['collage', 'collection', 'capture'] as const).map(item => <button key={item} aria-current={view === item && !active ? 'page' : undefined} onClick={() => { setView(item); setActive(null); }}>{item === 'capture' ? '＋ Capture' : item}</button>)}</nav></>;
 }
 function DeviceStatus({ frame }: { frame: FrameState | null }) { return <div className="device-status"><p>{!frame?.lastContactAt ? 'Frame hasn’t connected yet' : `Frame last seen ${new Date(frame.lastContactAt).toLocaleString('en-GB')}`}</p>{frame?.revision && <p>{frame.acknowledgedRevision === frame.revision ? 'Latest picture displayed ✓' : 'New picture ready · waiting for the frame'}</p>}{frame?.error && <p className="error">{frame.error}</p>}</div>; }
-
