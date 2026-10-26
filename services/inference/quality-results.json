@@ -1,0 +1,190 @@
+[
+  {
+    "name": "herring-gull",
+    "seconds": 8.542734399961773,
+    "statusCode": 200,
+    "result": {
+      "status": "identified",
+      "model": "birder/mobilenet_v4_l_eu-common",
+      "scoreLabel": "Photo model confidence (uncalibrated softmax)",
+      "candidates": [
+        {
+          "scientificName": "Larus argentatus",
+          "commonName": "European herring gull",
+          "score": 0.8509973883628845,
+          "ranges": [],
+          "modelLabel": "European herring gull"
+        },
+        {
+          "scientificName": "Larus fuscus",
+          "commonName": "Lesser black-backed gull",
+          "score": 0.006165921222418547,
+          "ranges": [],
+          "modelLabel": "Lesser black-backed gull"
+        }
+      ],
+      "metadata": {
+        "capturedAt": null,
+        "location": null,
+        "source": "missing"
+      },
+      "warnings": [
+        "unmapped_photo_label:Yellow-legged gull",
+        "unmapped_photo_label:Glaucous gull",
+        "unmapped_photo_label:Caspian gull"
+      ],
+      "raw": {
+        "media": {
+          "width": 2149,
+          "height": 1433,
+          "orientation": 1,
+          "orientedWidth": 2149,
+          "orientedHeight": 1433
+        },
+        "birdDetectionScore": 0.9953168630599976,
+        "candidates": [
+          {
+            "modelLabel": "European herring gull",
+            "score": 0.8509973883628845
+          },
+          {
+            "modelLabel": "Yellow-legged gull",
+            "score": 0.017349252477288246
+          },
+          {
+            "modelLabel": "Glaucous gull",
+            "score": 0.014582247473299503
+          },
+          {
+            "modelLabel": "Lesser black-backed gull",
+            "score": 0.006165921222418547
+          },
+          {
+            "modelLabel": "Caspian gull",
+            "score": 0.003893467830494046
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "dark-robin",
+    "seconds": 0.39595650002593175,
+    "statusCode": 200,
+    "result": {
+      "status": "identified",
+      "model": "birder/mobilenet_v4_l_eu-common",
+      "scoreLabel": "Photo model confidence (uncalibrated softmax)",
+      "candidates": [
+        {
+          "scientificName": "Erithacus rubecula",
+          "commonName": "European robin",
+          "score": 0.8639392256736755,
+          "ranges": [],
+          "modelLabel": "European robin"
+        },
+        {
+          "scientificName": "Emberiza citrinella",
+          "commonName": "Yellowhammer",
+          "score": 0.0008374627213925123,
+          "ranges": [],
+          "modelLabel": "Yellowhammer"
+        }
+      ],
+      "metadata": {
+        "capturedAt": null,
+        "location": null,
+        "source": "missing"
+      },
+      "warnings": [
+        "unmapped_photo_label:Citrine wagtail",
+        "unmapped_photo_label:Red-flanked bluetail",
+        "unmapped_photo_label:Moussiers redstart"
+      ],
+      "raw": {
+        "media": {
+          "width": 748,
+          "height": 628,
+          "orientation": 1,
+          "orientedWidth": 748,
+          "orientedHeight": 628
+        },
+        "birdDetectionScore": 0.9191848635673523,
+        "candidates": [
+          {
+            "modelLabel": "European robin",
+            "score": 0.8639392256736755
+          },
+          {
+            "modelLabel": "Citrine wagtail",
+            "score": 0.0016358380671590567
+          },
+          {
+            "modelLabel": "Red-flanked bluetail",
+            "score": 0.0013776911655440927
+          },
+          {
+            "modelLabel": "Moussiers redstart",
+            "score": 0.0008972564828582108
+          },
+          {
+            "modelLabel": "Yellowhammer",
+            "score": 0.0008374627213925123
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "small-robin",
+    "seconds": 0.43564250000054017,
+    "statusCode": 200,
+    "result": {
+      "status": "no_bird",
+      "model": "birder/mobilenet_v4_l_eu-common",
+      "scoreLabel": "Photo model confidence (uncalibrated softmax)",
+      "candidates": [],
+      "metadata": {
+        "capturedAt": null,
+        "location": null,
+        "source": "missing"
+      },
+      "warnings": [
+        "unmapped_photo_label:European bee-eater",
+        "unmapped_photo_label:Lesser kestrel"
+      ],
+      "raw": {
+        "media": {
+          "width": 1500,
+          "height": 1200,
+          "orientation": 1,
+          "orientedWidth": 1500,
+          "orientedHeight": 1200
+        },
+        "birdDetectionScore": 0.05538831651210785,
+        "candidates": [
+          {
+            "modelLabel": "European bee-eater",
+            "score": 0.0336984246969223
+          },
+          {
+            "modelLabel": "Atlantic puffin",
+            "score": 0.03113008663058281
+          },
+          {
+            "modelLabel": "Goldcrest",
+            "score": 0.024445660412311554
+          },
+          {
+            "modelLabel": "Lesser kestrel",
+            "score": 0.02335917390882969
+          },
+          {
+            "modelLabel": "Common firecrest",
+            "score": 0.016342956572771072
+          }
+        ]
+      }
+    }
+  }
+]

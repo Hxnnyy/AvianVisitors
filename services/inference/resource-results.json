@@ -1,0 +1,84 @@
+[
+  {
+    "format": "JPEG",
+    "bytes": 1570090,
+    "seconds": 1.6641638000146486,
+    "statusCode": 200,
+    "rssMiB": 279.5234375,
+    "peakMiB": 369.15234375,
+    "raw": {
+      "media": {
+        "width": 8000,
+        "height": 6000,
+        "orientation": 1,
+        "originalExifOrientation": null,
+        "orientedWidth": 8000,
+        "orientedHeight": 6000
+      },
+      "birdDetectionScore": 0.9927485585212708,
+      "candidates": [
+        {
+          "modelLabel": "European robin",
+          "score": 0.8687540292739868
+        },
+        {
+          "modelLabel": "Grey partridge",
+          "score": 0.0008771652355790138
+        },
+        {
+          "modelLabel": "Red-flanked bluetail",
+          "score": 0.0008136393153108656
+        },
+        {
+          "modelLabel": "Citrine wagtail",
+          "score": 0.0007163079571910203
+        },
+        {
+          "modelLabel": "Barn swallow",
+          "score": 0.0007013393915258348
+        }
+      ]
+    }
+  },
+  {
+    "format": "HEIF",
+    "bytes": 954002,
+    "seconds": 1.0726877999841236,
+    "statusCode": 200,
+    "rssMiB": 309.28125,
+    "peakMiB": 848.1953125,
+    "raw": {
+      "media": {
+        "width": 8000,
+        "height": 6000,
+        "orientation": 1,
+        "originalExifOrientation": null,
+        "orientedWidth": 8000,
+        "orientedHeight": 6000
+      },
+      "birdDetectionScore": 0.9927743673324585,
+      "candidates": [
+        {
+          "modelLabel": "European robin",
+          "score": 0.869554877281189
+        },
+        {
+          "modelLabel": "Grey partridge",
+          "score": 0.0008816905319690704
+        },
+        {
+          "modelLabel": "Red-flanked bluetail",
+          "score": 0.0008106103632599115
+        },
+        {
+          "modelLabel": "Citrine wagtail",
+          "score": 0.0007056164322420955
+        },
+        {
+          "modelLabel": "Barn swallow",
+          "score": 0.0006982366321608424
+        }
+      ]
+    }
+  }
+]

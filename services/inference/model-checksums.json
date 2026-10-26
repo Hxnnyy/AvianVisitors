@@ -1,0 +1,9 @@
+{
+  "mobilenet_v4_l_eu-common.pt": "e1a24218a2ee2c5ae3ea7247553ba09fac47bced00dd531a33c7ce06ab49f689",
+  "mobilenet_v4_l_eu-common.json": "b1390be840c71649eb7f08735a489b4f754d4ae650318a41f89786dd166039a9",
+  "BirdNET_GLOBAL_6K_V2.4_MData_Model_FP16.tflite": "4813567791d2fe2f38fb9e195e61a6261141a6f3b134b3056b6b062d22ac88f5",
+  "BirdNET_GLOBAL_6K_V2.4_MData_Model_V2_FP16.tflite": "1226f23fc20362617deb09178f366111b70cf085c2c82893f2814e5acedce6c2",
+  "BirdNET_GLOBAL_6K_V2.4_Model_FP16.tflite": "5c64ba3ffab264ccbfafe784896392051a86be63b0cc507e7683db7df114546b",
+  "BirdNET_GLOBAL_6K_V2.4_Model_FP16_Labels.txt": "3559fbf2d79df985897b4b8e1a6266c1fbb25a95a4c3cecd66c1d090d3dc0b12",
+  "ssdlite320_mobilenet_v3_large_coco-a79551df.pth": "a79551df90c79834bcd3bb3845ef9d966b5449a3a9b2833ae8404778ca5d65d2"
+}

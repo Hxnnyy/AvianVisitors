@@ -1,0 +1,18 @@
+**
+!services/
+!services/inference/
+!services/inference/**
+services/inference/.venv/
+services/inference/models/
+services/inference/__pycache__/
+!model/
+!model/BirdNET_GLOBAL_6K_V2.4_Model_FP16.tflite
+!model/BirdNET_GLOBAL_6K_V2.4_MData_Model_V2_FP16.tflite
+!model/BirdNET_GLOBAL_6K_V2.4_Model_FP16_Labels.txt
+
+!model/l18n/
+!model/l18n/labels_en.json
+
+!tests/
+!tests/testdata/
+!tests/testdata/Pica pica_30s.wav

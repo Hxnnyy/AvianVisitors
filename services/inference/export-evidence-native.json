@@ -1,0 +1,14 @@
+{
+  "sourceChecksums": {
+    "mobilenet_v4_l_eu-common.pt": "e1a24218a2ee2c5ae3ea7247553ba09fac47bced00dd531a33c7ce06ab49f689",
+    "ssdlite320_mobilenet_v3_large_coco-a79551df.pth": "a79551df90c79834bcd3bb3845ef9d966b5449a3a9b2833ae8404778ca5d65d2"
+  },
+  "onnxChecksums": {
+    "photo-classifier.onnx": "ad3908873a31b9a3b5b6dac9b2102e17426670c727640c53eaddfcc8aa1c7328",
+    "bird-detector.onnx": "fec4295ccd42d845e715c1d14c23a285de10ac28783beeba71c283ed5f889e3f"
+  },
+  "equivalence": {
+    "robinProbabilityMaxAbsDifference": 1.57160684466362e-09,
+    "birdPresenceAbsDifference": 1.1920928955078125e-07
+  }
+}

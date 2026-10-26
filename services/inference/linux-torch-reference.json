@@ -1,0 +1,593 @@
+[
+  {
+    "name": "robin_cold",
+    "seconds": 215.617202894995,
+    "rssMiB": 767.42578125,
+    "peakMiB": 778.95703125,
+    "cgroupPeakBytes": 678051840,
+    "memoryLimitBytes": "4294967296",
+    "cpuLimit": "50000 100000",
+    "statusCode": 200,
+    "result": {
+      "status": "identified",
+      "model": "birder/mobilenet_v4_l_eu-common",
+      "scoreLabel": "Photo model confidence (uncalibrated softmax)",
+      "candidates": [
+        {
+          "scientificName": "Erithacus rubecula",
+          "commonName": "European robin",
+          "score": 0.8693594336509705,
+          "ranges": [],
+          "modelLabel": "European robin"
+        },
+        {
+          "scientificName": "Perdix perdix",
+          "commonName": "Grey partridge",
+          "score": 0.00089795928215608,
+          "ranges": [],
+          "modelLabel": "Grey partridge"
+        },
+        {
+          "scientificName": "Hirundo rustica",
+          "commonName": "Barn swallow",
+          "score": 0.0007009700057096779,
+          "ranges": [],
+          "modelLabel": "Barn swallow"
+        }
+      ],
+      "metadata": {
+        "capturedAt": null,
+        "location": null,
+        "source": "missing"
+      },
+      "warnings": [
+        "unmapped_photo_label:Red-flanked bluetail",
+        "unmapped_photo_label:Citrine wagtail"
+      ],
+      "raw": {
+        "media": {
+          "width": 748,
+          "height": 628,
+          "orientation": 1,
+          "orientedWidth": 748,
+          "orientedHeight": 628
+        },
+        "birdDetectionScore": 0.992760181427002,
+        "candidates": [
+          {
+            "modelLabel": "European robin",
+            "score": 0.8693594336509705
+          },
+          {
+            "modelLabel": "Grey partridge",
+            "score": 0.00089795928215608
+          },
+          {
+            "modelLabel": "Red-flanked bluetail",
+            "score": 0.0008240318275056779
+          },
+          {
+            "modelLabel": "Citrine wagtail",
+            "score": 0.0007100503426045179
+          },
+          {
+            "modelLabel": "Barn swallow",
+            "score": 0.0007009700057096779
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "robin_warm",
+    "seconds": 0.4140887610265054,
+    "rssMiB": 734.65625,
+    "peakMiB": 778.95703125,
+    "cgroupPeakBytes": 678051840,
+    "memoryLimitBytes": "4294967296",
+    "cpuLimit": "50000 100000",
+    "statusCode": 200,
+    "result": {
+      "status": "identified",
+      "model": "birder/mobilenet_v4_l_eu-common",
+      "scoreLabel": "Photo model confidence (uncalibrated softmax)",
+      "candidates": [
+        {
+          "scientificName": "Erithacus rubecula",
+          "commonName": "European robin",
+          "score": 0.8693594336509705,
+          "ranges": [],
+          "modelLabel": "European robin"
+        },
+        {
+          "scientificName": "Perdix perdix",
+          "commonName": "Grey partridge",
+          "score": 0.00089795928215608,
+          "ranges": [],
+          "modelLabel": "Grey partridge"
+        },
+        {
+          "scientificName": "Hirundo rustica",
+          "commonName": "Barn swallow",
+          "score": 0.0007009700057096779,
+          "ranges": [],
+          "modelLabel": "Barn swallow"
+        }
+      ],
+      "metadata": {
+        "capturedAt": null,
+        "location": null,
+        "source": "missing"
+      },
+      "warnings": [
+        "unmapped_photo_label:Red-flanked bluetail",
+        "unmapped_photo_label:Citrine wagtail"
+      ],
+      "raw": {
+        "media": {
+          "width": 748,
+          "height": 628,
+          "orientation": 1,
+          "orientedWidth": 748,
+          "orientedHeight": 628
+        },
+        "birdDetectionScore": 0.992760181427002,
+        "candidates": [
+          {
+            "modelLabel": "European robin",
+            "score": 0.8693594336509705
+          },
+          {
+            "modelLabel": "Grey partridge",
+            "score": 0.00089795928215608
+          },
+          {
+            "modelLabel": "Red-flanked bluetail",
+            "score": 0.0008240318275056779
+          },
+          {
+            "modelLabel": "Citrine wagtail",
+            "score": 0.0007100503426045179
+          },
+          {
+            "modelLabel": "Barn swallow",
+            "score": 0.0007009700057096779
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "blue_tit",
+    "seconds": 1.50809819198912,
+    "rssMiB": 777.1640625,
+    "peakMiB": 937.625,
+    "cgroupPeakBytes": 854216704,
+    "memoryLimitBytes": "4294967296",
+    "cpuLimit": "50000 100000",
+    "statusCode": 200,
+    "result": {
+      "status": "identified",
+      "model": "birder/mobilenet_v4_l_eu-common",
+      "scoreLabel": "Photo model confidence (uncalibrated softmax)",
+      "candidates": [
+        {
+          "scientificName": "Cyanistes caeruleus",
+          "commonName": "Eurasian blue tit",
+          "score": 0.8104531168937683,
+          "ranges": [],
+          "modelLabel": "Eurasian blue tit"
+        },
+        {
+          "scientificName": "Regulus ignicapilla",
+          "commonName": "Common firecrest",
+          "score": 0.004908137489110231,
+          "ranges": [],
+          "modelLabel": "Common firecrest"
+        },
+        {
+          "scientificName": "Regulus regulus",
+          "commonName": "Goldcrest",
+          "score": 0.00284583424217999,
+          "ranges": [],
+          "modelLabel": "Goldcrest"
+        }
+      ],
+      "metadata": {
+        "capturedAt": "2019-11-05T11:52:49",
+        "location": null,
+        "source": "embedded"
+      },
+      "warnings": [
+        "embedded_date_has_no_timezone",
+        "unmapped_photo_label:Azure tit",
+        "unmapped_photo_label:Madeira firecrest"
+      ],
+      "raw": {
+        "media": {
+          "width": 3540,
+          "height": 3540,
+          "orientation": 1,
+          "orientedWidth": 3540,
+          "orientedHeight": 3540
+        },
+        "birdDetectionScore": 0.9913234710693359,
+        "candidates": [
+          {
+            "modelLabel": "Eurasian blue tit",
+            "score": 0.8104531168937683
+          },
+          {
+            "modelLabel": "Azure tit",
+            "score": 0.011369612999260426
+          },
+          {
+            "modelLabel": "Common firecrest",
+            "score": 0.004908137489110231
+          },
+          {
+            "modelLabel": "Madeira firecrest",
+            "score": 0.002904582768678665
+          },
+          {
+            "modelLabel": "Goldcrest",
+            "score": 0.00284583424217999
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "great_tit",
+    "seconds": 0.6823884670156986,
+    "rssMiB": 793.53515625,
+    "peakMiB": 937.625,
+    "cgroupPeakBytes": 854761472,
+    "memoryLimitBytes": "4294967296",
+    "cpuLimit": "50000 100000",
+    "statusCode": 200,
+    "result": {
+      "status": "uncertain",
+      "model": "birder/mobilenet_v4_l_eu-common",
+      "scoreLabel": "Photo model confidence (uncalibrated softmax)",
+      "candidates": [
+        {
+          "scientificName": "Parus major",
+          "commonName": "Great tit",
+          "score": 0.2214353233575821,
+          "ranges": [],
+          "modelLabel": "Great tit"
+        }
+      ],
+      "metadata": {
+        "capturedAt": "2019-11-05T11:52:49",
+        "location": null,
+        "source": "embedded"
+      },
+      "warnings": [
+        "embedded_date_has_no_timezone",
+        "unmapped_photo_label:Unknown",
+        "unmapped_photo_label:Rosy starling",
+        "unmapped_photo_label:Eurasian golden oriole",
+        "unmapped_photo_label:Nile Valley sunbird"
+      ],
+      "raw": {
+        "media": {
+          "width": 3540,
+          "height": 3540,
+          "orientation": 1,
+          "orientedWidth": 3540,
+          "orientedHeight": 3540
+        },
+        "birdDetectionScore": 0.5538926124572754,
+        "candidates": [
+          {
+            "modelLabel": "Great tit",
+            "score": 0.2214353233575821
+          },
+          {
+            "modelLabel": "Unknown",
+            "score": 0.1004054844379425
+          },
+          {
+            "modelLabel": "Rosy starling",
+            "score": 0.09334004670381546
+          },
+          {
+            "modelLabel": "Eurasian golden oriole",
+            "score": 0.05497448146343231
+          },
+          {
+            "modelLabel": "Nile Valley sunbird",
+            "score": 0.04465813562273979
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "dog",
+    "seconds": 0.4193539209663868,
+    "rssMiB": 832.45703125,
+    "peakMiB": 937.625,
+    "cgroupPeakBytes": 854761472,
+    "memoryLimitBytes": "4294967296",
+    "cpuLimit": "50000 100000",
+    "statusCode": 200,
+    "result": {
+      "status": "no_bird",
+      "model": "birder/mobilenet_v4_l_eu-common",
+      "scoreLabel": "Photo model confidence (uncalibrated softmax)",
+      "candidates": [],
+      "metadata": {
+        "capturedAt": "2004-09-04T15:03:07",
+        "location": null,
+        "source": "embedded"
+      },
+      "warnings": [
+        "embedded_date_has_no_timezone",
+        "unmapped_photo_label:Unknown",
+        "unmapped_photo_label:Snowy owl",
+        "unmapped_photo_label:Snow goose"
+      ],
+      "raw": {
+        "media": {
+          "width": 1546,
+          "height": 1213,
+          "orientation": 1,
+          "orientedWidth": 1546,
+          "orientedHeight": 1213
+        },
+        "birdDetectionScore": 0.006134010385721922,
+        "candidates": [
+          {
+            "modelLabel": "Feral pigeon",
+            "score": 0.1269325464963913
+          },
+          {
+            "modelLabel": "Unknown",
+            "score": 0.10418766736984253
+          },
+          {
+            "modelLabel": "Long-tailed tit",
+            "score": 0.09450013935565948
+          },
+          {
+            "modelLabel": "Snowy owl",
+            "score": 0.057935137301683426
+          },
+          {
+            "modelLabel": "Snow goose",
+            "score": 0.02424965240061283
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "magpie",
+    "seconds": 24.19494856498204,
+    "rssMiB": 981.53515625,
+    "peakMiB": 1031.75390625,
+    "cgroupPeakBytes": 895164416,
+    "memoryLimitBytes": "4294967296",
+    "cpuLimit": "50000 100000",
+    "statusCode": 200,
+    "result": {
+      "status": "identified",
+      "model": "BirdNET v2.4",
+      "scoreLabel": "Audio model confidence (uncalibrated sigmoid)",
+      "candidates": [
+        {
+          "scientificName": "Pica pica",
+          "commonName": "Eurasian Magpie",
+          "modelLabel": "Pica pica",
+          "score": 0.9316401481628418,
+          "ranges": [
+            {
+              "start": 3.0,
+              "end": 6.0
+            },
+            {
+              "start": 12.0,
+              "end": 15.0
+            },
+            {
+              "start": 21.0,
+              "end": 24.0
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "geographic_filter_not_applied"
+      ],
+      "raw": {
+        "durationSeconds": 30.0,
+        "detections": [
+          {
+            "scientificName": "Pica pica",
+            "score": 0.9120185375213623,
+            "start": 3.0,
+            "end": 6.0
+          },
+          {
+            "scientificName": "Pica pica",
+            "score": 0.9316401481628418,
+            "start": 12.0,
+            "end": 15.0
+          },
+          {
+            "scientificName": "Pica pica",
+            "score": 0.8857260942459106,
+            "start": 21.0,
+            "end": 24.0
+          }
+        ]
+      },
+      "metadata": {
+        "capturedAt": null,
+        "location": null,
+        "source": "missing"
+      }
+    }
+  },
+  {
+    "name": "48mp_jpeg",
+    "seconds": 13.423387319024187,
+    "rssMiB": 984.5625,
+    "peakMiB": 1079.81640625,
+    "cgroupPeakBytes": 944484352,
+    "memoryLimitBytes": "4294967296",
+    "cpuLimit": "50000 100000",
+    "statusCode": 200,
+    "result": {
+      "status": "identified",
+      "model": "birder/mobilenet_v4_l_eu-common",
+      "scoreLabel": "Photo model confidence (uncalibrated softmax)",
+      "candidates": [
+        {
+          "scientificName": "Erithacus rubecula",
+          "commonName": "European robin",
+          "score": 0.8687539100646973,
+          "ranges": [],
+          "modelLabel": "European robin"
+        },
+        {
+          "scientificName": "Perdix perdix",
+          "commonName": "Grey partridge",
+          "score": 0.0008771655266173184,
+          "ranges": [],
+          "modelLabel": "Grey partridge"
+        },
+        {
+          "scientificName": "Hirundo rustica",
+          "commonName": "Barn swallow",
+          "score": 0.0007013410213403404,
+          "ranges": [],
+          "modelLabel": "Barn swallow"
+        }
+      ],
+      "metadata": {
+        "capturedAt": null,
+        "location": null,
+        "source": "missing"
+      },
+      "warnings": [
+        "unmapped_photo_label:Red-flanked bluetail",
+        "unmapped_photo_label:Citrine wagtail"
+      ],
+      "raw": {
+        "media": {
+          "width": 8000,
+          "height": 6000,
+          "orientation": 1,
+          "orientedWidth": 8000,
+          "orientedHeight": 6000
+        },
+        "birdDetectionScore": 0.9927485585212708,
+        "candidates": [
+          {
+            "modelLabel": "European robin",
+            "score": 0.8687539100646973
+          },
+          {
+            "modelLabel": "Grey partridge",
+            "score": 0.0008771655266173184
+          },
+          {
+            "modelLabel": "Red-flanked bluetail",
+            "score": 0.0008136381511576474
+          },
+          {
+            "modelLabel": "Citrine wagtail",
+            "score": 0.0007163092377595603
+          },
+          {
+            "modelLabel": "Barn swallow",
+            "score": 0.0007013410213403404
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "48mp_heif",
+    "seconds": 253.23868929495802,
+    "rssMiB": 958.05859375,
+    "peakMiB": 1499.8984375,
+    "cgroupPeakBytes": 1383350272,
+    "memoryLimitBytes": "4294967296",
+    "cpuLimit": "50000 100000",
+    "statusCode": 200,
+    "result": {
+      "status": "identified",
+      "model": "birder/mobilenet_v4_l_eu-common",
+      "scoreLabel": "Photo model confidence (uncalibrated softmax)",
+      "candidates": [
+        {
+          "scientificName": "Erithacus rubecula",
+          "commonName": "European robin",
+          "score": 0.869554877281189,
+          "ranges": [],
+          "modelLabel": "European robin"
+        },
+        {
+          "scientificName": "Perdix perdix",
+          "commonName": "Grey partridge",
+          "score": 0.0008816905319690704,
+          "ranges": [],
+          "modelLabel": "Grey partridge"
+        },
+        {
+          "scientificName": "Hirundo rustica",
+          "commonName": "Barn swallow",
+          "score": 0.0006982369814068079,
+          "ranges": [],
+          "modelLabel": "Barn swallow"
+        }
+      ],
+      "metadata": {
+        "capturedAt": null,
+        "location": null,
+        "source": "missing"
+      },
+      "warnings": [
+        "unmapped_photo_label:Red-flanked bluetail",
+        "unmapped_photo_label:Citrine wagtail"
+      ],
+      "raw": {
+        "media": {
+          "width": 8000,
+          "height": 6000,
+          "orientation": 1,
+          "orientedWidth": 8000,
+          "orientedHeight": 6000
+        },
+        "birdDetectionScore": 0.9927743673324585,
+        "candidates": [
+          {
+            "modelLabel": "European robin",
+            "score": 0.869554877281189
+          },
+          {
+            "modelLabel": "Grey partridge",
+            "score": 0.0008816905319690704
+          },
+          {
+            "modelLabel": "Red-flanked bluetail",
+            "score": 0.0008106100140139461
+          },
+          {
+            "modelLabel": "Citrine wagtail",
+            "score": 0.0007056161412037909
+          },
+          {
+            "modelLabel": "Barn swallow",
+            "score": 0.0006982369814068079
+          }
+        ]
+      }
+    }
+  }
+]
