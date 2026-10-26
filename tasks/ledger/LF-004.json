@@ -1,7 +1,10 @@
 {
   "rigor_class": "production-transferable",
-  "status": "open",
-  "evidence": [],
+  "status": "done",
+  "evidence": [
+    "44 reviewed illustrations and generated silhouette masks. Author renderer tests: 6 pass; catalogue tests: 4 pass. Actual confirmed Robin API frame is 480x800 and matches device image bytes; settings create a new revision and acknowledgement persists.",
+    "Independent device review PASS with 6 tests: last-good preservation, atomic state, dimension checks, acknowledgement ordering and retry, same-origin routing. Physical panel and Pi setup remain pending."
+  ],
   "blockedBy": [],
   "notes": "User requires gpt-6.1-sol implementation and independent audit.",
   "id": "LF-004",
@@ -16,5 +19,5 @@
     "artwork",
     "app/public"
   ],
-  "check": "480x800 image preview, three modes, deterministic revisions, independent device dry run/reboot/cache failure tests; hardware check pending."
+  "check": "480x800 image preview, three modes, deterministic revisions, independent device dry run/reboot/cache failure tests; hardware check pending. Verify artwork reuse terms, canonical species mapping, missing-art placeholder, autonomous rotation and London week boundaries. Renderer owns composition/schedule rules; Worker owns invocation, storage/revision publication."
 }

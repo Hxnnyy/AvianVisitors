@@ -1,6 +1,6 @@
 Build a private mobile web app for Joe and his mum that turns captured birdsong and photographs into a confirmed bird collection and an illustrated e-ink collage. Preserve AvianVisitors’ existing visual language. The birthday deadline is **7 November 2026**; target a complete working system by **4 November**, with 5–6 November reserved for physical testing and setup.
 
-The product choices below are settled through the interview. Hosting, model selection, and operational defaults are proposals where labelled. This is a specification and implementation plan; application implementation and deployment have not started.
+Implementation update, 26 October: the mobile journal, real audio/photo identification, confirmation and correction, private media API, 44 illustrations, portrait renderer and Pi client are built on the birthday-webapp branch. Independent local walkthrough and code reviews pass. Source-matched Linux containers and the complete local photo/audio-to-frame flow have passed. Hosted timing remains a release gate. The personal Cloudflare organisation is selected; CLI authorisation and Workers Paid setup are pending, and no cloud resources have been created. Actual iPhone and physical Pi/display checks remain pending. This specification records the agreed scope and original proposals; repository deployment, model-evidence and delivery records track current implementation.
 
 # Agreed product scope
 
@@ -161,3 +161,5 @@ App name, personal dedication, domain, and the proposed display defaults can be 
 Excluded from the birthday scope: native mobile apps; App Store distribution; continuous/background listening; standalone manual sightings; automatic confirmation; offline processing or an offline upload queue; automatic identification of every bird in a photograph; public/family sharing; and displaying original capture photographs on the frame.
 
 Implementation begins only after Joe ends the planning phase and authorises the build.
+
+

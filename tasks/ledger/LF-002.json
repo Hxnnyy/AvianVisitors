@@ -1,7 +1,10 @@
 {
   "rigor_class": "production-transferable",
-  "status": "open",
-  "evidence": [],
+  "status": "done",
+  "evidence": [
+    "Independent walkthrough cycle 2 PASS on the built local preview: real Robin score 0.869 and confirmation, original media/history, metadata survives reload, evidence-linked manual correction, required metadata, deletion and persistent display settings. Mobile CSS viewport 390x844; some DOM activation due pointer automation stalls. Test fixtures cleaned through the normal API. Physical iPhone and hosted Access remain unverified.",
+    "Seven frontend tests and TypeScript pass. Final score copy preserves the exact score and moves technical provenance into collapsed details."
+  ],
   "blockedBy": [],
   "notes": "User requires gpt-6.1-sol implementation and independent audit.",
   "id": "LF-002",

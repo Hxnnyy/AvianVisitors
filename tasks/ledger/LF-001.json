@@ -1,7 +1,9 @@
 {
   "rigor_class": "production-transferable",
-  "status": "open",
-  "evidence": [],
+  "status": "done",
+  "evidence": [
+    "Checkpoint 3ebbba4: backend, contracts and migrations. Fresh independent security review PASS; 26 integrated app tests pass. Independent Miniflare probes verified metadata propagation, stale-lease retries, late-result fencing, missing photo GPS and foreground inference lifetime. Hosted Access remains unverified."
+  ],
   "blockedBy": [],
   "notes": "User requires gpt-6.1-sol implementation and independent audit.",
   "id": "LF-001",
@@ -17,7 +19,11 @@
     "app/shared",
     "app/migrations",
     "app/package.json",
-    "app/wrangler.jsonc"
+    "app/wrangler.jsonc",
+    "app/package-lock.json",
+    "app/vite.config.ts",
+    "app/tsconfig.json",
+    "docs/API_CONTRACT.md"
   ],
-  "check": "API integration tests exercise upload privacy, confirmation, correction, retry deduplication, deletion and persisted collection."
+  "check": "API integration tests exercise upload privacy, confirmation, correction, retry deduplication, deletion and persisted collection. Verify metadata precedence/missing metadata states and shared-recording deletion through API."
 }

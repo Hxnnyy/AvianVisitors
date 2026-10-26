@@ -1,7 +1,11 @@
 {
   "rigor_class": "production-transferable",
-  "status": "open",
-  "evidence": [],
+  "status": "in_progress",
+  "evidence": [
+    "Built mobile browser walkthrough PASS; independent backend, inference, recovery and device reviews PASS. Worker deployment dry-run passed without upload. Live Compose runs current source-matched inference and renderer.",
+    "Normal API photo/audio capture, explicit confirmation and original-byte checks passed. Expected two-species frame revision published in 0.519s; expected empty revision after deletion in 0.520s. Collection and captures are empty. No physical acknowledgement simulated.",
+    "Four recovery tests pass. Personal Cloudflare authorisation/paid plan, hosted Access/cold timing and real cloud restore are pending. No cloud resources created."
+  ],
   "blockedBy": [
     "LF-001",
     "LF-002",
@@ -24,5 +28,5 @@
     "docs",
     "scripts/birthday"
   ],
-  "check": "Full browser-to-model-to-confirmation-to-PNG journey, private access denial, backup/restore drill and hosted smoke test when account available."
+  "check": "Full browser-to-model-to-confirmation-to-PNG journey, private access denial, backup/restore drill and hosted smoke test when account available. Include repeatable deployment, database plus media restore, limits/spending controls, restricted device credentials and setup docs."
 }

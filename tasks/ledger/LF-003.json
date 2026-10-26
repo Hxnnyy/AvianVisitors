@@ -1,7 +1,10 @@
 {
   "rigor_class": "production-transferable",
-  "status": "open",
-  "evidence": [],
+  "status": "done",
+  "evidence": [
+    "Independent inference review PASS: 13 native tests. Final source-matched Linux image passes 13 tests, with no Torch/Birder runtime. Exported networks preserve reference outputs.",
+    "Actual HTTP under 0.5 CPU / 4 GiB passed photo, audio, 48MP JPEG/HEIF and authentication checks; no OOM. HEIF took 108.91 seconds locally, close to the 120-second timeout. See MODEL_EVIDENCE.md and runtime-proof.json. Hosted and actual iPhone acceptance remain pending."
+  ],
   "blockedBy": [],
   "notes": "User requires gpt-6.1-sol implementation and independent audit.",
   "id": "LF-003",
@@ -13,5 +16,5 @@
   "files": [
     "services/inference"
   ],
-  "check": "Real audio fixture reproduces magpie results; real photo inference provides species candidates and scores; bad/no-bird input handling and upload format tests."
+  "check": "Real audio fixture reproduces magpie results; real photo inference provides species candidates and scores; bad/no-bird input handling and upload format tests. Own metadata extraction, orientation and HEIC decoding; test labelled UK/lookalike/non-bird photos, abstention, latency/memory, audio aggregation/time ranges."
 }
