@@ -1,0 +1,20 @@
+{
+  "rigor_class": "production-transferable",
+  "status": "open",
+  "evidence": [],
+  "blockedBy": [],
+  "notes": "User requires gpt-6.1-sol implementation and independent audit.",
+  "id": "LF-004",
+  "title": "Render faithful UK bird collages and device delivery",
+  "promises": [
+    4,
+    5
+  ],
+  "files": [
+    "app/renderer",
+    "device",
+    "artwork",
+    "app/public"
+  ],
+  "check": "480x800 image preview, three modes, deterministic revisions, independent device dry run/reboot/cache failure tests; hardware check pending."
+}

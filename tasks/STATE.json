@@ -1,0 +1,76 @@
+{
+  "schema_version": "metawatch-longflow-5.0",
+  "tier": "T2",
+  "mode": "interactive",
+  "status": "in_progress",
+  "directive": null,
+  "prd": "docs/PRODUCT_SPEC.md",
+  "next_action": "Run coverage audit, then dispatch scoped implementation agents.",
+  "decisions": [
+    "P1-P5: Owner explicitly requires GPT-6.1-Sol subagents for all implementation and audit. Root orchestrates, provisions authorised infrastructure, integrates Git, and maintains delivery records only.",
+    "P1-P5: Shared checkout on birthday-webapp branch. Agents own disjoint paths; no agent commits, pushes, or spawns further agents.",
+    "P4: Keep upstream collage design, portrait 480x800, generated PNG downloaded by Pi 3 A+; physical device unavailable until Wednesday.",
+    "P5: Cloudflare direct deployment is candidate. Available account is inploi Limited; user clarification pending before creating any cloud resources. Continue local implementation independently.",
+    "P1-P5: Sites hosted authentication/runtime is not selected; build deployable standalone repo per accepted Cloudflare/Python plan.",
+    "P2: BirdNET v2.4 raw Linux inference verified in planning. Birder eu-common photo model remains to be run and evaluated; no invented confidence."
+  ],
+  "promises": [
+    {
+      "number": 1,
+      "summary": "Mum and Joe can privately capture/upload a photo (one selected bird with crop/zoom) or a recording (stop early or 60-second cap), with capture date/location retained or corrected.",
+      "status": "open",
+      "evidence": {
+        "verified_at_sha": null,
+        "references": [],
+        "scope": []
+      },
+      "review_cycles": 0
+    },
+    {
+      "number": 2,
+      "summary": "Every bird identification shows an honest model score and needs confirmation; rejected identifications can be corrected by catalogue search attached to evidence. No standalone manual entries.",
+      "status": "open",
+      "evidence": {
+        "verified_at_sha": null,
+        "references": [],
+        "scope": []
+      },
+      "review_cycles": 0
+    },
+    {
+      "number": 3,
+      "summary": "Confirmed sightings form a persistent collection with original photos/recordings, history, and deletion; retries do not duplicate entries.",
+      "status": "open",
+      "evidence": {
+        "verified_at_sha": null,
+        "references": [],
+        "scope": []
+      },
+      "review_cycles": 0
+    },
+    {
+      "number": 4,
+      "summary": "The web app preserves AvianVisitors' illustrated design and controls a 480x800 portrait collage in weekly, all-time rotation, and manual up-to-six modes; a Pi 3 A+ fetches changed images and retains its last good display.",
+      "status": "open",
+      "evidence": {
+        "verified_at_sha": null,
+        "references": [],
+        "scope": []
+      },
+      "review_cycles": 0
+    },
+    {
+      "number": 5,
+      "summary": "The system is operable as a hosted private web app with a recoverable data store, repeatable deployment, and a device setup guide; meaningful tests and independent audits prove the software. Physical Pi/panel checks remain pending until delivery.",
+      "status": "open",
+      "evidence": {
+        "verified_at_sha": null,
+        "references": [],
+        "scope": []
+      },
+      "review_cycles": 0
+    }
+  ],
+  "block_reason": null,
+  "closeout": null
+}

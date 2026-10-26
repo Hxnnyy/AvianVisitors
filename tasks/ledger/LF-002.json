@@ -1,0 +1,20 @@
+{
+  "rigor_class": "production-transferable",
+  "status": "open",
+  "evidence": [],
+  "blockedBy": [],
+  "notes": "User requires gpt-6.1-sol implementation and independent audit.",
+  "id": "LF-002",
+  "title": "Deliver mobile capture and collection experience",
+  "promises": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "files": [
+    "app/client",
+    "app/index.html"
+  ],
+  "check": "Browser walkthrough photo crop/upload/review/confirm/correct, audio cap, collection history, frame settings; desktop and mobile viewports."
+}

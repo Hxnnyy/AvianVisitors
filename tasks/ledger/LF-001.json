@@ -1,0 +1,23 @@
+{
+  "rigor_class": "production-transferable",
+  "status": "open",
+  "evidence": [],
+  "blockedBy": [],
+  "notes": "User requires gpt-6.1-sol implementation and independent audit.",
+  "id": "LF-001",
+  "title": "Deliver private capture and confirmed sighting API",
+  "promises": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "files": [
+    "app/server",
+    "app/shared",
+    "app/migrations",
+    "app/package.json",
+    "app/wrangler.jsonc"
+  ],
+  "check": "API integration tests exercise upload privacy, confirmation, correction, retry deduplication, deletion and persisted collection."
+}

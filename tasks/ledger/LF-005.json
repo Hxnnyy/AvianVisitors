@@ -1,0 +1,28 @@
+{
+  "rigor_class": "production-transferable",
+  "status": "open",
+  "evidence": [],
+  "blockedBy": [
+    "LF-001",
+    "LF-002",
+    "LF-003",
+    "LF-004"
+  ],
+  "notes": "User requires gpt-6.1-sol implementation and independent audit.",
+  "id": "LF-005",
+  "title": "Integrate and deploy the private app with recovery",
+  "promises": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "files": [
+    "app",
+    "services",
+    "docs",
+    "scripts/birthday"
+  ],
+  "check": "Full browser-to-model-to-confirmation-to-PNG journey, private access denial, backup/restore drill and hosted smoke test when account available."
+}

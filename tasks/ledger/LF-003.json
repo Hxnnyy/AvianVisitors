@@ -1,0 +1,17 @@
+{
+  "rigor_class": "production-transferable",
+  "status": "open",
+  "evidence": [],
+  "blockedBy": [],
+  "notes": "User requires gpt-6.1-sol implementation and independent audit.",
+  "id": "LF-003",
+  "title": "Run real image and audio identification",
+  "promises": [
+    1,
+    2
+  ],
+  "files": [
+    "services/inference"
+  ],
+  "check": "Real audio fixture reproduces magpie results; real photo inference provides species candidates and scores; bad/no-bird input handling and upload format tests."
+}
