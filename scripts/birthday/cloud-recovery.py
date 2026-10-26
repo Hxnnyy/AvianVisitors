@@ -45,7 +45,7 @@ class Cloud:
         return output[0]['results']
 
     def export_sql(self, destination):
-        self.run(self.wrangler + ['d1','export','DB','--remote','--output',str(destination),'--config',str(self.config),'--profile',self.profile])
+        self.run(self.wrangler + ['d1','export','DB','--remote','--skip-confirmation','--output',str(destination),'--config',str(self.config),'--profile',self.profile])
 
     def import_sql(self, source):
         self.run(self.wrangler + ['d1','execute','DB','--remote','--file',str(source),'--yes','--config',str(self.config),'--profile',self.profile])
@@ -148,7 +148,8 @@ def main():
     destination=args.snapshot.resolve()
     if args.operation=='backup' and destination.exists():
         parser.error('backup snapshot destination must not exist')
-    with tempfile.TemporaryDirectory(prefix='avian-recovery-') as directory:
+    (ROOT / '.wrangler').mkdir(exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix='avian-recovery-', dir=ROOT / '.wrangler') as directory:
         staging=Path(directory)
         cloud=Cloud(args.account_id,args.database_id,args.bucket,args.profile,staging)
         if args.operation=='backup': export_cloud(cloud,destination,staging)

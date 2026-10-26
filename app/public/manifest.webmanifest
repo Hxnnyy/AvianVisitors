@@ -1,0 +1,19 @@
+{
+  "id": "/",
+  "name": "Your birds · Avian Visitors",
+  "short_name": "Your birds",
+  "description": "Your private bird journal and illustrated visitors.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fcfcfb",
+  "theme_color": "#fcfcfb",
+  "icons": [
+    {
+      "src": "/icons/bird-256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

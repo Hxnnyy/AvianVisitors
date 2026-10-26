@@ -47,6 +47,7 @@ class CloudRecoveryTest(unittest.TestCase):
         self.assertIn('--file',calls[2][0])
         self.assertIn('--dry-run',calls[2][0])
         self.assertIn('--remote',calls[4][0])
+        self.assertIn('--skip-confirmation',calls[4][0])
         self.assertIn('--remote',calls[5][0])
     def test_export_and_fresh_restore_recover_real_schema_sighting_and_original(self):
         with tempfile.TemporaryDirectory() as directory:
