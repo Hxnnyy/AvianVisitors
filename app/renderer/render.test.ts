@@ -1,6 +1,6 @@
 import { expect,it } from 'vitest';
 import { renderPng } from './raster';
-import { renderSvg } from './composition';
+import { renderPairingSvg, renderSvg } from './composition';
 import { layout } from './layout';
 it('rasterizes a real portrait PNG, including honest empty state',async()=>{
  const request={width:480 as const,height:800 as const,species:[],showNames:true};
@@ -27,4 +27,15 @@ it('shows missing artwork explicitly and escapes labels',()=>{
  const svg=renderSvg({width:480,height:800,showNames:false,species:[{id:'a',commonName:'Robin & <friend>',scientificName:'Erithacus rubecula',artworkUrl:null}]});
  expect(svg).toContain('Illustration unavailable');
  expect(svg).toContain('Robin &amp; &lt;friend&gt;');
+});
+it('renders a scannable-size pairing QR as a normal portrait frame',async()=>{
+ const request={pairingUrl:'https://birds.example/#pair=AbCdEfGhIjKlMnOpQrStUvWxYz0123456789-_abcde',width:480 as const,height:800 as const};
+ const svg=renderPairingSvg(request);
+ expect(svg).toContain('Scan to set up your bird journal');
+ const cell=Number(/h(\d+)v/.exec(svg)?.[1]);
+ expect(cell).toBeGreaterThanOrEqual(8);
+ const png=await renderPng(request,'public');
+ const header=new DataView(png.buffer,png.byteOffset,png.byteLength);
+ expect([header.getUint32(16),header.getUint32(20)]).toEqual([480,800]);
+ expect(()=>renderPairingSvg({...request,pairingUrl:'javascript:alert(1)'})).toThrow();
 });

@@ -72,6 +72,9 @@ beforeAll(async () => {
     ),
   );
   await env.DB.exec(
+    "CREATE TABLE auth(id INTEGER PRIMARY KEY CHECK(id=1),session_key TEXT NOT NULL,pairing_token TEXT,pairing_expires_at TEXT,paired_at TEXT); INSERT INTO auth VALUES(1,'test-key',NULL,NULL,'2026-01-01T00:00:00Z');",
+  );
+  await env.DB.exec(
     "CREATE TABLE species_aliases(alias TEXT PRIMARY KEY COLLATE NOCASE,species_id TEXT);",
   );
   await env.DB.exec(
@@ -352,7 +355,7 @@ describe("private capture journal", () => {
     expect(crossSite.status).toBe(403);
   });
 
-  it("denies private media and spoofed email, and limits device credentials", async () => {
+  it("denies private media and forged sessions, and limits device credentials", async () => {
     expect((await call("/api/captures", "GET", undefined, false)).status).toBe(
       401,
     );
@@ -361,7 +364,7 @@ describe("private capture journal", () => {
         await worker.fetch(
           new Request("http://127.0.0.1:8787/api/collection", {
             headers: {
-              "Cf-Access-Authenticated-User-Email": "mum@example.test",
+              Cookie: "av_session=v1.1767225600.forged",
             },
           }),
           env,

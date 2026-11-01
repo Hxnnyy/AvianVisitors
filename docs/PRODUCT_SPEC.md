@@ -87,7 +87,7 @@ Cloudflare is the first candidate because the app, database, media, and on-deman
 
 Device polling must not wake the inference/rendering container. Persist processing jobs before running them; expose progress and recoverable failure states. Keep media private and validate authentication on every relevant endpoint. Give the device access only to its display content and status endpoint.
 
-For sign-in, evaluate email-code access restricted to the two users with a remembered session. Cloudflare Access is a candidate: verify the experience in both Safari and Home Screen mode before committing to it. It supports email PINs and configurable sessions up to one month. [Access email PIN](https://developers.cloudflare.com/cloudflare-one/integrations/identity-providers/one-time-pin/), [session settings](https://developers.cloudflare.com/cloudflare-one/access-controls/access-settings/session-management/)
+Sign-in (decided 1 November): no email codes. Until a phone is paired the frame shows a QR code; scanning it signs the phone in for a year (renewed while in use) and the frame switches to the birds. Settings can pair another phone or the Home Screen app, or sign every phone out. Details in DEPLOYMENT.md.
 
 The data model needs only a small set of concepts: **Species**, **Capture**, **Identification result**, **Sighting**, and **Frame settings/state**. A capture owns media and capture metadata; a sighting links a confirmed species to that capture. Audio can produce multiple sightings. Store stable species IDs and map scientific-name aliases across BirdNET, the photo model, artwork, and British common names.
 

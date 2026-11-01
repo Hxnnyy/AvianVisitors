@@ -7,4 +7,4 @@
 .review-places{margin:15px 0}.review-places span{display:block;margin-bottom:8px}.review-places button{font-size:13px;padding:8px 13px;margin-right:8px}
 [hidden]{display:none!important}
 .candidate-art{display:block;width:130px;height:110px;object-fit:contain;margin-bottom:14px}.candidate>div{min-width:0}.candidate i{overflow-wrap:anywhere}
-.candidate .score{font-size:13px;line-height:1.5;color:var(--ink-2)}
+.candidate .score{font-size:13px;line-height:1.5;color:var(--ink-2)}.paired-banner{max-width:550px;margin:16px auto 0;padding:12px 18px;border:1px solid var(--line);border-radius:12px;background:var(--paper-2);color:#3e5d36}.phones{display:flex;flex-direction:column;align-items:flex-start;gap:10px;margin:18px 0}.pairing-link{border-block:1px solid var(--line);padding:12px 0}

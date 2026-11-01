@@ -1,11 +1,12 @@
 import { createServer } from 'node:http';
 import { timingSafeEqual } from 'node:crypto';
 import { renderPng } from './raster';
-import type { RenderRequest } from './composition';
+import type { PairingRequest, RenderRequest } from './composition';
 
 const token = process.env.RENDERER_TOKEN;
 if (!token) throw new Error('RENDERER_TOKEN is required');
-function validRequest(value: unknown): value is RenderRequest {
+function validRequest(value: unknown): value is RenderRequest | PairingRequest {
+  if (value && typeof value === 'object' && 'pairingUrl' in value) return typeof value.pairingUrl === 'string' && 'width' in value && value.width === 480 && 'height' in value && value.height === 800;
   if (!value || typeof value !== 'object' || !('species' in value) || !('width' in value) || !('height' in value) || !('showNames' in value)) return false;
   return value.width === 480 && value.height === 800 && typeof value.showNames === 'boolean' && Array.isArray(value.species) && value.species.length <= 6 && value.species.every(s=>s && typeof s==='object' && typeof s.id==='string' && typeof s.commonName==='string' && s.commonName.length<=100 && typeof s.scientificName==='string' && (s.artworkUrl===null || typeof s.artworkUrl==='string'));
 }

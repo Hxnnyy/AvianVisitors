@@ -40,6 +40,6 @@ The portable tool cannot read Miniflare's internal R2 SQLite/blob format directl
 
 Back up before each release/schema change and weekly while in use. Keep at least the latest three good dated snapshots plus one off-machine copy. Verify immediately after copying, and periodically restore to an isolated directory. The proposed weekly schedule means up to one week's new sightings/media could be lost; increase frequency if that is unacceptable.
 
-On failure, retain the live state and logs, stop writes, verify the newest snapshot, restore into isolated resources and validate row counts, evidence playback, collection and frame. Only then switch bindings. Rotate device/service credentials if exposed. A forgotten phone sign-in can be recovered through Access email PIN; do not relax the two-user allowlist. If the Pi loses network, its last good image remains; see the device setup guide for its restart and acknowledgement behaviour.
+On failure, retain the live state and logs, stop writes, verify the newest snapshot, restore into isolated resources and validate row counts, evidence playback, collection and frame. Only then switch bindings. Rotate device/service credentials if exposed. A signed-out phone is re-paired from Settings on another signed-in phone, or by the break-glass reset in DEPLOYMENT.md, which makes the frame show a QR. If the Pi loses network, its last good image remains; see the device setup guide for its restart and acknowledgement behaviour.
 
 

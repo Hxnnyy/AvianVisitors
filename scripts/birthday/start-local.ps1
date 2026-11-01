@@ -13,6 +13,7 @@ INFERENCE_TOKEN=$(New-LocalToken)
 RENDERER_TOKEN=$(New-LocalToken)
 INFERENCE_URL=http://127.0.0.1:8081
 RENDERER_URL=http://127.0.0.1:8082
+APP_ORIGIN=http://127.0.0.1:5173
 "@ | Set-Content $vars
     Write-Host 'Created isolated local credentials in app/.dev.vars. Do not use them in production.'
 }

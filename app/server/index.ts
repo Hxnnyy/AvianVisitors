@@ -1,6 +1,5 @@
 import { selectSpecies } from "../renderer/schedule";
 import { serviceRequest, type ServiceEnvironment } from "./service-request";
-import { createRemoteJWKSet, jwtVerify } from "jose";
 import type {
   Capture,
   CaptureMetadata,
@@ -18,9 +17,6 @@ export interface Env extends ServiceEnvironment {
   ENVIRONMENT?: string;
   APP_ORIGIN?: string;
   LOCAL_AUTH_TOKEN?: string;
-  ALLOWED_EMAILS?: string;
-  ACCESS_ISSUER?: string;
-  ACCESS_AUDIENCE?: string;
   DEVICE_TOKEN?: string;
   INFERENCE_URL?: string;
   INFERENCE_TOKEN?: string;
@@ -100,10 +96,57 @@ const sighting = (r: SightingRow): Sighting => ({
   location: JSON.parse(r.location),
   createdAt: r.created_at,
 });
+const SESSION_COOKIE = "av_session";
+const SESSION_MAX_AGE_SECONDS = 365 * 24 * 60 * 60;
+const SESSION_REFRESH_AFTER_SECONDS = 30 * 24 * 60 * 60;
+const encoder = new TextEncoder();
+function base64url(bytes: ArrayBuffer): string {
+  return btoa(String.fromCharCode(...new Uint8Array(bytes)))
+    .replace(/\+/g, "-")
+    .replace(/\//g, "_")
+    .replace(/=+$/, "");
+}
+function fromBase64url(value: string): Uint8Array<ArrayBuffer> | null {
+  if (!/^[A-Za-z0-9_-]+$/.test(value)) return null;
+  const binary = atob(value.replace(/-/g, "+").replace(/_/g, "/"));
+  return Uint8Array.from(binary, (c) => c.charCodeAt(0));
+}
+const PAIRING_LIFETIME_MS = 60 * 60 * 1000;
+type AuthRow = {
+  session_key: string;
+  pairing_token: string | null;
+  pairing_expires_at: string | null;
+  paired_at: string | null;
+};
+async function auth(env: Env): Promise<AuthRow> {
+  const row = await env.DB.prepare("SELECT * FROM auth WHERE id=1").first<AuthRow>();
+  if (!row) throw new Error("Auth database not initialized");
+  return row;
+}
+const randomToken = () => base64url(crypto.getRandomValues(new Uint8Array(32)).buffer);
+const hmacKey = (secret: string) =>
+  crypto.subtle.importKey(
+    "raw",
+    encoder.encode(secret),
+    { name: "HMAC", hash: "SHA-256" },
+    false,
+    ["sign", "verify"],
+  );
+const sessionPayload = (issuedAt: number) => encoder.encode(`session.v1.${issuedAt}`);
+async function sessionCookie(sessionKey: string): Promise<string> {
+  const issuedAt = Math.floor(Date.now() / 1000);
+  const signature = await crypto.subtle.sign(
+    "HMAC",
+    await hmacKey(sessionKey),
+    sessionPayload(issuedAt),
+  );
+  return `${SESSION_COOKIE}=v1.${issuedAt}.${base64url(signature)}; Max-Age=${SESSION_MAX_AGE_SECONDS}; Path=/; HttpOnly; Secure; SameSite=Lax`;
+}
+/** Returns the session's issue time (seconds), or null when the request is not signed in. */
 async function authenticated(
   request: Request,
   env: Env,
-): Promise<string | null> {
+): Promise<number | null> {
   const bearer = request.headers.get("Authorization");
   if (
     env.ENVIRONMENT === "local" &&
@@ -113,29 +156,56 @@ async function authenticated(
     env.LOCAL_AUTH_TOKEN &&
     bearer === `Bearer ${env.LOCAL_AUTH_TOKEN}`
   )
-    return "local@example.invalid";
-  const token = request.headers.get("Cf-Access-Jwt-Assertion");
-  if (!token || !env.ACCESS_ISSUER || !env.ACCESS_AUDIENCE) return null;
-  try {
-    const issuer = env.ACCESS_ISSUER.replace(/\/$/, "");
-    const result = await jwtVerify(
-      token,
-      createRemoteJWKSet(new URL(`${issuer}/cdn-cgi/access/certs`)),
-      { issuer, audience: env.ACCESS_AUDIENCE },
-    );
-    const email = result.payload.email;
-    const allowed = (env.ALLOWED_EMAILS ?? "")
-      .split(",")
-      .map((s) => s.trim().toLowerCase())
-      .filter(Boolean);
-    return typeof email === "string" &&
-      allowed.length === 2 &&
-      allowed.includes(email.toLowerCase())
-      ? email
-      : null;
-  } catch {
+    return Math.floor(Date.now() / 1000);
+  const cookie = (request.headers.get("Cookie") ?? "")
+    .split(";")
+    .map((part) => part.trim())
+    .find((part) => part.startsWith(`${SESSION_COOKIE}=`));
+  if (!cookie) return null;
+  const [version, issued, signature] = cookie.slice(SESSION_COOKIE.length + 1).split(".");
+  const issuedAt = Number(issued);
+  const signatureBytes = signature ? fromBase64url(signature) : null;
+  const age = Math.floor(Date.now() / 1000) - issuedAt;
+  if (
+    version !== "v1" ||
+    !/^\d+$/.test(issued ?? "") ||
+    !signatureBytes ||
+    age < -300 ||
+    age > SESSION_MAX_AGE_SECONDS
+  )
     return null;
-  }
+  const valid = await crypto.subtle.verify(
+    "HMAC",
+    await hmacKey((await auth(env)).session_key),
+    signatureBytes,
+    sessionPayload(issuedAt),
+  );
+  return valid ? issuedAt : null;
+}
+/** Starts a single-use pairing; the frame shows it as a QR code until it is used or expires. */
+async function startPairing(env: Env): Promise<{ url: string; expiresAt: string }> {
+  const token = randomToken();
+  const expiresAt = new Date(Date.now() + PAIRING_LIFETIME_MS).toISOString();
+  await env.DB.batch([
+    env.DB.prepare("UPDATE auth SET pairing_token=?,pairing_expires_at=? WHERE id=1").bind(token, expiresAt),
+    env.DB.prepare("UPDATE frame SET dirty=dirty+1 WHERE id=1"),
+  ]);
+  return { url: pairingLink(env, token), expiresAt };
+}
+function pairingLink(env: Env, token: string): string {
+  if (!env.APP_ORIGIN) throw new Error("APP_ORIGIN is required to show a pairing code");
+  return `${env.APP_ORIGIN}/#pair=${token}`;
+}
+/** The pairing URL the frame should show now, if any. While no phone is paired a fresh code replaces an expired one. */
+async function framePairingUrl(env: Env): Promise<string | null> {
+  const row = await auth(env);
+  const live = row.pairing_token && row.pairing_expires_at && Date.parse(row.pairing_expires_at) > Date.now();
+  if (live) return pairingLink(env, row.pairing_token!);
+  if (row.pairing_token)
+    await env.DB.prepare("UPDATE auth SET pairing_token=NULL,pairing_expires_at=NULL WHERE id=1 AND pairing_token=?")
+      .bind(row.pairing_token)
+      .run();
+  return row.paired_at ? null : (await startPairing(env)).url;
 }
 function metadata(value: unknown): CaptureMetadata {
   if (typeof value !== "object" || value === null)
@@ -415,9 +485,50 @@ async function route(
     )
       throw new HttpError(403, "Request origin is not allowed");
   }
-  const email = await authenticated(request, env);
-  if (!email) throw new HttpError(401, "Sign in required");
-  if (path === "/api/session" && method === "GET") return json({ email });
+  if (path === "/api/pair" && method === "POST") {
+    const body = (await request.json()) as { token?: unknown };
+    const now = new Date().toISOString();
+    const claimed =
+      typeof body.token === "string" && body.token.length <= 100
+        ? await env.DB.prepare(
+            "UPDATE auth SET pairing_token=NULL,pairing_expires_at=NULL,paired_at=COALESCE(paired_at,?) WHERE id=1 AND pairing_token=? AND pairing_expires_at>?",
+          )
+            .bind(now, body.token, now)
+            .run()
+        : null;
+    if (!claimed?.meta.changes)
+      throw new HttpError(401, "This code has expired or was already used");
+    await env.DB.prepare("UPDATE frame SET dirty=dirty+1 WHERE id=1").run();
+    ctx.waitUntil(renderFrame(env));
+    return new Response(null, {
+      status: 204,
+      headers: { "Set-Cookie": await sessionCookie((await auth(env)).session_key), "Cache-Control": "no-store" },
+    });
+  }
+  const issuedAt = await authenticated(request, env);
+  if (issuedAt === null) throw new HttpError(401, "Sign in required");
+  if (path === "/api/session" && method === "GET") {
+    const response = json({ signedIn: true });
+    if (Date.now() / 1000 - issuedAt > SESSION_REFRESH_AFTER_SECONDS)
+      response.headers.set("Set-Cookie", await sessionCookie((await auth(env)).session_key));
+    return response;
+  }
+  if (path === "/api/pairing" && method === "POST") {
+    const pairing = await startPairing(env);
+    ctx.waitUntil(renderFrame(env));
+    return json(pairing);
+  }
+  if (path === "/api/pairing/reset" && method === "POST") {
+    await env.DB.batch([
+      env.DB.prepare("UPDATE auth SET session_key=?,paired_at=NULL,pairing_token=NULL,pairing_expires_at=NULL WHERE id=1").bind(randomToken()),
+      env.DB.prepare("UPDATE frame SET dirty=dirty+1 WHERE id=1"),
+    ]);
+    ctx.waitUntil(renderFrame(env));
+    return new Response(null, {
+      status: 204,
+      headers: { "Set-Cookie": `${SESSION_COOKIE}=; Max-Age=0; Path=/; HttpOnly; Secure; SameSite=Lax` },
+    });
+  }
   if (path === "/api/species" && method === "GET") {
     const q = (url.searchParams.get("q") ?? "").slice(0, 100);
     const rows = await env.DB.prepare(
@@ -773,6 +884,7 @@ export async function renderFrame(env: Env) {
       "SELECT * FROM frame WHERE id=1",
     ).first<FrameRow>();
     if (!row) return;
+    const pairingUrl = await framePairingUrl(env);
     const settings: FrameSettings = JSON.parse(row.settings);
     const speciesRows = await env.DB.prepare(
       "SELECT DISTINCT species.* FROM species JOIN sightings ON sightings.species_id=species.id ORDER BY common_name",
@@ -799,12 +911,11 @@ export async function renderFrame(env: Env) {
         .bind(JSON.stringify(settings))
         .run();
     }
-    const content = JSON.stringify({
-      species: selected,
-      showNames: settings.showNames,
-      width: 480,
-      height: 800,
-    });
+    const content = JSON.stringify(
+      pairingUrl
+        ? { pairingUrl, width: 480, height: 800 }
+        : { species: selected, showNames: settings.showNames, width: 480, height: 800 },
+    );
     const hash = await crypto.subtle.digest(
       "SHA-256",
       new TextEncoder().encode(content),

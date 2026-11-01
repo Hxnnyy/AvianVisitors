@@ -1,7 +1,10 @@
 # Private API contract
-All `/api/*` routes require a verified Cloudflare Access JWT (configured issuer/audience and exactly two allowed emails). Local-only development can use a configured bearer token when ENVIRONMENT=local; never enabled in production. Device routes use a separate bearer credential and cannot access user routes. JSON errors are `{error:string}`.
+All `/api/*` routes except `POST /api/pair` require a valid signed `av_session` cookie (see security.md). Local-only development can use a configured bearer token when ENVIRONMENT=local; never enabled in production. Device routes use a separate bearer credential and cannot access user routes. JSON errors are `{error:string}`.
 
-- GET /api/session -> {email}
+- POST /api/pair {token} -> 204 with Set-Cookie av_session (one year); 401 when the token is wrong, used or expired
+- GET /api/session -> {signedIn:true}; re-signs the cookie when it is older than 30 days
+- POST /api/pairing -> {url, expiresAt}: a new single-use 60-minute pairing link, also shown as a QR on the frame; existing phones stay signed in
+- POST /api/pairing/reset -> 204: rotates the session key (signs out every phone) and the frame shows a new QR
 - GET /api/species?q= -> Species[]
 - POST /api/captures multipart: file, kind=image|audio, optional metadata JSON (CaptureMetadata), optional crop JSON (normalized Crop), Idempotency-Key header -> Capture. Original metadata is extracted during processing and takes precedence over supplied upload metadata unless user explicitly corrects after extraction.
 - GET /api/captures -> Capture[]; GET /api/captures/:id -> Capture
@@ -23,7 +26,7 @@ Types are in app/shared/contracts.ts. Renderer boundary to be coordinated: Worke
 Inference: authenticated HTTP POST multipart /identify/image or /identify/audio with `file`, optional `crop` JSON and `metadata` JSON. Returns {model,scoreLabel,candidates:[{scientificName,commonName,score,ranges:[{start,end}]}],metadata?:CaptureMetadata,raw?:unknown}. Canonical scientific names map to seeded species. Unknown labels are retained in raw output, never silently mapped. Worker sends Authorization bearer configured INFERENCE_TOKEN.
 
 ## Runtime configuration
-`npm ci`, `npm run db:migrate`, `npm run worker:dev` from app. The local launcher creates ignored app/.dev.vars; production uses Worker secrets. Set ENVIRONMENT=local only locally, LOCAL_AUTH_TOKEN, DEVICE_TOKEN, INFERENCE_URL, INFERENCE_TOKEN, RENDERER_URL, RENDERER_TOKEN. Vite's loopback proxy takes DEV_API_TOKEN from its process environment and injects it for local API calls. Production requires ENVIRONMENT=production, ACCESS_ISSUER (https://team.cloudflareaccess.com), ACCESS_AUDIENCE, ALLOWED_EMAILS (exactly two comma separated addresses), APP_ORIGIN, device and service credentials. Access assertions are cryptographically verified; the email header alone is never trusted. User media remains in the private MEDIA R2 binding; never expose that bucket publicly.
+`npm ci`, `npm run db:migrate`, `npm run worker:dev` from app. The local launcher creates ignored app/.dev.vars; production uses Worker secrets. Set ENVIRONMENT=local only locally, LOCAL_AUTH_TOKEN, DEVICE_TOKEN, INFERENCE_URL, INFERENCE_TOKEN, RENDERER_URL, RENDERER_TOKEN. Vite's loopback proxy takes DEV_API_TOKEN from its process environment and injects it for local API calls. Production requires ENVIRONMENT=production, APP_ORIGIN (the canonical https:// origin; it builds the pairing QR link), device and service credentials. User media remains in the private MEDIA R2 binding; never expose that bucket publicly.
 
 D1 migrations contain schema, canonical catalogue with exact case-insensitive aliases, recovery lease and reviewed artwork URLs. Photo/audio uploads are bounded at25MiB and safe MIME types; confirmation needs date and coordinates. Requests need an Idempotency-Key for upload. Processing starts durably before HTTP inference, max5 attempts, three-minute interrupted-job detection on review reads and bounded recovery via minute cron. Failures stay reviewable and correctable; a failed service never confirms a bird.
 
@@ -32,7 +35,7 @@ Identification now includes mandatory status identified|uncertain|no_bird. no_bi
 Renderer POST /render receives {species:Species[],showNames,width:480,height:800}, Bearer RENDERER_TOKEN, returns PNG. Worker selects the composition with app/renderer/schedule.ts, stores immutable frame PNG first, then conditionally publishes revision against the current generation. Minute cron handles autonomous rotation. Device routes only read published content and update contact/ack; they never invoke inference or rendering. Acknowledgement is for the current revision after physical display.
 
 ## Verification
-`npm test` exercises API entrypoint against real local D1/R2 and renderer/client behavior. HTTP inference is substituted only in the specific deterministic integration fixture; real inference runs through the configured Python service. No remote platform resources are created by tests. Actual Access email-code UX, cloud startup and real iPhone/panel remain deployment/device acceptance checks.
+`npm test` exercises API entrypoint against real local D1/R2 and renderer/client behavior. HTTP inference is substituted only in the specific deterministic integration fixture; real inference runs through the configured Python service. No remote platform resources are created by tests. Hosted QR pairing on a real iPhone, cloud startup and real iPhone/panel remain deployment/device acceptance checks.
 
 Extraction warnings are persisted as Identification.warnings:string[] and remain visible alongside the full original service response in raw. embedded_date_has_no_timezone prevents confirmation until the user explicitly checks and saves the date/time. PATCH metadata must have source=user and any nonnull date must include Z or an explicit offset. PATCH atomically updates all existing sightings linked to that capture, preserving identification provenance, and invalidates the frame composition. File payload limit25MiB is shared with inference and rejected before media/database persistence.
 
