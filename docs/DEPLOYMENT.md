@@ -79,6 +79,40 @@ Cold starts are far inside the 120-second identification timeout, so identificat
 
 The zone's Browser Integrity Check rejects Python's default `urllib` User-Agent with 403, so the device client sends `User-Agent: AvianFrame/1.0`.
 
+## Gift reset (run once, just before handing the frame over)
+
+Wipes test captures, sightings and the collection, turns Demo mode off and unpairs every phone, so the frame shows a fresh "Scan to set up" QR. It does not touch the species catalogue or artwork. Run from `app/` with the personal-account token passed per command (`CLOUDFLARE_API_TOKEN` from the user env, `CLOUDFLARE_ACCOUNT_ID=97ca1cdee49e83a5ce8570fadb2fae2f`), after `npx wrangler whoami` lists that account. Never run it against the inploi account.
+
+1. **See what will go** (read-only):
+
+   ```
+   npx wrangler d1 execute avian-visitors --remote --command "SELECT id,kind,status,created_at FROM captures; SELECT count(*) AS sightings FROM sightings; SELECT settings FROM frame; SELECT paired_at FROM auth"
+   ```
+
+2. **Delete each capture's private original** in R2, one per capture id from step 1 (D1 rows alone would orphan the media):
+
+   ```
+   npx wrangler r2 object delete avian-visitors-private/originals/<capture-id> --remote
+   ```
+
+   For one or two captures, deleting them in the app (Review → Delete) does steps 2 and 3's capture/sighting part in one go.
+
+3. **Wipe the journal, reset the frame to its default (week, names on, no Demo) and unpair all phones** in one statement batch:
+
+   ```
+   npx wrangler d1 execute avian-visitors --remote --command "DELETE FROM sightings; DELETE FROM captures; UPDATE frame SET settings=json_object('mode','week','speciesIds',json('[]'),'showNames',json('true')),dirty=dirty+1 WHERE id=1; UPDATE auth SET session_key=lower(hex(randomblob(32))),paired_at=NULL,pairing_token=NULL,pairing_expires_at=NULL WHERE id=1"
+   ```
+
+   Rotating `session_key` signs out every phone that paired during testing. Old rendered frames under `frames/` in R2 are harmless and can stay.
+
+4. **Verify:**
+
+   ```
+   npx wrangler d1 execute avian-visitors --remote --command "SELECT (SELECT count(*) FROM captures) captures,(SELECT count(*) FROM sightings) sightings,(SELECT settings FROM frame) settings,(SELECT paired_at FROM auth) paired_at,(SELECT pairing_token IS NOT NULL FROM auth) qr_issued"
+   ```
+
+   Expect `captures 0`, `sightings 0`, `"mode":"week"`, `paired_at null`, and `qr_issued 1` within about a minute (the minute cron issues the code). On the frame, within about two minutes, the panel redraws to "Scan to set up your bird journal" with a QR. Scanning it on the recipient's iPhone opens trackmybirds.com signed in, and the frame switches to the (empty) bird view on its next poll. A phone used for testing now gets 401s until it scans the new QR.
+
 ## Final local runtime evidence — 26 October 2026
 
 The final local stack uses Worker 8787 and built preview 5173 with real Compose services on 8081/8082. No cloud resources were contacted or changed by these checks.

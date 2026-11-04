@@ -56,6 +56,34 @@
     "reviewScope": "Regenerated after the first independent review failed it (Both feet show only two forward toes and one rear toe; third forward toes missing.). Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): White nape and cheeks, black cap/bib, pale wing bars, buff flanks; two legs, four toes each, fine bill. Single whole bird facing left; style and alpha checks pass.. Generator field-mark check: black cap/bib, white cheeks/nape, two wing bars, buff flanks; 3+1 toes each foot."
   },
   {
+    "speciesId": "poecile-palustris",
+    "path": "/birds/poecile-palustris.png",
+    "sha256": "10529e444dd868d28d223f13fd59f75d145ea0663c40374f67d874641cf01ecb",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa12-7f30-ba32-4200cda59fcb/exec-79b810d3-cb40-48ef-a2dc-dc54125da3fb.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Black cap, neat bib, pale cheeks, small bill, plain brown wings without pale panel; both feet three forward/one back. Generator field-mark check: Glossy cap, neat bib, plain brown wings, pale cheeks, small bill; 3+1 toes."
+  },
+  {
+    "speciesId": "poecile-montanus",
+    "path": "/birds/poecile-montanus.png",
+    "sha256": "9757af81c025640ec3dd28db4adae9b52b4e74c881526425be9592873d76adc4",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa15-7481-aa5e-0304e11cf7c9/exec-541952fd-b37e-4371-9ed8-83b0897bb930.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Matt sooty cap, large untidy bib, pale secondary panel, thick neck; two legs, three forward toes and one hind toe per foot. Generator field-mark check: Matt cap, untidy bib, pale secondary panel, bull-necked; 3+1 feet."
+  },
+  {
     "speciesId": "aegithalos-caudatus",
     "path": "/birds/aegithalos-caudatus.png",
     "sha256": "84ec8d84de23054af2ae1250ce924a126d72797591bb420cc84f6d37ee9de1e6",
@@ -140,6 +168,20 @@
     "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Grey head and rump, chestnut back, spotted ochre breast, dark tail; two legs and plausible four-toed feet. Generator field-mark check: Grey head/rump, chestnut back, spotted buff breast, dark tail."
   },
   {
+    "speciesId": "turdus-torquatus",
+    "path": "/birds/turdus-torquatus.png",
+    "sha256": "78dcefc0348724a1fbd1252cbd0784b8d62da3976727c989c207f5fb6a96e0a5",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa12-7702-83de-857ee808bed4/exec-ce30b00c-77ec-48ab-b9cd-92bd6f4dd8e9.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Black-brown plumage, broad white breast crescent, pale wing panel, yellow bill; both feet three forward/one back. Generator field-mark check: black-brown male, broad white breast crescent, pale wing panel, yellow bill, 3+1 feet."
+  },
+  {
     "speciesId": "troglodytes-troglodytes",
     "path": "/birds/troglodytes-troglodytes.png",
     "sha256": "2e3bc6661122623bbd685c5dd3f7a2d43595bf3f7189739e191c7b38679add94",
@@ -179,6 +221,20 @@
     "reviewScope": "Contact sheet visual review: species features, whole bird, style. Not expert ornithological certification."
   },
   {
+    "speciesId": "passer-montanus",
+    "path": "/birds/passer-montanus.png",
+    "sha256": "7ed6896401c23a9bf475ff45d6df560f8b0db148f148374c6a983492045897d6",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa12-7702-83de-857ee808bed4/exec-60b870d7-70df-4a01-a442-39fa8c801d04.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Chestnut crown, black cheek spot, white cheek/collar, small black bib; both feet three forward/one back. Generator field-mark check: chestnut crown, black cheek spot, small bib, white collar, 3+1 feet."
+  },
+  {
     "speciesId": "fringilla-coelebs",
     "path": "/birds/fringilla-coelebs.png",
     "sha256": "1bfac10f8997adb6c6b9414daab426f039aea374dadbf6dabe11b1830b1c1083",
@@ -191,6 +247,20 @@
     "modifications": "None; original generated transparent PNG copied byte-for-byte",
     "review": "reviewed",
     "reviewScope": "Full-size review: blue-grey crown and neck, pink-rust breast/cheeks, brown back, dark wings with white bars, conical bill; complete male Chaffinch, matching style."
+  },
+  {
+    "speciesId": "fringilla-montifringilla",
+    "path": "/birds/fringilla-montifringilla.png",
+    "sha256": "b1208b3c45933981f60869940d05fbf1551217d7bd8283612fa035d283c835d8",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa1b-72d2-bd16-07080ff66472/exec-e12c5eeb-09a3-4070-b42f-60ba74118a10.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Orange breast/shoulders, mottled winter head, white belly, pale wing bars; conical bill, both feet 3+1. Generator field-mark check: Mottled head, orange breast, white belly/rump, wing bars, conical bill, 3+1 toes."
   },
   {
     "speciesId": "chloris-chloris",
@@ -249,6 +319,45 @@
     "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Red forehead and breast, grey head, chestnut back, white wing and tail edges; conical bill, correct feet. Generator field-mark check: Red forehead/breast, grey head, chestnut back, pale wing panel, forked tail."
   },
   {
+    "speciesId": "linaria-flavirostris",
+    "path": "/birds/linaria-flavirostris.png",
+    "sha256": "4dbf822d6fc59999b3e14d3306e6fead386f806d0f2581289ff9d06b83d950a7",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa1b-72d2-bd16-07080ff66472/exec-12f3a369-5ee9-4da1-a0c2-391ead009aaf.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Warm brown streaking, unstreaked buff face/throat, yellow winter bill, pink male rump, no red forehead/breast; both feet 3+1. Generator field-mark check: Streaky warm brown, unstreaked buff face/throat, no red forehead/breast, yellow bill, male pink rump, 3+1 toes."
+  },
+  {
+    "speciesId": "acanthis-cabaret",
+    "path": "/birds/acanthis-cabaret.png",
+    "sha256": "cedf64455ab9038bace878a554d958dd0a9eb51d23260a1356a3ff337b897448",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa12-7f30-ba32-4200cda59fcb/exec-b633e4f9-315e-4879-96af-d9a1e67ff7f4.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Streaky buff-brown plumage, red poll, small black chin, two buff wing bars, pink breast flush, tiny yellow bill; both feet three forward/one back. Generator field-mark check: Streaky buff-brown male, red poll, black chin, two buff wing bars, pink breast, tiny yellow bill; 3+1 toes."
+  },
+  {
+    "speciesId": "bombycilla-garrulus",
+    "path": "/birds/bombycilla-garrulus.png",
+    "sha256": "4803b15c9db9f03d4e366d86dc74466aa2afb8b54aa0cce0734fb46a1a18c4c8",
+    "source": "https://github.com/Twarner491/AvianVisitors/blob/5950f807b29157fde671ce302788d3f676d4ccca/avian/assets/illustrations/bombycilla-garrulus.png",
+    "license": "CC-BY-NC-SA-4.0",
+    "creator": "AvianVisitors contributors (Twarner491)",
+    "modifications": "None; byte-for-byte copy",
+    "review": "reviewed",
+    "reviewScope": "Contact sheet visual review: species features, whole bird, style. Not expert ornithological certification."
+  },
+  {
     "speciesId": "pyrrhula-pyrrhula",
     "path": "/birds/pyrrhula-pyrrhula.png",
     "sha256": "80c131ca3ba6291223cee71dc36ead08a8fe3c0feeaf954864d68d35fc191c13",
@@ -261,6 +370,34 @@
     "modifications": "None; original generated transparent PNG copied byte-for-byte",
     "review": "reviewed",
     "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Black cap, stout black bill, rose breast, grey back, white wingbar; feet correct. Generator field-mark check: Black cap, rose breast, grey back, pale wing bar, deep black bill."
+  },
+  {
+    "speciesId": "coccothraustes-coccothraustes",
+    "path": "/birds/coccothraustes-coccothraustes.png",
+    "sha256": "551a851b7919ed543c05a8837d609e9cb03152d67eb21bdc478effa094f8264b",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa14-7bf2-978c-0a783a2dbab2/exec-5d3ed8aa-97e8-4ba9-9c42-d8a966d117e8.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Massive conical bill, black bib, chestnut head, grey nape, white wing bar; both feet 3-forward/1-back; composition/style/alpha pass. Generator field-mark check: Huge bill; cinnamon head; grey nape; black bib; pale wing patch; white tail tip; 3+1 feet."
+  },
+  {
+    "speciesId": "emberiza-citrinella",
+    "path": "/birds/emberiza-citrinella.png",
+    "sha256": "883fbd4f9c6c5de7f22bbc1e7c1019142e5a7906c2f9cafa6678bcc24be62d15",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa09-7782-9e65-6cfaadba5084/exec-948f8318-12ee-454b-999b-a46c476092dc.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Yellow head, streaked brown back, chestnut rump, white outer tail; conical bill; both feet 3+1. Generator field-mark check: Yellow head/breast, chestnut rump, streaked back, white tail edges; 3+1 toes."
   },
   {
     "speciesId": "emberiza-schoeniclus",
@@ -358,6 +495,20 @@
     "reviewScope": "Joe approved this bird from the four-bird GPT-image style sample (1 Nov 2026), viewed at full size. Generator field-mark check: black plumage, stout bill, nasal bristles, dark eye, rounded tail, black feet."
   },
   {
+    "speciesId": "corvus-cornix",
+    "path": "/birds/corvus-cornix.png",
+    "sha256": "a238ce0a3498fe96c61ff4dbb6b7976d1dceef8feaceb35594c0c5d9c42a980e",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa16-71c0-a932-9fbb4f06aeee/exec-45cdf5d2-b844-4f6e-be15-4d35f0ec64d7.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Ash-grey body/back; black head, bib, wings and tail; heavy black bill; both feet three forward/one back. Generator field-mark check: Ash-grey body/back; black head, bib, wings, tail; heavy black bill; 3+1 toes."
+  },
+  {
     "speciesId": "corvus-corax",
     "path": "/birds/corvus-corax.png",
     "sha256": "35d235b1091f66a4dd6f5c29c32721205e76d471c0a194446ef7f7931eeaf6ff",
@@ -381,6 +532,20 @@
     "modifications": "None; original generated transparent PNG copied byte-for-byte",
     "review": "reviewed",
     "reviewScope": "Full-size review: large grey pigeon, pink breast, clear white neck patch and green nape, white wing edge, dark terminal tail band, pink feet; complete Woodpigeon without feral pigeon twin wingbars, matching woodblock style."
+  },
+  {
+    "speciesId": "psittacula-krameri",
+    "path": "/birds/psittacula-krameri.png",
+    "sha256": "74b61ffb24ff6b43ceaa9810b27b5f82965ab0830cd3dd92e48788005bca7bff",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa16-71c0-a932-9fbb4f06aeee/exec-6a3b47cf-4f89-481f-b511-ca915aa455ea.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Green adult male, deep red hooked bill, black chin, black-and-rose neck ring, very long pointed tail; both feet two forward/two back. Generator field-mark check: Adult male; green plumage; deep red hooked bill; black chin and black/pink neck ring; long pointed tail; 2+2 toes."
   },
   {
     "speciesId": "columba-oenas",
@@ -417,6 +582,48 @@
     "modifications": "None; byte-for-byte copy",
     "review": "reviewed",
     "reviewScope": "Contact sheet visual review: species features, whole bird, style. Not expert ornithological certification."
+  },
+  {
+    "speciesId": "streptopelia-turtur",
+    "path": "/birds/streptopelia-turtur.png",
+    "sha256": "a96bff57083d07e8163dba8c2f424d2945c125e35b39dcce2ff882bb968af73d",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa12-7f30-ba32-4200cda59fcb/exec-9085fe10-f466-4d03-b000-124c732f92f7.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Striped neck patch, grey crown, pink breast, black-centred chestnut wing feathers, white tail edges; both feet three forward/one back. Generator field-mark check: Striped neck, grey head, pink breast, scaly rufous wings, white-edged tail; 3+1 toes."
+  },
+  {
+    "speciesId": "dendrocopos-major",
+    "path": "/birds/dendrocopos-major.png",
+    "sha256": "97387715a038f6eb2175b51315e092f2541c9f9a47a1b7558db8c3796cbc3220",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa12-7702-83de-857ee808bed4/exec-fe35f0a7-f642-4c00-8338-f1013ccc5581.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Black crown, red nape/vent, white shoulder oval, white cheek/black moustache, unstreaked buff belly; chisel bill, stiff pointed tail, perched pose, two-forward/two-back feet. Generator field-mark check: perched, white shoulder patch, black moustache/crown, red nape/vent, unstreaked belly, chisel bill, 2+2 feet."
+  },
+  {
+    "speciesId": "dryobates-minor",
+    "path": "/birds/dryobates-minor.png",
+    "sha256": "9242241b2033502cf5ba1defb74fe5921eebe8bcd6482309d1b9c455cc4451ce",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa1b-72d2-bd16-07080ff66472/exec-6895d39f-f55c-4617-976f-18741174b241.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Compact male, short bill, red crown, barred back, no white shoulders or red vent, finely streaked underparts; perched posture, both feet 2+2. Generator field-mark check: Small male, red crown, ladder-barred back, no white shoulders/red vent, streaked underparts, short bill, perched, 2+2 toes."
   },
   {
     "speciesId": "sitta-europaea",
@@ -461,6 +668,20 @@
     "reviewScope": "Regenerated after the first independent review failed it (Both feet depict only two forward toes instead of three.). Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Black-bordered orange-yellow crest, plain face, olive back, two pale wingbars; fine bill, two legs, four toes per foot; composition, alpha and style pass. Generator field-mark check: Olive back, orange-yellow crown, plain face, wing bars, 3+1 toes each foot."
   },
   {
+    "speciesId": "regulus-ignicapilla",
+    "path": "/birds/regulus-ignicapilla.png",
+    "sha256": "028ddae46881c1e71c1df60327818796019d678bb929d79f633d94506e2f2cb6",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa14-7bf2-978c-0a783a2dbab2/exec-53e27514-e493-4444-ae5e-093edaca1aa1.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Orange crest, black crown borders, white eyebrow, black eyestripe, olive back; fine bill, both feet 3-forward/1-back; composition/style/alpha pass. Generator field-mark check: Orange crown; white eyebrow; black eyestripe; bronze neck; olive back; twin wingbars; 3+1 feet."
+  },
+  {
     "speciesId": "phylloscopus-collybita",
     "path": "/birds/phylloscopus-collybita.png",
     "sha256": "592671f8de447357620afbd908714929bf1fbecaaeff18daadd582a33ed84696",
@@ -503,6 +724,174 @@
     "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Male black cap, grey face, plain olive-grey wings; pointed bill, two legs, four toes per foot. Generator field-mark check: black cap, grey face, olive-grey back, plain wings."
   },
   {
+    "speciesId": "sylvia-borin",
+    "path": "/birds/sylvia-borin.png",
+    "sha256": "b9d2cf8f61c9a83e0a16f978690baa87b2d313c4fddba062e0a4f46972a13d11",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa09-7782-9e65-6cfaadba5084/exec-c698a7fe-2442-4d67-876d-eaef6738c97f.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Plain brown upperparts, pale underparts, subtle grey neck; pointed bill; both feet 3+1. Generator field-mark check: Plain brown-grey, buff-white belly, faint eye-ring, no cap or wingbars; 3+1 toes."
+  },
+  {
+    "speciesId": "curruca-communis",
+    "path": "/birds/curruca-communis.png",
+    "sha256": "7b67fc004c5630e88b1337aee64c8179d6ab6620a1c23e4ed511c1114407833c",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa16-71c0-a932-9fbb4f06aeee/exec-0ed1a533-6c6f-4c97-9119-14d5e12dc048.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Male grey head, white throat, rusty wings, pinkish breast, white outer tail; both feet three forward/one back. Generator field-mark check: Male grey head; white throat; rusty wing; pinkish breast; white outer tail; 3+1 toes."
+  },
+  {
+    "speciesId": "curruca-curruca",
+    "path": "/birds/curruca-curruca.png",
+    "sha256": "72185a778beb65b5056085dc2de5dfdd713d3f817a93ba8690099069f7d311d5",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa12-7f30-ba32-4200cda59fcb/exec-0d1c5678-512c-4e5b-928f-f7e1b96c145d.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Grey crown, dark mask, white throat, grey-brown wings without rufous, dark legs; both feet three forward/one back. Generator field-mark check: Grey crown, dark mask, white throat, wings without rufous, dark legs; 3+1 toes."
+  },
+  {
+    "speciesId": "acrocephalus-schoenobaenus",
+    "path": "/birds/acrocephalus-schoenobaenus.png",
+    "sha256": "2e2c2625c497910e788597544e7667527c9bbad2f0a299f0f0088fea295f038c",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa15-7481-aa5e-0304e11cf7c9/exec-d6867709-2512-4141-ab60-b6b36f3f8845.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Broad pale eyebrow, streaked crown/back, buff underparts, fine pointed bill; two legs, correct 3+1 toes. Generator field-mark check: Cream eyebrow, eye stripe, streaked crown/back, buff flanks; 3+1 feet."
+  },
+  {
+    "speciesId": "acrocephalus-scirpaceus",
+    "path": "/birds/acrocephalus-scirpaceus.png",
+    "sha256": "463455d3fee65378e303bac8d3a36373786952bfac989aae258f4826ab4a4940",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa12-7702-83de-857ee808bed4/exec-503e176f-7154-4c79-8528-8f0544047348.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Plain warm-brown upperparts, buff flanks, pale throat, weak eyebrow, fine pointed bill; both feet three forward/one back. Generator field-mark check: plain brown back, warm rump, cream belly, faint eyebrow, pointed bill, 3+1 feet."
+  },
+  {
+    "speciesId": "cettia-cetti",
+    "path": "/birds/cettia-cetti.png",
+    "sha256": "3472c7877bba5214c86c207ba11cc923509c355fccf164626099bdeea9f5335f",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa1b-72d2-bd16-07080ff66472/exec-ea0b0fae-b615-4333-8849-8842b9e4af70.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Chestnut upperparts, pale eyebrow, whitish throat, buff flanks, rounded raised tail; fine bill, both feet 3+1. Generator field-mark check: Reddish-brown back, pale eyebrow, grey-white belly, brown flanks, rounded cocked tail, fine bill, 3+1 toes."
+  },
+  {
+    "speciesId": "locustella-naevia",
+    "path": "/birds/locustella-naevia.png",
+    "sha256": "020b6bd5dba74e62e906eb78244da166c98854aa7c92731c78432518f64fa95c",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa14-7bf2-978c-0a783a2dbab2/exec-863aaa83-8f00-4f4d-b2f3-0ce8985d43e9.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Streaked brown crown/back, subdued eyebrow, pale underside, streaked undertail, rounded tail; both feet 3-forward/1-back; composition/style/alpha pass. Generator field-mark check: Streaked crown/back; plain buff breast; fine bill; rounded tail; streaked undertail; 3+1 feet."
+  },
+  {
+    "speciesId": "ficedula-hypoleuca",
+    "path": "/birds/ficedula-hypoleuca.png",
+    "sha256": "3a7f76bacafd773540dcde47ab2e9ae3bfbff3abbd9ac07726d85f204e385eae",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa09-7782-9e65-6cfaadba5084/exec-1f3bf814-c29f-4261-bc65-c4bf87c5dcd7.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Black-and-white male, white forehead and wing patch, white outer tail; both feet 3+1. Generator field-mark check: Black back, white forehead, wing panel, belly and tail edges; 3+1 toes."
+  },
+  {
+    "speciesId": "muscicapa-striata",
+    "path": "/birds/muscicapa-striata.png",
+    "sha256": "49856a05556542c67106ef2c4dc791e92c3caf449ab63ae3ddf71ba016a5d6fa",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa16-71c0-a932-9fbb4f06aeee/exec-c31c940a-b617-4ffc-aede-ddb73fd00b68.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Streaked crown/breast, grey-brown upperparts, pointed bill with bristles; both feet three forward/one back. Generator field-mark check: Grey-brown upperparts; streaked crown/breast; pale eye-ring; broad-based pointed bill; 3+1 toes."
+  },
+  {
+    "speciesId": "phoenicurus-phoenicurus",
+    "path": "/birds/phoenicurus-phoenicurus.png",
+    "sha256": "7fa6333ddd0be08b9f322ec85229e7f7b60fa8ed563303588bbfded3c6b8addf",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa12-7f30-ba32-4200cda59fcb/exec-9f674cbc-d7ff-45c4-8d9b-1726eaa77bda.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Male grey back, black face/throat, white forehead, orange breast, orange-red tail; both feet three forward/one back. Generator field-mark check: Male grey back, black face/throat, white forehead, orange breast, orange-red tail; 3+1 toes."
+  },
+  {
+    "speciesId": "phoenicurus-ochruros",
+    "path": "/birds/phoenicurus-ochruros.png",
+    "sha256": "cb94a46e6cc860d6ec9b282c106966278df31fd1caff72c1f06d43935da47062",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa15-7481-aa5e-0304e11cf7c9/exec-303cf247-edc1-4607-b498-e7939174501e.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Male sooty black-grey plumage, white wing panel, orange-red tail with dark centre; fine bill, correct 3+1 toes. Generator field-mark check: Sooty male, white wing panel, orange-red tail; 3+1 feet."
+  },
+  {
+    "speciesId": "saxicola-rubetra",
+    "path": "/birds/saxicola-rubetra.png",
+    "sha256": "b7ed1bd42745ca16ef1f6d897bc7ab281ab5b5a7b67fbd03fb6a6c33b0442bb8",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa12-7702-83de-857ee808bed4/exec-a50fb63a-ca56-4e6a-a52c-683279ed9478.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Bold white eyebrow, dark cheek, streaked brown back, orange-buff breast, white tail-base side; both feet three forward/one back. Generator field-mark check: white supercilium, dark cheek, streaked back, orange-buff breast, white tail-base sides, 3+1 feet."
+  },
+  {
     "speciesId": "saxicola-rubicola",
     "path": "/birds/saxicola-rubicola.png",
     "sha256": "ce6d1d21dd80819b2764eeaec45742a5fac75fb6bbeb1280daf2fc488b06d497",
@@ -515,6 +904,20 @@
     "modifications": "None; original generated transparent PNG copied byte-for-byte",
     "review": "reviewed",
     "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Black head, white neck patch, orange breast, white wing patch; two legs, four toes per foot. Generator field-mark check: Black head, white half-collar, orange breast, white wing patch, short tail."
+  },
+  {
+    "speciesId": "oenanthe-oenanthe",
+    "path": "/birds/oenanthe-oenanthe.png",
+    "sha256": "cb3ef32b5aecaf4a0974d2afbf24f27af2ced72de1e8bc46c2c29e68729b2cd7",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa1b-72d2-bd16-07080ff66472/exec-5f615c18-ca33-4942-aea9-a2b8cd071279.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Spring male: blue-grey back, black mask/wings, white eyebrow/rump, buff breast, black tail T; both feet 3+1. Generator field-mark check: Spring male, blue-grey back, black mask/wings, white eyebrow/rump, buff breast, black T tail, 3+1 toes."
   },
   {
     "speciesId": "cinclus-cinclus",
@@ -559,6 +962,20 @@
     "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Grey back, yellow underside, black throat, white eyebrow, long white-edged tail; pink legs, correct toes. Generator field-mark check: grey back, black throat, yellow belly, long white-edged tail."
   },
   {
+    "speciesId": "motacilla-flava",
+    "path": "/birds/motacilla-flava.png",
+    "sha256": "896eaf4da6ffa46a2488f156635dec77f837db3f8f64abdf5ba96498d3d8649a",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa14-7bf2-978c-0a783a2dbab2/exec-a9c24078-f350-4f12-be5d-7a17b44b5cdc.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Male flavissima yellow-green head/back, bright yellow face/underparts, long white-edged tail; both feet 3-forward/1-back; composition/style/alpha pass. Generator field-mark check: Flavissima yellow-green head/back; yellow face/underparts; wingbars; long white-edged tail; 3+1 feet."
+  },
+  {
     "speciesId": "anthus-pratensis",
     "path": "/birds/anthus-pratensis.png",
     "sha256": "7eec09148f1be88c1a152409d375dc044d3187722e8d3209c31c32c19a463bd1",
@@ -571,6 +988,34 @@
     "modifications": "None; original generated transparent PNG copied byte-for-byte",
     "review": "reviewed",
     "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Streaked olive-brown back and breast, white outer tail, fine bill, pink legs; four toes and elongated hind claws. Generator field-mark check: Streaked back and flanks, pale eyebrow, fine bill, pink legs, long hind claws, white outer tail."
+  },
+  {
+    "speciesId": "anthus-petrosus",
+    "path": "/birds/anthus-petrosus.png",
+    "sha256": "9b6d173343b08d3204e0559adcfd56d4cd7630d46ad4ee1ec88b6a20ae8354b2",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa09-7782-9e65-6cfaadba5084/exec-e11e9454-2f17-4c5c-be59-66e1b71b5cba.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Olive-brown upperparts, streaked breast, subdued eyebrow, grey outer tail, brown legs; both feet 3+1. Generator field-mark check: Dusky streaked back/breast, weak eyebrow, dark legs, smoky tail edges; 3+1 toes."
+  },
+  {
+    "speciesId": "anthus-trivialis",
+    "path": "/birds/anthus-trivialis.png",
+    "sha256": "0d24e701f14a53a09938a09e2e62023b5600e8e53112720368eb1d69c7f604f8",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa16-71c0-a932-9fbb4f06aeee/exec-39632560-ba23-4009-ac57-6cdca3571873.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Buff streaked breast, finer flank streaks, pale eyebrow, white outer tail; three forward/one back, short curved hind claws. Generator field-mark check: Streaked olive-brown back; bold breast/finer flank streaks; pale supercilium; pink legs; short hind claws; 3+1 toes."
   },
   {
     "speciesId": "alauda-arvensis",
@@ -612,6 +1057,20 @@
     "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Blue-black upperparts, white rump and underparts, forked tail; short bill, feathered legs and four-toed feet. Generator field-mark check: Blue-black back, white rump/underside, shallow fork, feathered feet."
   },
   {
+    "speciesId": "riparia-riparia",
+    "path": "/birds/riparia-riparia.png",
+    "sha256": "db1106ab3329f6d2a7e3120d0158ce0aff8fadf7fe97d5fa96eaa3533fa00ec3",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa12-7f30-ba32-4200cda59fcb/exec-39db7078-f8f4-4db3-bec0-a51417c400f0.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Brown upperparts, white throat/belly, brown breast band, small bill, forked tail; both feet three forward/one back. Generator field-mark check: Brown upperparts, white throat/belly, brown breast band, pointed wings, forked tail; 3+1 toes."
+  },
+  {
     "speciesId": "apus-apus",
     "path": "/birds/apus-apus.png",
     "sha256": "b6ed42bd0643f1fd5d26ca002e42c6b1ddc47ec567ce921d1d7af5a68e914846",
@@ -624,6 +1083,20 @@
     "modifications": "None; original generated transparent PNG copied byte-for-byte",
     "review": "reviewed",
     "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Dark brown plumage, pale throat, tiny bill, forked tail; two swept scythe wings, flying left, feet concealed plausibly. Generator field-mark check: Dark plumage, pale throat, tiny bill, forked tail; left-facing flight, scythe wings spread, feet hidden."
+  },
+  {
+    "speciesId": "cuculus-canorus",
+    "path": "/birds/cuculus-canorus.png",
+    "sha256": "f34c6a67185377e89a5432c3cc4e47509afac925ae8358eeade57a67b5ab3ddf",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa15-7481-aa5e-0304e11cf7c9/exec-02943416-d4b2-42b4-af9c-59a2a5572daf.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Male blue-grey head/back/breast, finely barred white belly, graduated white-spotted tail, yellow eye-ring/feet, drooped pointed wing; correct 2+2 toes. Generator field-mark check: Blue-grey male, barred belly, spotted graduated tail, yellow eye-ring/feet, drooped wings; 2+2 feet."
   },
   {
     "speciesId": "alcedo-atthis",
@@ -668,6 +1141,20 @@
     "reviewScope": "Regenerated after the first independent review failed it (Near foot depicts only two forward toes instead of three.). Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Slate upperparts, rusty barring, orange iris, barred long tail; hooked bill, two yellow legs, four clawed toes per foot; composition, alpha and style pass. Generator field-mark check: Slate back, rufous barring, orange eye, hooked bill, banded tail, 3+1 talons each foot."
   },
   {
+    "speciesId": "milvus-milvus",
+    "path": "/birds/milvus-milvus.png",
+    "sha256": "9a8f420f68fc07d0b591693b99f81337f3a4d4064eb6041e40a0a3f1789187bb",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa12-7702-83de-857ee808bed4/exec-e13b1f28-4e93-44ff-9d0f-606d891f8932.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Rufous body, pale grey head, deeply forked rufous tail, hooked bill; perched pose, three forward talons and one hind per foot. Generator field-mark check: perched, rufous body, grey head, deeply forked rufous tail, 3+1 talons."
+  },
+  {
     "speciesId": "falco-tinnunculus",
     "path": "/birds/falco-tinnunculus.png",
     "sha256": "2d991c6704c76a62de1fb495b78ba870a8cc10a168e73c1eb22fc6b56bc18470",
@@ -693,6 +1180,20 @@
     "reviewScope": "Contact sheet visual review: species features, whole bird, style. Not expert ornithological certification."
   },
   {
+    "speciesId": "falco-subbuteo",
+    "path": "/birds/falco-subbuteo.png",
+    "sha256": "b44c526a27d5ab56115a371f6b1ea2685667360eb22295e7dc51333db79cee2b",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa1b-72d2-bd16-07080ff66472/exec-49560855-f2af-4976-a280-f8b336b12398.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Slate back, black moustache, white cheeks, heavily streaked underparts, red thighs/vent; hooked bill, both feet 3+1. Generator field-mark check: Slate back, black moustache, white cheeks, heavy streaking, red thighs/vent, 3+1 talons."
+  },
+  {
     "speciesId": "falco-columbarius",
     "path": "/birds/falco-columbarius.png",
     "sha256": "dbe576060de7bc8f37aed11da2140aad76382332285ecc379cd521ec844c6b80",
@@ -702,6 +1203,34 @@
     "modifications": "None; byte-for-byte copy",
     "review": "reviewed",
     "reviewScope": "Contact sheet visual review: species features, whole bird, style. Not expert ornithological certification."
+  },
+  {
+    "speciesId": "circus-aeruginosus",
+    "path": "/birds/circus-aeruginosus.png",
+    "sha256": "f4eb6309f04f4d4f90946f3a23af41b1021f970610149049dc9e7c7ee4b1cf77",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa14-7bf2-978c-0a783a2dbab2/exec-1a5dbca8-9a9d-4abf-bd03-ca47cbaee741.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Male cream head, brown body, brown/grey/black wings, grey tail; hooked bill, both taloned feet 3-forward/1-back; composition/style/alpha pass. Generator field-mark check: Male brown-grey-black wings; cream head; brown body; grey tail; hooked bill; 3+1 talons."
+  },
+  {
+    "speciesId": "circus-cyaneus",
+    "path": "/birds/circus-cyaneus.png",
+    "sha256": "79ff9166823bd1350133e27ffb292fd5dc4dce69ac67628f15da440d3669c5ca",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa09-7782-9e65-6cfaadba5084/exec-581d185f-7e9c-4bc8-8ef6-211241b32170.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Male pale grey, white underparts, black wingtips; hooked bill, yellow eyes and legs; both feet 3+1. Generator field-mark check: Male pale grey, white underparts, black wingtips, yellow eye; 3+1 talons."
   },
   {
     "speciesId": "pandion-haliaetus",
@@ -740,6 +1269,20 @@
     "reviewScope": "Regenerated after the first independent review failed it (Only three toes/claws discernible per foot; fourth toes not accounted for confidently.). Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Rounded tuftless head, dark eye, facial disc, streaked brown plumage, barred tail; feathered legs and four clawed toes per foot. Single whole bird facing left; style and alpha checks pass.. Generator field-mark check: rounded head, dark eye, brown facial disc, streaked underparts, barred tail; four separate claws each feathered foot."
   },
   {
+    "speciesId": "athene-noctua",
+    "path": "/birds/athene-noctua.png",
+    "sha256": "5220756c22a32cb7e7b4fa8d29d4e5e51fd5642a3afd8d8d65dc209aba4b80f1",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa16-71c0-a932-9fbb4f06aeee/exec-61f34e6b-420d-4e45-a32a-ba401379d446.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Compact owl, broad low crown, yellow eyes, pale frowning brows, white-spotted brown back, streaked belly; feathered legs, four toes per foot. Generator field-mark check: Flat head; yellow eyes and pale frowning brows; white-spotted brown upperparts; streaked underparts; feathered legs; 2+2 toes."
+  },
+  {
     "speciesId": "asio-otus",
     "path": "/birds/asio-otus.png",
     "sha256": "8533bbe3e0828403caf57f857f5d6b140118a8cc84cb9babe922d2c276fcafd8",
@@ -753,13 +1296,16 @@
   {
     "speciesId": "asio-flammeus",
     "path": "/birds/asio-flammeus.png",
-    "sha256": "259641de1ebbf12d2268dbae304519c2cc2b19e1d76735e5206a402c9449e620",
-    "source": "https://github.com/Twarner491/AvianVisitors/blob/5950f807b29157fde671ce302788d3f676d4ccca/avian/assets/illustrations/asio-flammeus.png",
-    "license": "CC-BY-NC-SA-4.0",
-    "creator": "AvianVisitors contributors (Twarner491)",
-    "modifications": "None; byte-for-byte copy",
+    "sha256": "44d05d8a6e1bfe2540116fece3ac4bfc42dbd117c8d9678b5ff1d018792396e4",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a79e-4a6f-7b81-ac94-ef626dde9ada/exec-90e44c29-6f3e-42c2-a53e-89b150c6006c.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
     "review": "reviewed",
-    "reviewScope": "Contact sheet visual review: species features, whole bird, style. Not expert ornithological certification."
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Pale facial disc, black eye patch, yellow eye, tiny tufts; mottled buff-brown upperparts, breast streaking fading on belly, long wings, barred tail; hooked bill, feathered legs and feet, four toes each in valid 3+1 arrangement. Single whole left-facing bird, clean background; style matches; RGBA, alpha 0\u2013254, corners transparent.. Generator field-mark check: Left profile, pale disc, black eye patch/yellow eye, tiny tufts, mottled upperparts, breast streaking fading below, long wings, barred tail, feathered four-toed feet; Pillow passed."
   },
   {
     "speciesId": "ardea-cinerea",
@@ -801,6 +1347,34 @@
     "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): White plumage, black dagger bill, black legs, yellow feet, nape plumes; four toes per foot. Generator field-mark check: White plumage, black bill, two nape plumes, black legs, yellow feet."
   },
   {
+    "speciesId": "platalea-leucorodia",
+    "path": "/birds/platalea-leucorodia.png",
+    "sha256": "2c43ae52015c59826bb62ffd7b4c8e94690c492995d794c212b8847b98303b9e",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa12-7f30-ba32-4200cda59fcb/exec-eb41cde0-e71f-439f-85ec-9f3f6c2fcbb9.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): White plumage, crest, long black spatulate bill with yellow tip, long black legs; both feet three forward/one back. Generator field-mark check: White plumage, black spatulate bill, yellow tip, long black legs, crest; 3+1 toes."
+  },
+  {
+    "speciesId": "botaurus-stellaris",
+    "path": "/birds/botaurus-stellaris.png",
+    "sha256": "5bcf0e7029d6b527e3f9488f75c9de0bb91a6a605d17100be2c52d1cd15127d0",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa15-7481-aa5e-0304e11cf7c9/exec-87d7ef71-71a9-42a3-a7b4-b0863a324764.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Golden-brown cryptic markings, streaked neck, black crown/moustache, pointed heron bill; two legs, long 3+1 toes. Generator field-mark check: Golden-brown streaking, black crown/moustache, dagger bill; long 3+1 toes."
+  },
+  {
     "speciesId": "phalacrocorax-carbo",
     "path": "/birds/phalacrocorax-carbo.png",
     "sha256": "85318d64a01b2c9e10e1f4a87913a8c7998403c85c104d2ac506dc9bbe045575",
@@ -815,6 +1389,20 @@
     "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Hooked bill, yellow throat patch, white cheek and thigh patch, dark scaled plumage; two feet with all four toes webbed. Generator field-mark check: Hooked bill, yellow throat, white cheek/thigh, four-toed webbed feet."
   },
   {
+    "speciesId": "morus-bassanus",
+    "path": "/birds/morus-bassanus.png",
+    "sha256": "c619ce011360081e4da5ab3209200a9cf7da42d2450ec47a8a5ddf7f356a45a2",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa1b-72d2-bd16-07080ff66472/exec-18e532e5-3362-43ae-b645-57b034ff7fb5.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): White body, black wingtips, buff-yellow head, dagger bill; both feet show four web-connected toes. Generator field-mark check: White adult, black wingtips, buff-yellow head, dagger bill, all four toes webbed."
+  },
+  {
     "speciesId": "cygnus-olor",
     "path": "/birds/cygnus-olor.png",
     "sha256": "ee3f15ee92580d5e075541ed03b09081e6e6ed26b34f3121867a32085a32f9c0",
@@ -824,6 +1412,20 @@
     "modifications": "None; byte-for-byte copy",
     "review": "reviewed",
     "reviewScope": "Contact sheet visual review: species features, whole bird, style. Not expert ornithological certification."
+  },
+  {
+    "speciesId": "cygnus-cygnus",
+    "path": "/birds/cygnus-cygnus.png",
+    "sha256": "c9c5f3562786120a842b420dd5b563d6d428196d14a50391f34632266b7ff207",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa14-7bf2-978c-0a783a2dbab2/exec-806b6e68-2ba5-40f8-831f-bdd57c5a4219.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): White plumage, straight neck, black bill with large yellow wedge extending beyond nostril; swimming posture legitimately conceals feet; composition/style/alpha pass. Generator field-mark check: White plumage; yellow bill wedge beyond nostril; black tip; straight neck; swimming, feet hidden."
   },
   {
     "speciesId": "anser-anser",
@@ -876,6 +1478,34 @@
     "reviewScope": "Contact sheet visual review: species features, whole bird, style. Not expert ornithological certification."
   },
   {
+    "speciesId": "branta-leucopsis",
+    "path": "/birds/branta-leucopsis.png",
+    "sha256": "0aa3d25d192ba7af74f33a49dedebb93b4e00cc853f4161bb5f5dd779fa359e1",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa09-7782-9e65-6cfaadba5084/exec-1e6b7d55-d6e8-4b80-89dd-3c50b846af10.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): White face, black crown/neck/breast, grey barred back, pale belly; three webbed forward toes and small hind toes. Generator field-mark check: White face, black crown/neck/breast, grey barred back, pale belly; webbed feet."
+  },
+  {
+    "speciesId": "branta-bernicla",
+    "path": "/birds/branta-bernicla.png",
+    "sha256": "d1e0a1ee1424e109df40ab4833023fae8eb7714004f11df572db5520c8c5ae86",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa16-71c0-a932-9fbb4f06aeee/exec-52f8d6c2-e761-426c-944b-7366072e6436.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Black head/neck, small white neck patch, dark grey-brown belly, white stern; three webbed forward toes and small hind toes. Generator field-mark check: Black head/neck; small white neck patch; dark belly; grey-brown back; white stern; webbed feet."
+  },
+  {
     "speciesId": "tadorna-tadorna",
     "path": "/birds/tadorna-tadorna.png",
     "sha256": "1b46968b29a755177cdb33e653926b359d2549ef125206bc1085b66d34a844f2",
@@ -899,6 +1529,20 @@
     "modifications": "None; byte-for-byte copy",
     "review": "reviewed",
     "reviewScope": "Contact sheet visual review: species features, whole bird, style. Not expert ornithological certification."
+  },
+  {
+    "speciesId": "aix-galericulata",
+    "path": "/birds/aix-galericulata.png",
+    "sha256": "fd9eb5a1a695bb480e4386b19c456f7b2643135ab3cc6529e1367c761610ceef",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa14-7bf2-978c-0a783a2dbab2/exec-b9910c12-46ba-4d2f-bf6d-6e8c4eb6c856.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Male orange sails/whiskers, white crescent eyestripe, red bill, purple breast with white bars; swimming posture legitimately conceals feet; composition/style/alpha pass. Generator field-mark check: Orange sails/whiskers; white crescent eyestripe; red bill; purple breast with white bars; swimming, feet hidden."
   },
   {
     "speciesId": "anas-crecca",
@@ -940,6 +1584,20 @@
     "reviewScope": "Independent full-size review (Codex gpt-6-astra, 4 Nov 2026) confirmed Chestnut head, cream crown, pink breast, grey flanks, blue-grey black-tipped bill, but failed it only because legs are hidden: \"Both legs and webbed feet absent; floating silhouette does not satisfy whole-bird anatomy requirement.\". Lead overruled: the generation brief permits an on-water swimming posture without drawn water, and plumage, bill and single left-facing whole body pass. Generator field-mark check: Chestnut head, cream crown, blue-grey bill, pink breast, grey flanks, white wing patch."
   },
   {
+    "speciesId": "mareca-strepera",
+    "path": "/birds/mareca-strepera.png",
+    "sha256": "540e0e24926541282a2a91ebc18cf2ccb4bd5afd801b811d88c3fddd615523bf",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa12-7f30-ba32-4200cda59fcb/exec-f428df2d-d7d5-4971-8c54-3f03571a8bca.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Male grey vermiculated body, black stern, white speculum, dark bill, brownish head; swimming posture correctly conceals feet. Generator field-mark check: Male grey vermiculation, black stern, white speculum, dark bill, brown head; swimming, feet hidden."
+  },
+  {
     "speciesId": "spatula-clypeata",
     "path": "/birds/spatula-clypeata.png",
     "sha256": "ba01ecf604a2a07b2aa9785dc8d3b74d5365563b2749cb00302cadcc749e7309",
@@ -965,6 +1623,34 @@
     "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Drooping tuft, yellow eye, black breast and back, white flanks, grey bill with black tip; two webbed feet. Generator field-mark check: drooping tuft, golden eye, white flanks, black-tipped grey bill."
   },
   {
+    "speciesId": "aythya-ferina",
+    "path": "/birds/aythya-ferina.png",
+    "sha256": "0e6f24d5229030165b2df9999b5784286aebf810a02201785d8fdcf088bd26be",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa15-7481-aa5e-0304e11cf7c9/exec-ea30860f-d325-478e-a897-7c7da7ddc9d2.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Male chestnut head, red eye, black breast/stern, pale grey body, grey bill band; swimming posture correctly conceals feet. Generator field-mark check: Chestnut head, black breast/stern, grey body, grey bill band; swimming, feet hidden."
+  },
+  {
+    "speciesId": "aythya-marila",
+    "path": "/birds/aythya-marila.png",
+    "sha256": "ed3b317aac1a6a5bfa8e9dd892bf3c3669f5d5a6ae3b6f0fc150abe210d59caf",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa12-7702-83de-857ee808bed4/exec-eb7f76bf-5a8a-40e2-b0bd-ea0d30ca9dd4.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Green-glossed black head, black breast, grey vermiculated back, white flanks, yellow eye, blue-grey bill; swimming pose legitimately hides feet. Generator field-mark check: green-glossed black head, black breast, grey vermiculated back, white flanks, yellow eye; swimming feet hidden."
+  },
+  {
     "speciesId": "bucephala-clangula",
     "path": "/birds/bucephala-clangula.png",
     "sha256": "76fce3c149deb5d02701a6732453a3bd2c6ff210dc8434b3be36819756a0e2f3",
@@ -985,6 +1671,48 @@
     "modifications": "None; byte-for-byte copy",
     "review": "reviewed",
     "reviewScope": "Contact sheet visual review: species features, whole bird, style. Not expert ornithological certification."
+  },
+  {
+    "speciesId": "mergus-serrator",
+    "path": "/birds/mergus-serrator.png",
+    "sha256": "718c20b7f944b5df226949db1d1ea128a037d94a93c52a788335beca477e3bcd",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa1b-72d2-bd16-07080ff66472/exec-8297c9f7-7947-4a7e-a575-06e64feaa342.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Male: shaggy double crest, green head, white collar, streaked rusty breast, thin red serrated bill; swimming posture, hidden legs accepted. Generator field-mark check: Male, shaggy double crest, green head, white collar, streaked rusty breast, thin red serrated bill; swimming, feet hidden."
+  },
+  {
+    "speciesId": "somateria-mollissima",
+    "path": "/birds/somateria-mollissima.png",
+    "sha256": "b8990eeddf15ac212c21787a43457129edc851cfcafae33d3267802d0b04a461",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa14-7bf2-978c-0a783a2dbab2/exec-f66df026-514f-46dd-9b73-59e445cec260.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Male white back/breast, black crown/belly, pale green nape, wedge-shaped bill; swimming posture legitimately conceals feet; composition/style/alpha pass. Generator field-mark check: Male white back/breast; black belly/crown; green nape; wedge bill; swimming, feet hidden."
+  },
+  {
+    "speciesId": "melanitta-nigra",
+    "path": "/birds/melanitta-nigra.png",
+    "sha256": "3447a97fafaf1023d2cbb057503907a688c6dd6f383fc1634b665be8a699440f",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa09-7782-9e65-6cfaadba5084/exec-6311cfe8-9385-49b9-9759-c3bee11b9b63.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): All-black male; black bill with yellow patch and basal knob; swimming posture with hidden feet accepted. Generator field-mark check: All-black male, black bill, yellow patch, basal knob; swimming, feet hidden."
   },
   {
     "speciesId": "tachybaptus-ruficollis",
@@ -1015,6 +1743,20 @@
     "reviewScope": "Independent full-size review (Codex gpt-6-astra, 4 Nov 2026) confirmed Double black crest, chestnut-black ruff, white face, pink pointed bill; legs absent, but failed it only because legs are hidden: \"Body ends at a flattened waterline; legs and lobed feet omitted, so whole bird is not visible.\". Lead overruled: the generation brief permits an on-water swimming posture without drawn water, and plumage, bill and single left-facing whole body pass. Generator field-mark check: Double crest, chestnut-black ruff, white neck, pink bill, red eye."
   },
   {
+    "speciesId": "podiceps-auritus",
+    "path": "/birds/podiceps-auritus.png",
+    "sha256": "df43f0eb9eb8493267e74f68c8c68cd851367cf7b9ee9a175c07166ee78ce70f",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa16-71c0-a932-9fbb4f06aeee/exec-7a1c82b6-4248-411a-9dec-f3f7e72696bd.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Summer golden ear tufts, black head, red eye, chestnut neck; straight pointed bill; swimming posture with legs correctly hidden. Generator field-mark check: Summer golden ear tufts; chestnut neck/flanks; black head; red eye; pale-tipped bill; swimming posture, legs hidden."
+  },
+  {
     "speciesId": "fulica-atra",
     "path": "/birds/fulica-atra.png",
     "sha256": "e7897bb54a6f65b3f892758a4fc7c56b626a05f1508ccd7e111175c89809712b",
@@ -1043,6 +1785,20 @@
     "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Red shield, yellow-tipped red bill, white flank stripe and undertail; two yellow-green legs, long unwebbed toes. Generator field-mark check: Red shield, yellow bill tip, white flank stripe, long green-yellow toes."
   },
   {
+    "speciesId": "rallus-aquaticus",
+    "path": "/birds/rallus-aquaticus.png",
+    "sha256": "f4a6e17a76256487d51c4c390cc3d3c32521a0fa66ddcdeb87810d5dbdf96ff0",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa12-7f30-ba32-4200cda59fcb/exec-f126eb6b-232b-48ea-ab37-cc88d62ed152.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Slate face/breast, streaked brown back, barred flanks, long red bill; two legs with three long forward toes and one hind toe each. Generator field-mark check: Red bill, slate-grey breast, streaked brown back, barred flanks, buff undertail; 3+1 toes."
+  },
+  {
     "speciesId": "haematopus-ostralegus",
     "path": "/birds/haematopus-ostralegus.png",
     "sha256": "778b97c72befa2901f2c3dd3d17f10de472f0ffffb87e8de072a652b680dfd6d",
@@ -1057,6 +1813,20 @@
     "reviewScope": "Full-size review: long straight orange-red bill, black head/back/upper breast, white belly, red eye and pink-red legs, complete feet/tail; recognisable Eurasian Oystercatcher, matching restrained woodblock style."
   },
   {
+    "speciesId": "recurvirostra-avosetta",
+    "path": "/birds/recurvirostra-avosetta.png",
+    "sha256": "02b0348f9589bf0df6ee294fe27284dd1ed6649df10301a93c347efe3d3b3240",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa15-7481-aa5e-0304e11cf7c9/exec-3fa0681a-e46b-4058-a8b8-9ee46eedc46b.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Black-and-white plumage, fine strongly upcurved black bill, long blue-grey legs; three forward toes and small hind toe per foot. Generator field-mark check: Pied plumage, strongly upcurved fine bill, long blue-grey legs; three forward toes."
+  },
+  {
     "speciesId": "vanellus-vanellus",
     "path": "/birds/vanellus-vanellus.png",
     "sha256": "c66ba05f6ac76278cd007628fd1279bb040dcab5b869071999d2d1bb7bdd3007",
@@ -1069,6 +1839,20 @@
     "modifications": "None; original generated transparent PNG copied byte-for-byte",
     "review": "reviewed",
     "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Swept crest, black breast, green-purple back, white belly, chestnut undertail; two legs, three forward toes and small hind toes. Generator field-mark check: Swept crest, green-purple back, black bib, white belly, chestnut vent, pink legs."
+  },
+  {
+    "speciesId": "pluvialis-apricaria",
+    "path": "/birds/pluvialis-apricaria.png",
+    "sha256": "a305d1be84f5ba765233fcb10768ecf6abe5ffbc5782db8327c8c008f3a6d8c0",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa12-7702-83de-857ee808bed4/exec-a3b11885-0f9b-4abf-9fef-e46e8feb8d13.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Golden-spangled upperparts, black face/belly bordered white, short dark bill; both feet three forward toes with no hind toe. Generator field-mark check: golden-spangled back, black face/belly, white border, three forward toes, no hind toes."
   },
   {
     "speciesId": "pluvialis-squatarola",
@@ -1096,6 +1880,20 @@
     "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Black mask and breast band, white forehead and collar, orange black-tipped bill; orange legs, three forward toes without hind toes. Generator field-mark check: black mask/breast band, white collar, orange black-tipped bill, orange legs."
   },
   {
+    "speciesId": "charadrius-dubius",
+    "path": "/birds/charadrius-dubius.png",
+    "sha256": "0cc5df03a202c2ddca32d33fc794c3f276d14149d067b6322e6da6681b82b4b1",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa1b-72d2-bd16-07080ff66472/exec-7589cd20-4c95-4aba-84cf-59a8698b63cf.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Yellow eye-ring, black facial markings/breast band, white forehead/collar, dark bill; three forward toes per foot, no hind toe. Generator field-mark check: Yellow eye ring, black bill/mask/collar, sandy back, white belly, flesh legs, three forward toes."
+  },
+  {
     "speciesId": "calidris-alpina",
     "path": "/birds/calidris-alpina.png",
     "sha256": "846557cfe84b37788904f3918b95907e5bc4ed7ce3dc42ba6f99a3009feb912f",
@@ -1118,6 +1916,48 @@
     "reviewScope": "Contact sheet visual review: species features, whole bird, style. Not expert ornithological certification."
   },
   {
+    "speciesId": "calidris-canutus",
+    "path": "/birds/calidris-canutus.png",
+    "sha256": "e45efcf73f86fbff8cd7a61fad6e0a4d3269cd9ae1cc5f0068467bb0ded22932",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa14-7bf2-978c-0a783a2dbab2/exec-8f2e7202-1ffa-40f0-b6f7-30fb1af7b016.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Non-breeding grey upperparts, pale underside, straight bill, short dull green legs; both feet 3-forward/1-back; composition/style/alpha pass. Generator field-mark check: Winter grey; white belly; straight bill; short dull-green legs; compact body; unwebbed 3+1 feet."
+  },
+  {
+    "speciesId": "calidris-maritima",
+    "path": "/birds/calidris-maritima.png",
+    "sha256": "66b9288a4b3f444dd8c04958fe384d25c424e8d30d124b9b0ad385fc0f9f6963",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa09-7782-9e65-6cfaadba5084/exec-3e7b56c9-1a6a-451b-a47c-887c6628e80a.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Dark slate plumage, orange-yellow legs and bill base, dark decurved bill tip; both feet 3+1. Generator field-mark check: Slate-grey, orange-yellow legs/bill base, dark curved bill tip, white belly; 3+1 toes."
+  },
+  {
+    "speciesId": "calidris-pugnax",
+    "path": "/birds/calidris-pugnax.png",
+    "sha256": "7e67d166cd369a97970c4a47ba9db0878c87d8d1f8001a1bcefeea7d07496366",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa16-71c0-a932-9fbb4f06aeee/exec-2f8850e9-3a9e-4e8f-a7a9-ac8678298ba9.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Non-breeding plumage without ornamental ruff; scaly brown upperparts, small head, orange legs; three forward toes and small hind toe. Generator field-mark check: Non-breeding, no ruff; small head; scaly brown upperparts; white belly; orange-ish legs; 3+1 toes."
+  },
+  {
     "speciesId": "arenaria-interpres",
     "path": "/birds/arenaria-interpres.png",
     "sha256": "dfd0a3e14cca7e7fc976e49d1dc87ba4443d2dc7a77284874198a3498cbf74da",
@@ -1130,6 +1970,20 @@
     "modifications": "None; original generated transparent PNG copied byte-for-byte",
     "review": "reviewed",
     "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Black-white head/breast pattern, chestnut-black wings, white belly, stout wedge bill; two orange legs with four toes each. Generator field-mark check: Black-white head, black bib, white belly, chestnut-black wings, wedge bill, orange legs."
+  },
+  {
+    "speciesId": "actitis-hypoleucos",
+    "path": "/birds/actitis-hypoleucos.png",
+    "sha256": "53b79014f72708987fb02bb82780d00555683bde9cdb01dd7a61d05805d71a45",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa12-7f30-ba32-4200cda59fcb/exec-7d551480-9c5f-43b3-80e6-0ec2225f218b.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Brown upperparts, white belly and shoulder wedge, pale eyebrow, straight bill, olive legs; both feet three forward/one back. Generator field-mark check: Olive-brown upperparts, white shoulder notch/belly, streaked breast, slender bill, short olive legs; 3+1 toes."
   },
   {
     "speciesId": "tringa-totanus",
@@ -1146,6 +2000,34 @@
     "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Orange-red legs, red-based dark-tipped straight bill, streaked plumage; two legs, three forward toes and small hind toes. Generator field-mark check: Red legs, red-based dark bill, mottled back, streaked underside."
   },
   {
+    "speciesId": "tringa-nebularia",
+    "path": "/birds/tringa-nebularia.png",
+    "sha256": "647a3f9a556a8e69decad3195cb6a22b170ae2c6ec272d384dcd7ded56956c2e",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa15-7481-aa5e-0304e11cf7c9/exec-5fc756bf-0fc0-49e7-8198-591956567d01.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Slightly upturned bill, greenish legs, streaked pale head/breast, grey patterned upperparts, white belly; correct 3+1 toes. Generator field-mark check: Greenish-grey legs, slightly upcurved bill, grey back, white belly; mostly free 3+1 toes."
+  },
+  {
+    "speciesId": "tringa-ochropus",
+    "path": "/birds/tringa-ochropus.png",
+    "sha256": "9c3cde8f0a2d1765606dcfab7507243d485db792e340c482dd80e9b699a010a5",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa12-7702-83de-857ee808bed4/exec-4e22d6a2-1acc-4186-bcfb-235d5112595b.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Dark finely spotted upperparts, streaked breast, white belly, pale eye-ring, straight fine bill, greenish legs; three-forward/one-back feet. Generator field-mark check: dark spotted back, white belly, streaked breast, eye ring, green-grey legs, 3+1 feet."
+  },
+  {
     "speciesId": "numenius-arquata",
     "path": "/birds/numenius-arquata.png",
     "sha256": "a40e8e6732c920c6396172c3789f5e45b33e6f6bde56b3e9c81f29cfd560c0d1",
@@ -1160,6 +2042,20 @@
     "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Long downcurved bill, streaked brown plumage, unstriped crown; two long grey legs, three forward toes and small hind toes. Generator field-mark check: long downcurved bill, streaked breast, scalloped back, grey legs."
   },
   {
+    "speciesId": "numenius-phaeopus",
+    "path": "/birds/numenius-phaeopus.png",
+    "sha256": "4918eb258bb2be18f4de4522584ae526ee6f96b4a7ec0c2ce32febfbda65b67d",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa1b-72d2-bd16-07080ff66472/exec-5b263192-ab39-4413-8b4a-1e0af2e47f10.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Striped crown, pale eyebrow, brown streaked plumage, downcurved bill; two legs, both feet 3+1. Generator field-mark check: Pale central crown stripe/eyebrow, downcurved bill, mottled back, streaked breast, grey legs, 3+1 toes."
+  },
+  {
     "speciesId": "limosa-lapponica",
     "path": "/birds/limosa-lapponica.png",
     "sha256": "2ab84c0d24331d293a0a5c7f81625c6c12a224b62028943dbe28c8b87973efd3",
@@ -1172,6 +2068,48 @@
     "modifications": "None; original generated transparent PNG copied byte-for-byte",
     "review": "reviewed",
     "reviewScope": "Regenerated after the first independent review failed it (Bill curves sharply upward toward the tip, unlike the godwit\u2019s gently upturned bill.). Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Nonbreeding plumage, pale eyebrow, long slightly upturned pink-based bill, barred tail; two legs, four toes per foot; composition, alpha and style pass. Generator field-mark check: Gently upturned bill, pink bill base, pale supercilium, winter plumage, barred tail, dark legs."
+  },
+  {
+    "speciesId": "limosa-limosa",
+    "path": "/birds/limosa-limosa.png",
+    "sha256": "b3793e125474b117ccca111dda22b8b8540ad9f423074a2e5954232aa16c666f",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa14-7bf2-978c-0a783a2dbab2/exec-8056da9d-ae71-4c2b-a79d-f82b3b5091bf.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Long straight pink-based dark-tipped bill, grey-brown winter plumage, white wing stripe, black tail, long legs; both feet 3-forward/1-back; composition/style/alpha pass. Generator field-mark check: Long straight bicoloured bill; long dark legs; winter grey; white rump/wingbar; black tail; 3+1 feet."
+  },
+  {
+    "speciesId": "gallinago-gallinago",
+    "path": "/birds/gallinago-gallinago.png",
+    "sha256": "e20b3f1fd3c6b78a18b47a53fe196a4c33a4a54ebb257fc76e651804f5429ed3",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa09-7782-9e65-6cfaadba5084/exec-2df0d5b0-d9a5-4f56-8f41-22f796c0e268.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Long straight bill, striped crown, buff back stripes, streaked breast and barred flanks; both feet 3+1. Generator field-mark check: Long straight bill, striped head, cream scapular stripes, barred flanks; 3+1 toes."
+  },
+  {
+    "speciesId": "scolopax-rusticola",
+    "path": "/birds/scolopax-rusticola.png",
+    "sha256": "9f95553a3ef0b06e57e248a30aed87fb2f05d8e408ebab8a78e8791b941353e1",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa16-71c0-a932-9fbb4f06aeee/exec-d91c351a-6710-4851-83f8-e5a653f13f6b.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Long straight bill, high-set eye, transverse crown bars, mottled brown back, barred belly; both feet three forward/one back. Generator field-mark check: Long straight bill; high rear-set eye; transverse crown bars; russet mottling; barred underparts; 3+1 toes."
   },
   {
     "speciesId": "chroicocephalus-ridibundus",
@@ -1199,6 +2137,34 @@
     "reviewScope": "Contact sheet visual review: species features, whole bird, style. Not expert ornithological certification."
   },
   {
+    "speciesId": "hydrocoloeus-minutus",
+    "path": "/birds/hydrocoloeus-minutus.png",
+    "sha256": "fbf46563448f12029edbcfbced96bf0d792e6c5a048b82a095bbe0069df0ad38",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa09-7782-9e65-6cfaadba5084/exec-bc2ec1bc-4b11-40fb-8934-03a3df94328a.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Small gull form, black hood without white eye-ring, pale grey upperwing with white tips and no black, red bill/legs; three webbed forward toes plus small hind toes. Generator field-mark check: Black hood, no white eye-ring, pale grey upperwing, white tips without black, red bill/legs; webbed feet."
+  },
+  {
+    "speciesId": "ichthyaetus-melanocephalus",
+    "path": "/birds/ichthyaetus-melanocephalus.png",
+    "sha256": "06c752cbe1dad525daeb61da4145d336b098f9e47c3d7b58c71bcb2e0cae2992",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a79e-4a6f-7b81-ac94-ef626dde9ada/exec-3b797c4b-0e56-44c5-9f66-99fd6a40c28e.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Black hood, white eye crescents, pale-grey back, white wingtips without black; stout red bill fairly straight with slight tip droop; two red legs, each foot three webbed forward toes plus small hind toe. Single whole left-facing bird, clean background; style matches; RGBA, alpha 0\u2013254, corners transparent.. Generator field-mark check: Black hood, white crescents/wingtips, pale-grey back, straight stout red bill, red webbed 3+1 feet; Pillow passed."
+  },
+  {
     "speciesId": "larus-canus",
     "path": "/birds/larus-canus.png",
     "sha256": "721c9e93b2816400e502976cf9317c11c6388aa4f7354bec418689b5e727bf44",
@@ -1222,6 +2188,20 @@
     "modifications": "None; byte-for-byte copy",
     "review": "reviewed",
     "reviewScope": "Contact sheet visual review: species features, whole bird, style. Not expert ornithological certification."
+  },
+  {
+    "speciesId": "larus-michahellis",
+    "path": "/birds/larus-michahellis.png",
+    "sha256": "351fd1e6d5d770275531b6c7a29d840acd05b357ed513ce4c0429a96f113bb53",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa16-71c0-a932-9fbb4f06aeee/exec-9cc912c5-23d2-4468-a9a2-1bbda130a388.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Mid-grey back, yellow legs, yellow bill/red gonys spot, red orbital ring, black wingtips with small white patches; three webbed forward toes plus hind toe. Generator field-mark check: Mid-grey back; yellow legs; yellow bill/red gonys spot; red orbital ring; black wingtips/white mirrors; webbed feet."
   },
   {
     "speciesId": "larus-fuscus",
@@ -1249,6 +2229,20 @@
     "reviewScope": "Contact sheet visual review: species features, whole bird, style. Not expert ornithological certification."
   },
   {
+    "speciesId": "rissa-tridactyla",
+    "path": "/birds/rissa-tridactyla.png",
+    "sha256": "18fe50ab378b2d550f6d21f6b9d0f493dee9ec2c10785277b566a362b6b034d1",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa15-7481-aa5e-0304e11cf7c9/exec-98ecd287-2d9b-454f-be07-0e9554d3d119.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Solid black wingtips, grey mantle, yellow bill, dark eye, short black legs; three webbed forward toes and vestigial hind toes. Generator field-mark check: Solid black wingtips, short black legs, yellow bill, dark eye; three webbed toes."
+  },
+  {
     "speciesId": "sterna-hirundo",
     "path": "/birds/sterna-hirundo.png",
     "sha256": "71a029ef95167e5b30343a4097f3b1896d56169cd4498e6b0ec88e933bada26f",
@@ -1258,6 +2252,132 @@
     "modifications": "None; byte-for-byte copy",
     "review": "reviewed",
     "reviewScope": "Contact sheet visual review: species features, whole bird, style. Not expert ornithological certification."
+  },
+  {
+    "speciesId": "sterna-paradisaea",
+    "path": "/birds/sterna-paradisaea.png",
+    "sha256": "3c450ad10c884db52db7b08dbe1e6d4906cf11237040b02a9aa9bf6ceb4f212f",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa12-7702-83de-857ee808bed4/exec-6928c775-01ae-4c28-8d4f-1083fbf81d1c.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Entirely red bill, black cap, grey body, long paired tail streamers; very short red legs, three webbed forward toes per foot. Generator field-mark check: all-red bill, black cap, short red legs, long tail streamers, webbed feet."
+  },
+  {
+    "speciesId": "thalasseus-sandvicensis",
+    "path": "/birds/thalasseus-sandvicensis.png",
+    "sha256": "607bf98e320133f5cb61a2836237d8b1d5a578e3f7dec11b060353f26a7afe3a",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa1b-72d2-bd16-07080ff66472/exec-a3275dfb-11e0-40ba-a756-713f0be1d6cf.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Yellow-tipped black bill, shaggy black crest, pale-grey back, forked tail, black legs; three webbed forward toes and small hind toes. Generator field-mark check: Yellow-tipped black bill, shaggy black crest, pale grey back, black legs, three webbed forward toes."
+  },
+  {
+    "speciesId": "sternula-albifrons",
+    "path": "/birds/sternula-albifrons.png",
+    "sha256": "7e7a0345816d4a03657521f1a2e4d26fb2250d3b33b0f02afde110e8c231fa64",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa14-7bf2-978c-0a783a2dbab2/exec-b1bc00c9-4704-41df-aeca-7da30258891a.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Yellow black-tipped bill, white forehead, black cap, orange legs, compact proportions, forked tail; three webbed forward toes plus small hind toes; composition/style/alpha pass. Generator field-mark check: Yellow black-tipped bill; white forehead; black cap; grey wings; forked tail; orange webbed feet."
+  },
+  {
+    "speciesId": "fratercula-arctica",
+    "path": "/birds/fratercula-arctica.png",
+    "sha256": "7719e50d0815963f88e6b7b641cf293ea9fe5116808731927fe03d5a3ec48460",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa09-7782-9e65-6cfaadba5084/exec-24b89d42-4489-4d99-afa5-553ce8c505cf.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Summer triangular red-yellow-grey bill, white face, black back, orange feet; three webbed toes, no hind toes. Generator field-mark check: Summer red-yellow-grey bill, white face, black back, orange feet; three webbed toes, no hind toe."
+  },
+  {
+    "speciesId": "alca-torda",
+    "path": "/birds/alca-torda.png",
+    "sha256": "4f998801118a585e384b75fdfc7d608525537647f2eb15792fd345e263af93dc",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa16-71c0-a932-9fbb4f06aeee/exec-d86e2267-4dcf-482b-a6d9-8716431e10f7.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Black upperparts, white underparts, deep blunt bill with white band and eye-line; three webbed toes per foot, no hind toes. Generator field-mark check: Black upperparts; white underparts; deep blunt bill with white line; white eye-line; three webbed toes, no hind toe."
+  },
+  {
+    "speciesId": "uria-aalge",
+    "path": "/birds/uria-aalge.png",
+    "sha256": "1ff8569bae75f7f83490e90193169ae3e0c39b6e6da6eca827707b546ac9ee22",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa12-7f30-ba32-4200cda59fcb/exec-c0029e02-63b9-4877-abed-a8436c2bbc6b.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Chocolate-brown upperparts, white underparts, slender pointed bill; both feet three webbed forward toes, correctly without hind toes. Generator field-mark check: Chocolate-brown upperparts, white underparts, slender pointed bill, short tail; three webbed toes, no hind toe."
+  },
+  {
+    "speciesId": "fulmarus-glacialis",
+    "path": "/birds/fulmarus-glacialis.png",
+    "sha256": "22e52ef2aaa08599bbdff1aa8a4491b25f4b9b26e39f7577053dd3c4c1f068ba",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa15-7481-aa5e-0304e11cf7c9/exec-b5570909-b582-4004-82a9-8050bd4e7a7d.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): White head/body, grey wings, dark eye patch, hooked bill with nasal tubes; two legs, three webbed toes, no visible hind toes. Generator field-mark check: White/grey plumage, smoky eye patch, hooked tubenose bill; three webbed toes, no hind toe."
+  },
+  {
+    "speciesId": "puffinus-puffinus",
+    "path": "/birds/puffinus-puffinus.png",
+    "sha256": "111a609a2da1c78e2d01b467cc70370a05322c58e58e2ec033291464d195fd5d",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a79e-4a6f-7b81-ac94-ef626dde9ada/exec-8d6c9f17-3601-4f2c-b12a-304d15c89ff4.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Black upperparts, white underparts; slender dark hooked bill with small integrated nasal tubes; two pink legs, three webbed toes per foot, no hind toes; low standing posture. Single whole left-facing bird, clean background; style matches; RGBA, alpha 0\u2013254, corners transparent.. Generator field-mark check: Left-facing resting posture, black/white plumage, slender hooked bill, small integrated nasal tubes, pink three-toed webbed feet without hind toes; Pillow passed."
+  },
+  {
+    "speciesId": "gavia-stellata",
+    "path": "/birds/gavia-stellata.png",
+    "sha256": "42fdced8ab4efcc0e453133a3b42644feb39cdedad344ad0ad3f3ac8fcba89db",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa1b-72d2-bd16-07080ff66472/exec-182df647-ef24-49d2-9a9c-d8e8dbc2fece.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Grey head, red throat patch, striped hindneck, slim upturned bill; required swimming posture with legs hidden. Generator field-mark check: Summer grey head, dark red throat, striped hindneck, slim upturned bill; swimming, legs hidden."
   },
   {
     "speciesId": "gavia-immer",
@@ -1280,6 +2400,34 @@
     "modifications": "None; byte-for-byte copy",
     "review": "reviewed",
     "reviewScope": "Contact sheet visual review: species features, whole bird, style. Not expert ornithological certification."
+  },
+  {
+    "speciesId": "alectoris-rufa",
+    "path": "/birds/alectoris-rufa.png",
+    "sha256": "0f6bf8ebc603cd60c74f878f414d5e6317cfcddcd19db60dbae51504807a0271",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa14-7bf2-978c-0a783a2dbab2/exec-b60e2e8f-daf6-4007-b53f-14d9ec093a2e.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Red bill/eye-ring/legs, white throat with black border, spotted necklace, barred flanks; both feet 3-forward/1-back; composition/style/alpha pass. Generator field-mark check: Red bill/eye-ring/legs; white throat; black necklace and spotting; barred flanks; 3+1 feet."
+  },
+  {
+    "speciesId": "perdix-perdix",
+    "path": "/birds/perdix-perdix.png",
+    "sha256": "985410f8035e1acf06ec19e7a4e46bbefbff60bdf27a90b7143bf192d2c334c7",
+    "source": "joes-macbook-pro:/Users/joe/.codex/generated_images/01a1a78e-fa09-7782-9e65-6cfaadba5084/exec-e7343197-d605-4f6b-8dd7-6e0d900ea797.png",
+    "generator": "OpenAI built-in imagegen via Codex on the Mac runner, 2026-11-04",
+    "license": "CC-BY-NC-SA-4.0 (derived style-reference artwork)",
+    "creator": "Generated for the birthday bird journal using OpenAI imagegen",
+    "styleReference": "Approved house-style references attached to every prompt: app/public/birds/{ardea-cinerea,erithacus-rubecula,haematopus-ostralegus,passer-domesticus}.png",
+    "promptRecipe": "Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.",
+    "modifications": "None; original generated transparent PNG copied byte-for-byte",
+    "review": "reviewed",
+    "reviewScope": "Independent full-size review (Codex gpt-6-astra, fresh context, 4 Nov 2026): Orange face, grey breast, chestnut belly horseshoe and flank bars, short rusty tail; both feet 3+1. Generator field-mark check: Orange face, grey breast, chestnut horseshoe/flank bars, short rufous tail; 3+1 toes."
   },
   {
     "speciesId": "lagopus-lagopus",

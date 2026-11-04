@@ -59,12 +59,31 @@ class CatalogueTests(unittest.TestCase):
         self.assertGreater(len(mapping), 150)
         emitted_labels = [label for species in self.species for label in species['photoLabels']]
         self.assertEqual(len(emitted_labels), len(set(emitted_labels)))
-        self.assertEqual(len({scientific for scientific in mapping.values()}), len(self.species))
+        self.assertEqual(set(mapping.values()), {s['scientificName'] for s in self.species if s['photoLabels']})
         for label, scientific in mapping.items():
             self.assertIn(label, labels)
             self.assertIn(scientific, {s['scientificName'] for s in self.species})
         self.assertEqual(mapping['European robin'], 'Erithacus rubecula')
         self.assertEqual(mapping['Eurasian blue tit'], 'Cyanistes caeruleus')
+
+    def test_every_species_is_returnable_by_a_real_model(self):
+        birdnet = json.loads((ROOT / 'model/l18n/labels_en.json').read_text(encoding='utf-8'))
+        for species in self.species:
+            self.assertTrue(species['photoLabels'] or species['birdnetLabels'], species['id'])
+            for name in species['birdnetLabels']:
+                self.assertIn(name, birdnet)
+
+    def test_inference_service_ships_the_catalogue_photo_taxonomy(self):
+        catalogue = json.loads((ROOT / 'artwork/photo-taxonomy.json').read_text())
+        service = json.loads((ROOT / 'services/inference/photo-taxonomy.json').read_text())
+        self.assertEqual(service, catalogue)
+
+    def test_local_species_are_identifiable(self):
+        by_id = {s['id']: s for s in self.species}
+        for species_id in ['acanthis-cabaret', 'bombycilla-garrulus', 'turdus-torquatus', 'linaria-flavirostris', 'aix-galericulata', 'psittacula-krameri', 'hydrocoloeus-minutus', 'larus-michahellis']:
+            self.assertEqual(by_id[species_id]['birdnetLabels'], [by_id[species_id]['scientificName']])
+        self.assertEqual(by_id['larus-michahellis']['photoLabels'], ['Yellow-legged gull'])
+        self.assertEqual(by_id['acanthis-cabaret']['photoLabels'], [])  # 'Common redpoll' is a different species concept
 
 
 if __name__ == '__main__':

@@ -11,6 +11,7 @@ Turdus philomelos|Song Thrush|
 Turdus viscivorus|Mistle Thrush|
 Turdus iliacus|Redwing|
 Turdus pilaris|Fieldfare|
+Turdus torquatus|Ring Ouzel|
 Troglodytes troglodytes|Wren|Eurasian Wren
 Prunella modularis|Dunnock|Hedge Sparrow
 Passer domesticus|House Sparrow|
@@ -21,6 +22,9 @@ Chloris chloris|Greenfinch|Carduelis chloris;European Greenfinch
 Carduelis carduelis|Goldfinch|European Goldfinch
 Spinus spinus|Siskin|Carduelis spinus;Eurasian Siskin
 Linaria cannabina|Linnet|Carduelis cannabina;Common Linnet
+Linaria flavirostris|Twite|Carduelis flavirostris
+Acanthis cabaret|Lesser Redpoll|Carduelis cabaret
+Bombycilla garrulus|Waxwing|
 Pyrrhula pyrrhula|Bullfinch|Eurasian Bullfinch
 Coccothraustes coccothraustes|Hawfinch|
 Emberiza citrinella|Yellowhammer|
@@ -34,6 +38,7 @@ Corvus corone|Carrion Crow|
 Corvus cornix|Hooded Crow|
 Corvus corax|Raven|Common Raven
 Columba palumbus|Woodpigeon|Common Wood Pigeon;Wood Pigeon
+Psittacula krameri|Ring-necked Parakeet|
 Columba oenas|Stock Dove|
 Columba livia|Rock Dove|Feral Pigeon;Rock Pigeon
 Streptopelia decaocto|Collared Dove|Eurasian Collared Dove
@@ -109,6 +114,7 @@ Branta leucopsis|Barnacle Goose|
 Branta bernicla|Brent Goose|Brant
 Tadorna tadorna|Shelduck|Common Shelduck
 Anas platyrhynchos|Mallard|
+Aix galericulata|Mandarin Duck|Mandarin
 Anas crecca|Teal|Eurasian Teal
 Anas acuta|Pintail|Northern Pintail
 Mareca penelope|Wigeon|Anas penelope;Eurasian Wigeon
@@ -153,9 +159,11 @@ Gallinago gallinago|Snipe|Common Snipe
 Scolopax rusticola|Woodcock|Eurasian Woodcock
 Chroicocephalus ridibundus|Black-headed Gull|Larus ridibundus
 Chroicocephalus philadelphia|Bonaparte's Gull|Larus philadelphia;Bonapartes Gull
+Hydrocoloeus minutus|Little Gull|Larus minutus
 Ichthyaetus melanocephalus|Mediterranean Gull|Larus melanocephalus
 Larus canus|Common Gull|
 Larus argentatus|Herring Gull|European Herring Gull
+Larus michahellis|Yellow-legged Gull|
 Larus fuscus|Lesser Black-backed Gull|
 Larus marinus|Great Black-backed Gull|
 Rissa tridactyla|Kittiwake|Black-legged Kittiwake

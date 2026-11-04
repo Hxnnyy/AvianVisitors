@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 HERE = ROOT / 'artwork'
 UPSTREAM = '5950f807b29157fde671ce302788d3f676d4ccca'
-REJECTED = {'anas-crecca': 'Upstream male depicts North American vertical white breast bar rather than Eurasian horizontal shoulder stripe.', 'mareca-strepera': 'Head and plumage ambiguous in contact-sheet review; retain missing state.', 'riparia-riparia': 'Diagnostic dark breast band not clear; retain missing state.'}
+REJECTED = {'anas-crecca': 'Upstream male depicts North American vertical white breast bar rather than Eurasian horizontal shoulder stripe.', 'mareca-strepera': 'Head and plumage ambiguous in contact-sheet review; retain missing state.', 'riparia-riparia': 'Diagnostic dark breast band not clear; retain missing state.', 'asio-flammeus': 'Upstream lacks the dark eye patches and heavy breast streaking; replaced by a reviewed generated bird (4 Nov 2026).'}
 
 
 def build():
