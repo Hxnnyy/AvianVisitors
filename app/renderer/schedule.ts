@@ -25,3 +25,14 @@ export function selectSpecies(collection: CollectionEntry[], settings: FrameSett
   const start = (Math.floor(now.getTime() / 3_600_000) * 6) % species.length;
   return Array.from({length:6}, (_,i) => species[(start+i)%species.length]);
 }
+
+/** Six illustrated garden birds for demo mode. Read from the catalogue; no sightings are created. */
+export const DEMO_SPECIES = [
+  "erithacus-rubecula",
+  "cyanistes-caeruleus",
+  "turdus-merula",
+  "carduelis-carduelis",
+  "passer-domesticus",
+  "troglodytes-troglodytes",
+];
+

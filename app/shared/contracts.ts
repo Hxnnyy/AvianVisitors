@@ -59,7 +59,7 @@ export interface CollectionEntry {
   sightings: Sighting[];
 }
 export interface FrameSettings {
-  mode: "week" | "all-time" | "manual";
+  mode: "week" | "all-time" | "manual" | "demo";
   speciesIds: string[];
   showNames: boolean;
 }

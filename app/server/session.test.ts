@@ -2,6 +2,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { Miniflare, convertV4MiniflareOptions } from "miniflare";
 import { readFile } from "node:fs/promises";
 import worker, { renderFrame, type Env } from "./index";
+import { DEMO_SPECIES } from "../renderer/schedule";
 
 const mf = new Miniflare(
   convertV4MiniflareOptions({
@@ -139,5 +140,23 @@ describe("QR pairing and phone sessions", () => {
     expect(reset.headers.get("Set-Cookie")).toMatch(/Max-Age=0/);
     expect((await session(cookie)).status).toBe(401);
     await frameToken();
+  });
+
+  it("demo mode previews a full frame of catalogue birds without touching the collection", async () => {
+    const cookie = await pairCookie(await frameToken());
+    await env.DB.exec("DELETE FROM species;");
+    for (const id of DEMO_SPECIES)
+      await env.DB.prepare("INSERT INTO species VALUES(?,?,?,?)").bind(id, id, id, `/birds/${id}.png`).run();
+    const put = await call("/api/frame", {
+      method: "PUT",
+      headers: { "Content-Type": "application/json", Cookie: cookie, Origin: "https://birds.test" },
+      body: JSON.stringify({ mode: "demo", speciesIds: [], showNames: true }),
+    });
+    expect(put.status).toBe(200);
+    const content = await frameContent();
+    expect(content).toMatchObject({ demo: true, showNames: true });
+    expect((content?.species as { id: string }[]).map((s) => s.id)).toEqual(DEMO_SPECIES);
+    const counts = await env.DB.prepare("SELECT (SELECT count(*) FROM sightings) AS s, (SELECT count(*) FROM captures) AS c").first();
+    expect(counts).toEqual({ s: 0, c: 0 });
   });
 });

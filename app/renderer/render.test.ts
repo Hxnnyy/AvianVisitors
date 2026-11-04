@@ -46,3 +46,7 @@ it('draws all text in solid ink the Spectra 6 panel shows without dithering',asy
  for(const svg of svgs) for(const [,fill] of svg.matchAll(/<text[^>]*fill="([^"]+)"/g)) expect(fill).toBe('#1a1612');
  expect(svgs[0]).toMatch(/font-size="32" fill="#1a1612">No birds in this selection yet/);
 });
+it('labels demo frames as a preview and leaves real frames unlabelled',()=>{
+ expect(renderSvg({width:480,height:800,showNames:true,species:[],demo:true})).toContain('Preview · a full frame of garden birds');
+ expect(renderSvg({width:480,height:800,showNames:true,species:[]})).not.toContain('Preview');
+});

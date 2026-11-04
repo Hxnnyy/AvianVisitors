@@ -1,4 +1,4 @@
-import { selectSpecies } from "../renderer/schedule";
+import { DEMO_SPECIES, selectSpecies } from "../renderer/schedule";
 import { serviceRequest, type ServiceEnvironment } from "./service-request";
 import type {
   Capture,
@@ -838,7 +838,7 @@ async function route(
   if (path === "/api/frame" && method === "PUT") {
     const b = (await request.json()) as FrameSettings;
     if (
-      !["week", "all-time", "manual"].includes(b.mode) ||
+      !["week", "all-time", "manual", "demo"].includes(b.mode) ||
       typeof b.showNames !== "boolean" ||
       !Array.isArray(b.speciesIds) ||
       b.speciesIds.length > 6 ||
@@ -878,8 +878,19 @@ async function image(env: Env, revision: string) {
     },
   });
 }
+async function demoSpecies(env: Env): Promise<Species[]> {
+  const rows = await env.DB.prepare(
+    `SELECT * FROM species WHERE id IN (${DEMO_SPECIES.map(() => "?").join(",")})`,
+  )
+    .bind(...DEMO_SPECIES)
+    .all<SpeciesRow>();
+  return DEMO_SPECIES.flatMap((id) => {
+    const row = rows.results.find((r) => r.id === id);
+    return row ? [species(row)] : [];
+  });
+}
 /** Bump when the renderer's drawing changes, so every frame redraws with the new style. */
-export const FRAME_STYLE = "solid-ink-2026-11-04";
+const FRAME_STYLE = "solid-ink-2026-11-04";
 export async function renderFrame(env: Env) {
   try {
     const row = await env.DB.prepare(
@@ -894,16 +905,19 @@ export async function renderFrame(env: Env) {
     const sightings = await env.DB.prepare(
       "SELECT * FROM sightings ORDER BY captured_at DESC",
     ).all<SightingRow>();
-    const selected = selectSpecies(
-      speciesRows.results.map((r) => ({
-        species: species(r),
-        sightings: sightings.results
-          .filter((s) => s.species_id === r.id)
-          .map(sighting),
-      })),
-      settings,
-      new Date(),
-    );
+    const selected =
+      settings.mode === "demo"
+        ? await demoSpecies(env)
+        : selectSpecies(
+            speciesRows.results.map((r) => ({
+              species: species(r),
+              sightings: sightings.results
+                .filter((s) => s.species_id === r.id)
+                .map(sighting),
+            })),
+            settings,
+            new Date(),
+          );
     const validManual = settings.speciesIds.filter((id) =>
       speciesRows.results.some((r) => r.id === id),
     );
@@ -916,7 +930,9 @@ export async function renderFrame(env: Env) {
     const content = JSON.stringify(
       pairingUrl
         ? { pairingUrl, width: 480, height: 800 }
-        : { species: selected, showNames: settings.showNames, width: 480, height: 800 },
+        : settings.mode === "demo"
+          ? { species: selected, showNames: settings.showNames, width: 480, height: 800, demo: true }
+          : { species: selected, showNames: settings.showNames, width: 480, height: 800 },
     );
     const hash = await crypto.subtle.digest(
       "SHA-256",

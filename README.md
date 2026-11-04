@@ -10,6 +10,8 @@ Local quickstart (PowerShell 7, Node via fnm, Docker Desktop Linux, Python 3.11+
 
 Open http://127.0.0.1:5173. First start downloads/builds real CPU models and may take several minutes. Local credentials and data stay in ignored app/.dev.vars and app/.wrangler. This command does not deploy cloud resources. See [deployment](docs/DEPLOYMENT.md), [recovery](docs/RECOVERY.md), [architecture](docs/architecture.md), [security](docs/security.md), and [API contract](docs/API_CONTRACT.md). Hardware setup and actual phone/panel checks remain separate acceptance gates.
 
+Credits: built on [AvianVisitors](https://github.com/Twarner491/AvianVisitors) by Teddy ([Twarner491](https://github.com/Twarner491)) and the BirdNET models from the K. Lisa Yang Center for Conservation Bioacoustics, both licensed CC BY-NC-SA 4.0. See [LICENSE](LICENSE).
+
 ---
 # AvianVisitors
 

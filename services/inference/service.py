@@ -327,6 +327,8 @@ def identify_image(
     }
 
 
+# BirdNET v2.4 models and labels: K. Lisa Yang Center for Conservation Bioacoustics,
+# Cornell Lab of Ornithology. Licensed CC BY-NC-SA 4.0; see the repository LICENSE.
 @lru_cache(maxsize=1)
 def audio_models():
     from ai_edge_litert.interpreter import Interpreter
