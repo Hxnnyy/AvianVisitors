@@ -51,7 +51,7 @@ Live at **https://trackmybirds.com** on Joe's personal Cloudflare account (`97ca
 | Resource | Value |
 | --- | --- |
 | Worker | `avian-visitors`, custom domain on the `trackmybirds.com` apex; workers.dev and preview URLs disabled (workers.dev returns 404) |
-| D1 | `avian-visitors`, id `663011d8-e168-47e9-b39d-fcb8c1eb40f4`, WEUR; migrations 0001–0007 applied (175 species) |
+| D1 | `avian-visitors`, id `663011d8-e168-47e9-b39d-fcb8c1eb40f4`, WEUR; migrations 0001–0009 applied (183 species, 181 illustrated; 0009 applied 4 Nov 2026 with Worker version 724a3974) |
 | R2 | `avian-visitors-private`, WEUR, r2.dev public access disabled |
 | Containers | `avian-visitors-inferencecontainer` (standard-1), `avian-visitors-renderercontainer` (basic), max 1 instance each |
 | Secrets | `DEVICE_TOKEN`, `INFERENCE_TOKEN`, `RENDERER_TOKEN` (random 32-byte hex). `APP_ORIGIN` is a plain var in wrangler.jsonc |
