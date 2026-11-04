@@ -29,6 +29,8 @@ sudo systemctl enable --now avian-frame.timer
 
 Set `url` to the HTTPS app origin and `token` to its separately provisioned **display-only** bearer credential. The token may read `/device/manifest`, `/device/images/*` and acknowledge `/device/ack`; it must have no collection/media privileges. Do not use the web sign-in credential. Provisioning the matching server secret is part of hosted setup. The example contains no working credential.
 
+Verified on 4 November 2026 (Pi 3 A+, Raspberry Pi OS Lite 64-bit, Debian 13 trixie, Python 3.13): enable SPI and I2C with `sudo raspi-config nonint do_spi 0` and `do_i2c 0`, and add `dtoverlay=spi0-0cs` to `/boot/firmware/config.txt` (Pimoroni: the Inky driver drives chip-select itself), then reboot. `libgpiod2` and `libopenjp2-7` are not needed on trixie (pip wheels cover them); install `python3-dev build-essential` instead so `spidev` builds. The panel auto-detects as `inky_e673` (Impression 7.3-inch Spectra 6). A real draw takes about 34 seconds; after a reboot the timer resumes and unchanged revisions log `unchanged` without redrawing.
+
 Group names and GPIO dependencies above must be checked against the installed Pi OS and current Pimoroni driver. Use Pimoroni's official supported Inky installation instructions if package dependencies differ. The driver must detect the actual 7.3-inch panel; another resolution raises an explicit error instead of resizing silently. Change rotation to `270` if the physical portrait orientation is upside down.
 
 ## Test before the panel arrives
