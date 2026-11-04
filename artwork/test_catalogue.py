@@ -1,5 +1,6 @@
 import hashlib
 import json
+import sqlite3
 import unittest
 from pathlib import Path
 from PIL import Image
@@ -44,6 +45,13 @@ class CatalogueTests(unittest.TestCase):
             else:
                 self.assertIn(species['artworkUrl'], paths)
                 self.assertEqual(species['artworkStatus'], 'reviewed')
+
+    def test_migrations_leave_d1_artwork_matching_the_catalogue(self):
+        db = sqlite3.connect(':memory:')
+        for migration in sorted((ROOT / 'app/migrations').glob('*.sql')):
+            db.executescript(migration.read_text(encoding='utf-8'))
+        stored = dict(db.execute('SELECT id, artwork_url FROM species'))
+        self.assertEqual(stored, {s['id']: s['artworkUrl'] for s in self.species})
 
     def test_real_classifier_labels_map_exactly_once(self):
         labels = json.loads((ROOT / 'artwork/photo-labels.json').read_text())

@@ -12,6 +12,8 @@ if __name__ == '__main__':
     parser.add_argument('species_id')
     parser.add_argument('source', type=Path)
     parser.add_argument('--review', required=True, help='Observed species features and style review')
+    parser.add_argument('--generator', default='OpenAI built-in imagegen, 2026-10-26')
+    parser.add_argument('--style-reference', default='https://github.com/Twarner491/AvianVisitors/blob/5950f807b29157fde671ce302788d3f676d4ccca/avian/assets/illustrations/passer-domesticus.png')
     args = parser.parse_args()
     species = json.loads((HERE / 'species.json').read_text(encoding='utf-8'))
     if args.species_id not in {s['id'] for s in species}:
@@ -26,10 +28,10 @@ if __name__ == '__main__':
     manifest = json.loads((HERE / 'generated.json').read_text())
     manifest[args.species_id] = {
         'source': str(args.source),
-        'generator': 'OpenAI built-in imagegen, 2026-10-26',
+        'generator': args.generator,
         'license': 'CC-BY-NC-SA-4.0 (derived style-reference artwork)',
         'creator': 'Generated for the birthday bird journal using OpenAI imagegen',
-        'styleReference': f'https://github.com/Twarner491/AvianVisitors/blob/5950f807b29157fde671ce302788d3f676d4ccca/avian/assets/illustrations/passer-domesticus.png',
+        'styleReference': args.style_reference,
         'promptRecipe': 'Sparse Japanese kacho-e woodblock, muted flat colour zones, minimal texture, fine ink contours; explicit target species diagnostic anatomy; one whole bird facing left, neutral perched/standing posture; no perch, text, scenery or shadow; transparent background.',
         'modifications': 'None; original generated transparent PNG copied byte-for-byte',
         'review': 'reviewed',

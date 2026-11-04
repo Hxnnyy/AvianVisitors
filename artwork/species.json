@@ -68,8 +68,8 @@
     "photoLabels": [
       "Coal tit"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/periparus-ater.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "poecile-palustris",
@@ -157,8 +157,8 @@
     "photoLabels": [
       "Song thrush"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/turdus-philomelos.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "turdus-viscivorus",
@@ -174,8 +174,8 @@
     "photoLabels": [
       "Mistle thrush"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/turdus-viscivorus.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "turdus-iliacus",
@@ -191,8 +191,8 @@
     "photoLabels": [
       "Redwing"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/turdus-iliacus.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "turdus-pilaris",
@@ -208,8 +208,8 @@
     "photoLabels": [
       "Fieldfare"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/turdus-pilaris.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "troglodytes-troglodytes",
@@ -333,8 +333,8 @@
     "photoLabels": [
       "European greenfinch"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/chloris-chloris.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "carduelis-carduelis",
@@ -370,8 +370,8 @@
     "photoLabels": [
       "Eurasian siskin"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/spinus-spinus.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "linaria-cannabina",
@@ -390,8 +390,8 @@
     "photoLabels": [
       "Common linnet"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/linaria-cannabina.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "pyrrhula-pyrrhula",
@@ -408,8 +408,8 @@
     "photoLabels": [
       "Eurasian bullfinch"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/pyrrhula-pyrrhula.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "coccothraustes-coccothraustes",
@@ -460,8 +460,8 @@
     "photoLabels": [
       "Common reed bunting"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/emberiza-schoeniclus.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "sturnus-vulgaris",
@@ -515,8 +515,8 @@
     "photoLabels": [
       "Eurasian jay"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/garrulus-glandarius.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "coloeus-monedula",
@@ -534,8 +534,8 @@
     "photoLabels": [
       "Western jackdaw"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/coloeus-monedula.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "corvus-frugilegus",
@@ -551,8 +551,8 @@
     "photoLabels": [
       "Rook"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/corvus-frugilegus.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "corvus-corone",
@@ -568,8 +568,8 @@
     "photoLabels": [
       "Carrion crow"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/corvus-corone.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "corvus-cornix",
@@ -640,8 +640,8 @@
     "photoLabels": [
       "Stock dove"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/columba-oenas.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "columba-livia",
@@ -788,8 +788,8 @@
     "photoLabels": [
       "Eurasian treecreeper"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/certhia-familiaris.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "regulus-regulus",
@@ -805,8 +805,8 @@
     "photoLabels": [
       "Goldcrest"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/regulus-regulus.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "regulus-ignicapilla",
@@ -841,8 +841,8 @@
     "photoLabels": [
       "Common chiffchaff"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/phylloscopus-collybita.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "phylloscopus-trochilus",
@@ -858,8 +858,8 @@
     "photoLabels": [
       "Willow warbler"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/phylloscopus-trochilus.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "sylvia-atricapilla",
@@ -876,8 +876,8 @@
     "photoLabels": [
       "Eurasian blackcap"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/sylvia-atricapilla.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "sylvia-borin",
@@ -1111,8 +1111,8 @@
     "photoLabels": [
       "European stonechat"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/saxicola-rubicola.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "oenanthe-oenanthe",
@@ -1147,8 +1147,8 @@
     "photoLabels": [
       "White-throated dipper"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/cinclus-cinclus.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "motacilla-alba",
@@ -1166,8 +1166,8 @@
     "photoLabels": [
       "White wagtail"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/motacilla-alba.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "motacilla-cinerea",
@@ -1184,8 +1184,8 @@
     "photoLabels": [
       "Grey wagtail"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/motacilla-cinerea.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "motacilla-flava",
@@ -1219,8 +1219,8 @@
     "photoLabels": [
       "Meadow pipit"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/anthus-pratensis.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "anthus-petrosus",
@@ -1272,8 +1272,8 @@
     "photoLabels": [
       "Eurasian skylark"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/alauda-arvensis.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "hirundo-rustica",
@@ -1309,8 +1309,8 @@
     "photoLabels": [
       "Common house martin"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/delichon-urbicum.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "riparia-riparia",
@@ -1345,8 +1345,8 @@
     "photoLabels": [
       "Common swift"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/apus-apus.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "cuculus-canorus",
@@ -1381,8 +1381,8 @@
     "photoLabels": [
       "Common kingfisher"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/alcedo-atthis.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "buteo-buteo",
@@ -1399,8 +1399,8 @@
     "photoLabels": [
       "Common buzzard"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/buteo-buteo.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "accipiter-nisus",
@@ -1417,8 +1417,8 @@
     "photoLabels": [
       "Eurasian sparrowhawk"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/accipiter-nisus.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "milvus-milvus",
@@ -1453,8 +1453,8 @@
     "photoLabels": [
       "Common kestrel"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/falco-tinnunculus.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "falco-peregrinus",
@@ -1594,8 +1594,8 @@
     "photoLabels": [
       "Tawny owl"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/strix-aluco.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "athene-noctua",
@@ -1698,8 +1698,8 @@
     "photoLabels": [
       "Little egret"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/egretta-garzetta.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "platalea-leucorodia",
@@ -1753,8 +1753,8 @@
     "photoLabels": [
       "Great cormorant"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/phalacrocorax-carbo.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "gulosus-aristotelis",
@@ -1840,8 +1840,8 @@
     "photoLabels": [
       "Greylag goose"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/anser-anser.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "anser-brachyrhynchus",
@@ -1857,8 +1857,8 @@
     "photoLabels": [
       "Pink-footed goose"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/anser-brachyrhynchus.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "anser-albifrons",
@@ -1945,8 +1945,8 @@
     "photoLabels": [
       "Common shelduck"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/tadorna-tadorna.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "anas-platyrhynchos",
@@ -1981,8 +1981,8 @@
     "photoLabels": [
       "Eurasian teal"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/anas-crecca.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "anas-acuta",
@@ -2018,8 +2018,8 @@
     "photoLabels": [
       "Eurasian wigeon"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/mareca-penelope.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "mareca-strepera",
@@ -2072,8 +2072,8 @@
     "photoLabels": [
       "Tufted duck"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/aythya-fuligula.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "aythya-ferina",
@@ -2213,8 +2213,8 @@
     "photoLabels": [
       "Little grebe"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/tachybaptus-ruficollis.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "podiceps-cristatus",
@@ -2230,8 +2230,8 @@
     "photoLabels": [
       "Great crested grebe"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/podiceps-cristatus.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "podiceps-auritus",
@@ -2266,8 +2266,8 @@
     "photoLabels": [
       "Eurasian coot"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/fulica-atra.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "gallinula-chloropus",
@@ -2285,8 +2285,8 @@
     "photoLabels": [
       "Common moorhen"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/gallinula-chloropus.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "rallus-aquaticus",
@@ -2356,8 +2356,8 @@
     "photoLabels": [
       "Northern lapwing"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/vanellus-vanellus.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "pluvialis-apricaria",
@@ -2411,8 +2411,8 @@
     "photoLabels": [
       "Common ringed plover"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/charadrius-hiaticula.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "charadrius-dubius",
@@ -2533,8 +2533,8 @@
     "photoLabels": [
       "Ruddy turnstone"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/arenaria-interpres.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "actitis-hypoleucos",
@@ -2568,8 +2568,8 @@
     "photoLabels": [
       "Common redshank"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/tringa-totanus.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "tringa-nebularia",
@@ -2621,8 +2621,8 @@
     "photoLabels": [
       "Eurasian curlew"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/numenius-arquata.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "numenius-phaeopus",
@@ -2656,8 +2656,8 @@
     "photoLabels": [
       "Bar-tailed godwit"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/limosa-lapponica.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "limosa-limosa",
@@ -2727,8 +2727,8 @@
     "photoLabels": [
       "Black-headed gull"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/chroicocephalus-ridibundus.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "chroicocephalus-philadelphia",
@@ -2781,8 +2781,8 @@
     "photoLabels": [
       "Common gull"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/larus-canus.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "larus-argentatus",
@@ -2816,8 +2816,8 @@
     "photoLabels": [
       "Lesser black-backed gull"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/larus-fuscus.png",
+    "artworkStatus": "reviewed"
   },
   {
     "id": "larus-marinus",
@@ -3118,7 +3118,7 @@
     "photoLabels": [
       "Willow ptarmigan"
     ],
-    "artworkUrl": null,
-    "artworkStatus": "missing"
+    "artworkUrl": "/birds/lagopus-lagopus.png",
+    "artworkStatus": "reviewed"
   }
 ]
