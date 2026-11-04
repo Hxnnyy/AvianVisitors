@@ -14,7 +14,7 @@ it('confirms a suggestion without rewriting embedded metadata, then offers the c
   render(<Review capture={capture} {...props} />);
   fireEvent.click(screen.getByRole('button', { name: 'Confirm' }));
   const dialog = await screen.findByRole('dialog', { name: 'Robin' });
-  expect(dialog.textContent).toContain('Added to your collection');
+  expect(dialog.textContent).toContain('Saved to your collection');
   expect(fetcher.mock.calls.filter(call => call[0].startsWith('/api/captures'))).toHaveLength(1);
   expect(fetcher.mock.calls.find(call => call[0].endsWith('/confirm'))?.[0]).toBe('/api/captures/capture-1/confirm');
   fireEvent.click(screen.getByRole('button', { name: 'See it in your collection' }));

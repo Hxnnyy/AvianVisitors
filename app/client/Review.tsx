@@ -58,7 +58,8 @@ export function Review({ capture, onChange, onConfirmed, onDeleted, onViewCollec
 
     <section className="when-where" aria-labelledby="when-where-title"><p className="eyebrow" id="when-where-title">When & where</p>
       <label className="field-label" htmlFor={`date-${capture.id}`}>Date and time</label>
-      <div className="datetime"><CalendarIcon /><input id={`date-${capture.id}`} type="datetime-local" value={date} onChange={event => editDetails({ date: event.target.value })} /><ChevronIcon /></div>
+      <label className="datetime"><CalendarIcon /><input id={`date-${capture.id}`} type="datetime-local" value={date} onChange={event => editDetails({ date: event.target.value })} /><ChevronIcon /></label>
+      {!date && !identification?.warnings.includes('invalid_embedded_date') && <p className="hint">When did you see this bird? Tap to choose the date and time.</p>}
       {identification?.warnings.includes('invalid_embedded_date') && <p className="hint">We couldn’t read the date from the photograph. Please add it.</p>}
       {needsTimeReview && <div role="alert" className="notice"><p>Photo has no timezone. Check the date and time is right.</p><button disabled={busy} onClick={() => void action(() => saveDetails(true))}>The date and time are right</button></div>}
       {photoGps && location ? <p className="place-line"><PinIcon />From your photo · {location.latitude.toFixed(4)}, {location.longitude.toFixed(4)}</p>
@@ -71,7 +72,7 @@ export function Review({ capture, onChange, onConfirmed, onDeleted, onViewCollec
     {identification && <section className="suggestions"><p className="eyebrow">{capture.kind === 'audio' ? 'Birds heard · confirm each one' : 'Suggested bird'}</p>
       {identification.candidates.length === 0 ? <p>No confident suggestion. Try again, or choose the bird yourself.</p> : <p className="hint">Check the bird before confirming.</p>}
       {outsideCatalogue && <p className="hint">The closest match may be a bird outside this list. If you recognise it, choose it yourself.</p>}
-      {identification.candidates.map((candidate, index) => { const art = candidateArtwork.find(bird => bird.id === candidate.speciesId); const bird: Species = art ?? { id: candidate.speciesId, commonName: candidate.commonName, scientificName: candidate.scientificName, artworkUrl: null }; return <div className="candidate" key={candidate.speciesId}><div>{art?.artworkUrl && <img className="candidate-art" src={art.artworkUrl} alt="" />}<h3>{candidate.commonName}</h3><i>{candidate.scientificName}</i><p className="score">Model score {candidate.score.toFixed(2)}</p>{candidate.ranges.length > 0 && <p className="hint">Heard at {candidate.ranges.map(range => `${Math.floor(range.start)}–${Math.ceil(range.end)}s`).join(', ')}</p>}</div><button className={index === 0 && !confirmed.includes(candidate.speciesId) ? 'primary' : ''} disabled={busy || needsTimeReview || confirmed.includes(candidate.speciesId)} onClick={() => void confirm(bird, 'model')}>{confirmed.includes(candidate.speciesId) ? 'Confirmed ✓' : 'Confirm'}</button></div>; })}
+      {identification.candidates.map((candidate, index) => { const art = candidateArtwork.find(bird => bird.id === candidate.speciesId); const bird: Species = art ?? { id: candidate.speciesId, commonName: candidate.commonName, scientificName: candidate.scientificName, artworkUrl: null }; return <div className="candidate" key={candidate.speciesId}><div>{art?.artworkUrl && <img className="candidate-art" src={art.artworkUrl} alt="" />}<h3>{candidate.commonName}</h3><i>{candidate.scientificName}</i>{candidate.ranges.length > 0 && <p className="hint">Heard at {candidate.ranges.map(range => `${Math.floor(range.start)}–${Math.ceil(range.end)}s`).join(', ')}</p>}</div><button className={index === 0 && !confirmed.includes(candidate.speciesId) ? 'primary' : ''} disabled={busy || needsTimeReview || confirmed.includes(candidate.speciesId)} onClick={() => void confirm(bird, 'model')}>{confirmed.includes(candidate.speciesId) ? 'Confirmed ✓' : 'Confirm'}</button></div>; })}
     </section>}
 
     <div className="action-row">{(canIdentify || canRetry) && <button className="primary" disabled={busy} onClick={() => void identify()}>{identifying ? 'Identifying…' : canIdentify && capture.status === 'uploaded' ? 'Identify bird' : 'Try again'}</button>}<button aria-expanded={manual} onClick={() => setManual(!manual)}>Choose a different bird</button></div>
@@ -87,7 +88,7 @@ function ConfirmedModal({ bird, onView, onClose }: { bird: Species; onView: () =
   return <div className="modal-backdrop" onClick={event => { if (event.target === event.currentTarget) onClose(); }}>
     <div className="modal" role="dialog" aria-modal="true" aria-labelledby="confirmed-title">
       {bird.artworkUrl ? <img src={bird.artworkUrl} alt="" /> : <div className="artwork-missing">Illustration to come</div>}
-      <h2 id="confirmed-title">{bird.commonName}</h2><p role="status">Added to your collection</p>
+      <h2 id="confirmed-title">{bird.commonName}</h2><p role="status">Saved to your collection</p>
       <div className="modal-actions"><button ref={primary} className="primary" onClick={onView}>See it in your collection</button><button onClick={onClose}>Carry on</button></div>
     </div></div>;
 }

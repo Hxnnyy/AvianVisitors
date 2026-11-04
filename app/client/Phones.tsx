@@ -18,7 +18,7 @@ export function Phones() {
     try { await navigator.clipboard.writeText(url); setCopied(true); } catch { setError('Couldn’t copy. Press and hold the link to copy it.'); }
   }
   return <div className="phones">
-    <button onClick={() => void addPhone()}>Sign in another phone or the Home Screen app</button>
+    <button onClick={() => void addPhone()}>Add another phone</button>
     {link && <div className="pairing-link"><p>Your frame is showing a code to scan. Or copy this link and paste it into the other app. It works once, until {new Date(link.expiresAt).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' })}.</p><p className="score">{link.url}</p><button onClick={() => void copy(link.url)}>{copied ? 'Copied ✓' : 'Copy link'}</button></div>}
     {error && <p role="alert" className="error">{error}</p>}
     <button className="text-button danger" onClick={() => void signOutAll()}>Lost a phone? Sign out all phones</button>
