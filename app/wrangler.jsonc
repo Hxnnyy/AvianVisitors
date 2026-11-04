@@ -14,7 +14,7 @@
     {
       "binding": "DB",
       "database_name": "avian-visitors",
-      "database_id": "configure-before-deployment",
+      "database_id": "663011d8-e168-47e9-b39d-fcb8c1eb40f4",
       "migrations_dir": "migrations"
     }
   ],
