@@ -58,7 +58,9 @@ class Client:
         if (target.scheme, target.netloc) != (origin.scheme, origin.netloc):
             raise ValueError('Refusing image URL outside configured device origin')
         request = urllib.request.Request(url, data=json.dumps(body).encode() if body is not None else None,
-            headers={'Authorization': f'Bearer {self.token}', 'Content-Type': 'application/json'})
+            headers={'Authorization': f'Bearer {self.token}', 'Content-Type': 'application/json',
+                # Cloudflare's Browser Integrity Check rejects Python's default User-Agent with 403.
+                'User-Agent': 'AvianFrame/1.0'})
         # Redirects must not forward the device credential to another host.
         class NoRedirect(urllib.request.HTTPRedirectHandler):
             def redirect_request(self, req, fp, code, msg, headers, newurl):

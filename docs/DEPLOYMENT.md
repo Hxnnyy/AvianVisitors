@@ -44,6 +44,41 @@ Anyone who can see the frame can pair while a code is showing; the frame is in t
 
 Hosted validation: an unsigned /api request returns 401; a fresh database makes the frame show a QR; scanning it on an iPhone signs Safari in and the frame switches to birds; reusing the same link fails; the Home Screen app stays signed in after closing it and after restarting the phone; the Pi with its bearer reaches only /device/*; a missing or wrong device bearer returns 401.
 
+## Hosted deployment — 4 November 2026
+
+Live at **https://trackmybirds.com** on Joe's personal Cloudflare account (`97ca1cdee49e83a5ce8570fadb2fae2f`, Workers Paid). The inploi account was not used.
+
+| Resource | Value |
+| --- | --- |
+| Worker | `avian-visitors`, custom domain on the `trackmybirds.com` apex; workers.dev and preview URLs disabled (workers.dev returns 404) |
+| D1 | `avian-visitors`, id `663011d8-e168-47e9-b39d-fcb8c1eb40f4`, WEUR; migrations 0001–0007 applied (175 species) |
+| R2 | `avian-visitors-private`, WEUR, r2.dev public access disabled |
+| Containers | `avian-visitors-inferencecontainer` (standard-1), `avian-visitors-renderercontainer` (basic), max 1 instance each |
+| Secrets | `DEVICE_TOKEN`, `INFERENCE_TOKEN`, `RENDERER_TOKEN` (random 32-byte hex). `APP_ORIGIN` is a plain var in wrangler.jsonc |
+| Zone | `trackmybirds.com` (zone `f61ab87933d99ac6291af6884e1f676e`); www 301-redirects to the apex via a Single Redirect rule; Always Use HTTPS on |
+
+Commands (inspected; token passed per command as `CLOUDFLARE_API_TOKEN` with `CLOUDFLARE_ACCOUNT_ID` pinned, after asserting `wrangler whoami` resolves to the personal account): `wrangler d1 create avian-visitors --location weur`, `wrangler d1 migrations apply avian-visitors --remote`, `wrangler r2 bucket create avian-visitors-private --location weur`, then `wrangler deploy` (first deploy with `--secrets-file` referencing process environment values, so secrets landed in the same version as the containers).
+
+The apex previously had two GoDaddy parking A records (15.197.148.33 and 3.33.130.190, proxied); they were deleted to attach the custom domain.
+
+Hosted evidence (from this PC in London, real containers):
+
+| Check | Result |
+| --- | --- |
+| Unauthorised access | /api and /api/media without a session 401; /device without or with a wrong bearer 401; device bearer on /api 401; device bearer on /device 200 |
+| QR pairing | Fresh database: the cron issued a pairing token and rendered the QR frame within about two minutes of the first deploy. Pairing returned 204 with an HttpOnly, Secure cookie; reusing the token returned 401 |
+| Cold photo (first ever inference start) | robin.jpg 83 KB: upload 0.7 s, identification 5.4 s, Robin 0.869 |
+| Cold audio (after 3 min idle, past the 2-minute sleep) | Magpie 30 s WAV 2.9 MB: upload 2.3 s, identification 6.0 s, Magpie 0.932; confirmation to new device frame 6.9 s with a cold renderer |
+| Warm photo | herring-gull.jpg: identification 1.4 s, Herring Gull 0.846; confirmation to new device frame 3.7 s |
+| Large HEIC (cold) | Synthetic 8064×6048 HEIC, 10.9 MB (no real iPhone sample in the repo): upload 6.4 s, identification 9.8 s, Herring Gull 0.846 |
+| Private originals | All four originals read back through /api/media byte-identical (SHA-256) |
+| Frame | Device manifest and PNG fetched with the device bearer; two-species frame visually correct |
+| Cleanup | Test captures deleted (0 captures, 0 collection); pairing reset with the break-glass command so the frame shows a fresh QR for the first real phone |
+
+Cold starts are far inside the 120-second identification timeout, so identification stays synchronous. Still open: a real iPhone HEIC, Safari and Home Screen pairing on the real phones, the Pi, and the cloud restore drill.
+
+The zone's Browser Integrity Check rejects Python's default `urllib` User-Agent with 403, so the device client sends `User-Agent: AvianFrame/1.0`.
+
 ## Final local runtime evidence — 26 October 2026
 
 The final local stack uses Worker 8787 and built preview 5173 with real Compose services on 8081/8082. No cloud resources were contacted or changed by these checks.

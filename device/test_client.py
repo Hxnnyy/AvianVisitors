@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest import mock
 from client import Client, validate_image
 from PIL import Image
 
@@ -67,3 +68,15 @@ class DisplayTests(unittest.TestCase):
         with self.assertRaises(OSError): validate_image(b'not an image')
 
 if __name__=='__main__': unittest.main()
+
+class HttpTests(unittest.TestCase):
+    def test_sends_named_user_agent(self):
+        sent=[]
+        class Response(io.BytesIO):
+            def __enter__(self): return self
+            def __exit__(self,*a): pass
+        class Opener:
+            def open(self,request,timeout): sent.append(request); return Response(b'{}')
+        with tempfile.TemporaryDirectory() as cache, mock.patch('client.urllib.request.build_opener',return_value=Opener()):
+            Client('https://example.test','secret',cache).http('/device/manifest')
+        self.assertEqual(sent[0].get_header('User-agent'),'AvianFrame/1.0')

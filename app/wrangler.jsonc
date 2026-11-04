@@ -2,6 +2,11 @@
   "name": "avian-visitors",
   "main": "server/cloud.ts",
   "compatibility_date": "2026-10-26",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    { "pattern": "trackmybirds.com", "custom_domain": true }
+  ],
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
@@ -30,7 +35,8 @@
     ]
   },
   "vars": {
-    "ENVIRONMENT": "production"
+    "ENVIRONMENT": "production",
+    "APP_ORIGIN": "https://trackmybirds.com"
   },
   "containers": [
     {
