@@ -878,6 +878,8 @@ async function image(env: Env, revision: string) {
     },
   });
 }
+/** Bump when the renderer's drawing changes, so every frame redraws with the new style. */
+export const FRAME_STYLE = "solid-ink-2026-11-04";
 export async function renderFrame(env: Env) {
   try {
     const row = await env.DB.prepare(
@@ -918,7 +920,7 @@ export async function renderFrame(env: Env) {
     );
     const hash = await crypto.subtle.digest(
       "SHA-256",
-      new TextEncoder().encode(content),
+      new TextEncoder().encode(FRAME_STYLE + content),
     );
     const revision = Array.from(new Uint8Array(hash), (b) =>
       b.toString(16).padStart(2, "0"),

@@ -39,3 +39,10 @@ it('renders a scannable-size pairing QR as a normal portrait frame',async()=>{
  expect([header.getUint32(16),header.getUint32(20)]).toEqual([480,800]);
  expect(()=>renderPairingSvg({...request,pairingUrl:'javascript:alert(1)'})).toThrow();
 });
+it('draws all text in solid ink the Spectra 6 panel shows without dithering',async()=>{
+ const real=Object.keys((await import('./masks.json')).default)[0];
+ const species=[{id:real,commonName:'Robin',scientificName:'Erithacus rubecula',artworkUrl:`/birds/${real}.png`},{id:'b',commonName:'Wren',scientificName:'Troglodytes troglodytes',artworkUrl:null}];
+ const svgs=[renderSvg({width:480,height:800,showNames:true,species:[]}),renderSvg({width:480,height:800,showNames:true,species}),renderPairingSvg({pairingUrl:'https://example.test/#pair=t',width:480,height:800})];
+ for(const svg of svgs) for(const [,fill] of svg.matchAll(/<text[^>]*fill="([^"]+)"/g)) expect(fill).toBe('#1a1612');
+ expect(svgs[0]).toMatch(/font-size="32" fill="#1a1612">No birds in this selection yet/);
+});
